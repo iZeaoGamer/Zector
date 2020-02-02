@@ -23,8 +23,7 @@
 - Beacons should now function just like vanilla, yey.
 - Fixed internal server errors when killing zombies.
 - Villagers and Witches now drop Diamonds without the need of the custom mob drops plugin.
-- Added a new enchantment UI system - Should work with vanilla enchantments. 
-- Bug fixes, and improvements were made during this update.
+- Added a new enchantment UI system - Should work with vanilla enchantments.
 - Fixed /gmc from giving you internal server errors.
 - Fixed /gms from kicking you due to internal server errors.
 - Fixed Spectator mode from kicking you due to internal server errors.
