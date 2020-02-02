@@ -31,7 +31,7 @@
 - Fixed an issue, where looting wouldn't be like normal Looting in vanilla. Before, the mob drops would add onto the loot enchantment depending on its levels. Now, it will multiply depending on the amount of looting enchantment level. This is vanilla behavior, and will stay like that.
 - Fixed internal server errors when killing a Snow Golem.
 - Most mobs should now drop appropriately depending on the amount of loot enchantment levels, and if the player has an looting enchantment in their hand when killing a mob.
-- Re-added $lootingL from 0 to 1. This change was made because if the player didn't have a looting enhant, they wouldn't get any mob drops. Should be fixed now.
+- Re-added $lootingL from 0 to 1. This change was made because if the player didn't have a looting enchant, they wouldn't get any mob drops. Should be fixed now.
 - Fixed Mob Stacking UI from not displaying properly. 
 - Fixed random server crashes with Mobs.
 - Added Faction value. How this works:
