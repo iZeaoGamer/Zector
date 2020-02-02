@@ -3,8 +3,8 @@
 ## V9.0; UPDATE THAT CHANGES EVERYTHING
 
 - Added a complete revamp to Custom enchants.
-- Fixed Wither skull enchantment (remains) and not disappearing when thrown.
-- Fixed Porkified enchantment (remains) and not disappearing when thrown.
+- Fixed Wither skull enchantment (remains) not disappearing when thrown.
+- Fixed Porkified enchantment (remains) not disappearing when thrown.
 - Parachute now uses negative Levitation effect to simulate slow falling.
 - Custom enchantments are now registered into PocketMine-MP.
 - Fixed issue where throwing a projectile and switching to a different weapon would trigger the custom enchants of that weapon. 
