@@ -120,3 +120,6 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Prevented players gaining keys in protected areas.
 - Factions compatibility added to crates. This means you can get faction power from crates.
 - Fixed /tags permission from becoming broken.
+- Added /bin - Allows you to delete your items that you don’t want.
+- When killing a player, and Breaking blocks, XP will now go directly to your inventory, eather than dropping it.
+- Removed crafting.
