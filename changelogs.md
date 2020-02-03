@@ -124,3 +124,23 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - When killing a player, and Breaking blocks, XP will now go directly to your inventory, eather than dropping it.
 - Removed crafting.
 - Updated java edition blocks to MCPE Blocks.
+
+## Koth MAJOR RECODE + REVAMP
+- Change how player classes generate.
+- A lot of configurable features you can play around with.
+- Koth 3.0.0 brings in so many bug fixes, and new features added.
+- You can leave koth arenas! By typing /koth leave
+- Fixed teleportation bugs when using /koth join (An issue on 2.0.0)
+- Renamed /koth p1 to /koth pos1
+- Renamed /koth p2 to /koth pos2
+- Added Player help commands! Type /koth or /koth help to display those! (Will also include new administrative commands if the sender is opped.
+- Game timer is now editable in-game! Type /koth setgametime
+- Added event timer - Will now automatically broadcast whenever a koth event is about to start.
+- Event Timer is now editable in-game! Type /koth seteventtime
+- Event timers + Game-timers can now be translated to seconds/ticks. You can type /koth seteventtime , which will allow you to edit the event timer (By auto, not manual).
+- Add FactionsPro Support
+- Add Discord Support
+- Fixed koth teleportation from not teleporting them to exactly the correct world.
+- Fixed /koth setgametime from not updating properly.
+- Fixed /koth seteventtime from not updating.
+- Add KothPlayer class, where it'll store all of the player data. At the moment, it only supports isInGame(), and setInGame(bool). We may add more to this in the future.
