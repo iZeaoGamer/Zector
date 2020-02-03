@@ -99,3 +99,24 @@ The bug was - When they cancel the Moving items from inventory event, this would
 This would then lead to items being able to come out of the said inventory, into a player’s inventory. Sometimes it’d stay there, sometimes it’d go after a bit.
 Basically, the items that were in the previous inventory are client sided issues. This means items that are being pulled out of an event cancelled inventory, aren’t really there for the rest of the players. They’re simply there for the specific player. This is a client sided issue, which we managed to patch for our servers.
 So you should no longer reoccurr issues to do with inventories and its client sided issue.
+
+
+- Fixed /f top value, and /f top money from showing the wrong rank number.
+- Fixed koth set up commands from not working. Such as: /koth p1, /koth p2, etc.
+- Fixed koth teleportation not working when using /koth join.
+- Koth will now randomly teleport you to a specific spawn point in the arena when using /koth join - Yay, finally fixed.
+- Fixed server crashes when teleporting to koth arena.
+- Fixed getting kicked for internal server errors when teleporting to koth arena.
+- Added /tags - Allows you to choose a tag!
+- Added, and re-coded crates system! Includes:
+- Fixes to floating texts duplicating each other.
+- Added Tags crate - Allows you to unlock tags for free!
+- Added Legendary crate - Revamped too.
+- Added epic crate - Revamped too.
+- Added new crate: Ultra.
+- Added vote crate - Revamped too.
+- Added Mythical crate - Revamped too.
+- You can now gain crate keys when mining.
+- Prevented players gaining keys in protected areas.
+- Factions compatibility added to crates. This means you can get faction power from crates.
+- Fixed /tags permission from becoming broken.
