@@ -144,3 +144,16 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Fixed /koth setgametime from not updating properly.
 - Fixed /koth seteventtime from not updating.
 - Add KothPlayer class, where it'll store all of the player data. At the moment, it only supports isInGame(), and setInGame(bool). We may add more to this in the future.
+- Fixed a bug with koth, where when the game ends, you'd have to log off and log back on to use some commands again. (This was an issue from previous seasons).
+- When the koth game ends, it'll no longer broadcast player quits in #koth chat. This is due to confusions with whether the game actually ended or not.
+- Made Koth rewards even better! + Also implemented configurable koth rewards for server owners!
+- Protected Spawn, Warzone, and Koth Arena properly.
+- Added back Money Pouches, but with a recode behind the scenes. ;D + Money pouches has now been coded in differently than previously to make it more stabled.
+- Koth event is now every 12 hours, instead of every 2 hours. This is because 2 hours is simply way too short for a proper koth game.
+- Added crates to spawn.
+- Fixed koth spawnpoints - They're now separated apart so there's less spawn killing going on in the koth arena if someone dies.
+- Allow FactionsPro to be optional support, not required support. (For server owners).
+- /koth start can no longer be duplicated. - This would be due to there not being a started = true function, which detects the game has started.
+- Fixed /koth stop from being able to be stopped more than once.
+- Fixed /koth stop from sometimes saying "Koth game already stopped", even though, the game's still classed as "started".
+- Fixed internal server errors upon player join. This would be due to worldguard only allowing interger, not float. (As in 1.0). That's a float. And 2 is a integer.
