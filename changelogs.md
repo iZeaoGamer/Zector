@@ -157,3 +157,9 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Fixed /koth stop from being able to be stopped more than once.
 - Fixed /koth stop from sometimes saying "Koth game already stopped", even though, the game's still classed as "started".
 - Fixed internal server errors upon player join. This would be due to worldguard only allowing interger, not float. (As in 1.0). That's a float. And 2 is a integer.
+- Fixed worldguard regions not updating unless you moved. This included: PvP Bypass. For example, if you were in a unprotected area, stood still, and typed /spawn, you'd still be able to hit that person until he moves. All fixed now. ;D
+- /f claim protection is more better, and easier than ever!
+- Players are now unable to type /f claim if they're inside a region.
+- Regions for players are now updated automatically, instead of when you move. This was a major issue back on previous seasons when this issue did occur.
+- Players are no longer able to place spawn eggs inside of regions. (If allow-mob-spawning flag is set to deny.)
+- Fixed regions database from resetting.
