@@ -197,3 +197,6 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - You can no longer get attacked whilst in vanish. (Untested)
 - You can now teleport to vanished players using our new vanish plugin. (If you have permission to see other players whilst in vanish.)
 - Removed /vanished plugin until further notice - This will then help us in the future to support this compatibility using our newer vanishing system.
+- Flight will no longer disable when you hit a player if you're in vanish. (Untested)
+- Flight will no longer disable when a player hits you if you're in vanish. (Untested)
+- Fixed world protections - Fixed making them wayy too large.
