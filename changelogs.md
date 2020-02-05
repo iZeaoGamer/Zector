@@ -183,3 +183,17 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - New button; Exit - In the Temp Mute Control Panel UI, where you can exit that way as well.
 - Fixed internal server errors when executing commands.
 - Fixed /mmute sometimes not muting the actual player.
+  - Complete Mute UI-Recode - It's similar to /mban, but with /mmute.
+- Complete code clean-up for MultiMuteUI, allowed Mute UI to only allow one text message of code per ban, not multiple per reason. This before would've flooded the chat, so we had to implement this.
+- Fixed internal server errors when using /mmute.
+- Mutes will now add up the mute durations per reason properly. 
+- Changed some Mute reasons, added a few more new reasons to the Temp mute UI.
+- Added Silent Mute to TempMutes!
+  - Added a new check to ensure whether the player is banned or not before executing /mban command with tempbans.
+- Added a new check to ensure whether the player is muted or not before executing /mmute command with tempmutes.
+- Enabled a check to ensure the player isn't muting themselves.
+- /afk no longer puts you in god mode. (Was easily abused in many ways.)
+- You can no longer hit other players whilst in vanish. (Untested)
+- You can no longer get attacked whilst in vanish. (Untested)
+- You can now teleport to vanished players using our new vanish plugin. (If you have permission to see other players whilst in vanish.)
+- Removed /vanished plugin until further notice - This will then help us in the future to support this compatibility using our newer vanishing system.
