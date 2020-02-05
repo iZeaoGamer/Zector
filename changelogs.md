@@ -171,3 +171,15 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Added NPC's at spawn.
 - Fixed /mban from not working correctly.
 - Fixed a bug with /mban, where when exiting out of the Bans control after clicking the player name in /mban, or when you type /mban <player>, it'd come up with an error message, which wasn't correct because you only exited out of the bans control UI system.
+- Complete Mute UI-Recode - It's similar to /mban, but with /mmute.
+- Complete code clean-up for MultiMuteUI, allowed Mute UI to only allow one text message of code per ban, not multiple per reason. This before would've flooded the chat, so we had to implement this.
+- Fixed internal server errors when using /mmute.
+- Mutes will now add up the mute durations per reason properly. 
+- Changed some Mute reasons, added a few more new reasons to the Temp mute UI.
+- Added Silent Mute to TempMutes!
+- Fixed players not being able to execute certain commands even if it's not a way to bypass the chat.
+- Complete re-code to players not being able to use certain commands. Yes, this is now fixed in S9 of OP Factions.
+- Fixed a bug, where in Mute control panel UI, it'd say a message even if you exited out of the Mute Control Panel UI.
+- New button; Exit - In the Temp Mute Control Panel UI, where you can exit that way as well.
+- Fixed internal server errors when executing commands.
+- Fixed /mmute sometimes not muting the actual player.
