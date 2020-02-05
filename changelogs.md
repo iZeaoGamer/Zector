@@ -162,3 +162,10 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Regions for players are now updated automatically, instead of when you move. This was a major issue back on previous seasons when this issue did occur.
 - Players are no longer able to place spawn eggs inside of regions. (If allow-mob-spawning flag is set to deny.)
 - Fixed regions database from resetting.
+- Fixed Gen buckets! They no longer bug out finally!
+- Fixed /gbuy from displaying the entire item info, and not just the item name.
+- Gen Buckets should no longer be spammed even if you only clicked once.
+- Does anyone remember this? (Screenshot) Well, this was the CE Shop we used to use awhile ago. You could basically get some CE books that came with randomised custom enchantment books. Well, it's now back, better than ever, wth a few more new Custom enchants added.
+- Fixed a bug with /ceshop, where on the confirm page, even if you clicked "No", it'd still allow you to buy the ce books. This would've been a major issue if I didn't patch this. Since there would be no way of exiting out of the UI.
+- Sand, and Obsidian gen buckets have been newly rebuilt, to support some Bucket types, instead of having a empty bucket, which apparently was the cause of it not working properly.
+- Added NPC's at spawn.
