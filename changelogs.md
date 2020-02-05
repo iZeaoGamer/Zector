@@ -200,3 +200,7 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Flight will no longer disable when you hit a player if you're in vanish. (Untested)
 - Flight will no longer disable when a player hits you if you're in vanish. (Untested)
 - Fixed world protections - Fixed making them wayy too large.
+- Updated the welcome message - For new + Old players!
+- Updated the seasons welcome message to S9. S4 is so 2019.
+- Updated teleportation to spawn onJoin.
+- Update / Changed Version welcome message to V9 - The latest.
