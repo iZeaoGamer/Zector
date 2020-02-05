@@ -169,3 +169,5 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Fixed a bug with /ceshop, where on the confirm page, even if you clicked "No", it'd still allow you to buy the ce books. This would've been a major issue if I didn't patch this. Since there would be no way of exiting out of the UI.
 - Sand, and Obsidian gen buckets have been newly rebuilt, to support some Bucket types, instead of having a empty bucket, which apparently was the cause of it not working properly.
 - Added NPC's at spawn.
+- Fixed /mban from not working correctly.
+- Fixed a bug with /mban, where when exiting out of the Bans control after clicking the player name in /mban, or when you type /mban <player>, it'd come up with an error message, which wasn't correct because you only exited out of the bans control UI system.
