@@ -15,7 +15,6 @@
 - Revamped Mob stacking completely! Introduced Built-in Mob spawner stacking + Mobs stacking all in one plugin.
 - Added Coin Flip.
 - Improved the mob stacking UI a ton.
-- Bug fixes and so much improvements were made.
 - Fixed looting for Villagers
 - Fixed looting for Zombies.
 - Fixed Looting for Witches..
