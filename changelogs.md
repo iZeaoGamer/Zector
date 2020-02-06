@@ -204,3 +204,10 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Updated the seasons welcome message to S9. S4 is so 2019.
 - Updated teleportation to spawn onJoin.
 - Update / Changed Version welcome message to V9 - The latest.
+- Added a new worldguard flag to ensure genbuckets aren't being used inside a region.
+- Updated warp locations for the End, and the nether.
+- Fixed generation worlds for ender and nether.
+- Added back /spawn, as per requested. - You can still type /warp and then selecting spawn to teleport back there as well. 
+- Updated Wildness location to support from x: 1, and z1 to x 10k, and z 10k. This is to ensure less teleportations to the spawn when using /wild. (Though, this may still happen in some cases, which we can't stop fully).
+- Added back Rarity colors to /ceshop!
+- Added back rarity colors to Enchantment books. (When bought, and before receiving the enchant.
