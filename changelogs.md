@@ -211,3 +211,4 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Updated Wildness location to support from x: 1, and z1 to x 10k, and z 10k. This is to ensure less teleportations to the spawn when using /wild. (Though, this may still happen in some cases, which we can't stop fully).
 - Added back Rarity colors to /ceshop!
 - Added back rarity colors to Enchantment books. (When bought, and before receiving the enchant.
+- Made /ce into an UI for easier accessing.
