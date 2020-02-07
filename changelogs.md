@@ -212,3 +212,11 @@ So you should no longer reoccurr issues to do with inventories and its client si
 - Added back Rarity colors to /ceshop!
 - Added back rarity colors to Enchantment books. (When bought, and before receiving the enchant.
 - Made /ce into an UI for easier accessing.
+- Added Boss Spawn timer to the warzone, just like Java Edition. ;D
+- Fixed server crashes upon spawning a boss.
+- Recoded the rewards system for Bosses! How they work now:
+The person that killed the boss will only gain the reward, a bit like Java edition, but without the top 3 most damaged.
+- Drops no longer occur, it's sent to the damager's inventory.
+- Fixed internal server errors upon killing the mob.
+- Fixed server crashes upon spawning an boss.
+- Fixed internal server errors due to Entity not in the loaded chunk.
