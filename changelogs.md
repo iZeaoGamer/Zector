@@ -220,3 +220,6 @@ The person that killed the boss will only gain the reward, a bit like Java editi
 - Fixed internal server errors upon killing the mob.
 - Fixed server crashes upon spawning an boss.
 - Fixed internal server errors due to Entity not in the loaded chunk.
+- Bosses can no longer be spawned at spawn.
+- Added Minions to the boss! - They'll defend the boss whilst you try to kill them. They'll also attempt to kill you as well, so be careful!
+- Minions no longer drop extra rewards, like Bosses do. This would've been an issue since more than one minion spawns at once with the main boss. The only mob that extra rewards drop with, is Zeus bosses (The big ones, AKA the main boss).
