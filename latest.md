@@ -6,3 +6,4 @@
 - Removed Cactus due to the dupe glitch with bosses.
 - Fixed the spawn. In reality, no harm done, except when a certain someone griefed spawn, but they were banned, and all should be resolved and fixed.
 - Your gamemode will now update to survival mode upon every player join. This is for security reasons, and if at any point a player is in creative mode, when they shouldn't be.
+- Fixed particles, they should now render like before. This broke due to MC v1.14.0 update, which changed particle IDS within pocketmine. 
