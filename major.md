@@ -45,3 +45,5 @@
 - Added back Auto Inventory feature - When breaking blocks, it'll automatically go straight to your inventory instead of dropping on the ground.
 - Auto Sell now supports Auto inventory items - It'll count the total items you have in your inventory before selling it.
 - Fix spam issues relating to Auto Selling.
+- Added a different Bin / trash system, less glitchy too!
+- Imported The new PlayerVaults update that is on Factions to OP Prisons S5.
