@@ -22,9 +22,9 @@
 - Added and fixed /shop.
 - Protected all of the mines, and worlds required.
 - Added Auto mine reset.
-- Fixed an issue, where first join would always appear for this payer even if they've joined before. (When I mean before, I mean like 5-10 minutes ago).
+- Fixed an issue, where first join would always appear for this player even if they've joined before. (When I mean before, I mean like 5-10 minutes ago).
 - Fixed a bug, where players would be able to pvp in plots.
-- Hunger now longer drops for the player when they're in plots world. This was due to a bug where players couldn't eat in plot worlds. This is a temporary fix to this until I find a permanent fix for this issue.
+- Hunger no longer drops for the player when they're in plots world. This was due to a bug where players couldn't eat in plot worlds. This is a temporary fix to this until I find a permanent fix for this issue.
 - Fixed internal server error when accessing Auto Sell Enchant information from /enchant.
 - Fixed description error made in Auto Sell.
 - Update enchant description for AutoSell, it no longer reoccurs "inventory" twice in one description.
