@@ -47,3 +47,6 @@
 - Fix spam issues relating to Auto Selling.
 - Added a different Bin / trash system, less glitchy too!
 - Imported The new PlayerVaults update that is on Factions to OP Prisons S5.
+- Added a check to ensure sell boosters can only be used once at a time. This is to get rid of the nasty bugs relating to sell booster count resetting.
+- Added hasStarted() check to ensure the sell booster cooldown still continues even upon every server restart.
+- Added a notification to let the player on the server know once they're able to use their next sell booster again.
