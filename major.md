@@ -35,7 +35,7 @@
 - Fixed slight money issues.
 - Updated the messages to english, and corrected the grammar on the "won" messages from luckyblocks.
 - Corrected /shop grammar to english, and corrected the grammar on the Shop messages.
-- Fixed a bug with player with spaces in their name from not receiving the tokens or money from luckyblocks.
+- Fixed a bug with player that has spaces in their name from not receiving the tokens or money from luckyblocks.
 - Sell Boosters should be working now. (Still expect to be some bugs, but most of it should work now).
 - Fixed count reset for Sell boosters going to 0 when it shouldn't. (Tested, but the bug may randomly come back.)
 - Fixed typo messages in crates.
