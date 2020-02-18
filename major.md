@@ -66,3 +66,12 @@
 - Fixed conflicting /fly command from reappearing.
 - Fixed conflicting /nick command from reappearing.
 - /feed now lasts longer before the hunger drops.
+- Added a reminder LIVE on how long your sell booster lasts for, it counts live too! (It will display as a tip).
+- Added a expired message notice LIVE for Sell boosters.
+- Fixed Vote Party!
+- Fixed server crashes relating to vote party.
+- Fixed internal server error when using /vote claim, and when it's on the maximum votes left until vote party.
+- Fixed Sell Boosters from not functional when received from Vote Party.
+- You can now get x10 sell boosters from vote party.
+- Receiving crate keys now work in Vote party.
+- Fortune now works on most blocks.
