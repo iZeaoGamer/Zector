@@ -51,3 +51,14 @@
 - Added hasStarted() check to ensure the sell booster cooldown still continues even upon every server restart.
 - Added a notification to let the player on the server know once they're able to use their next sell booster again.
 - Fixed timer display upon Sell Booster receive.
+- Fixed Inventory from not being sold properly if you toggle on AutoSell inventory feature in /autosell.
+- Nerfed some CE's down to prevent anymore super OP items, and tools.
+- Fixed some minor dupes relating to Items not going directly to your inventory.
+- PvPMine has been slightly changed, thanks to @ItsYTWolfie for the help!
+- PvP is now enabled in the PvPMine, not just some parts. Tested by me and @ItsYTWolfie.
+- Removed ScoreBoard because for some reason, it caused server lag issues. We may add this back soon, we're not sure yet.
+- Nerfed the rankup prices! It's now possible to rankup to places.
+- A lot more things are now sellable. ;D
+- Charity enchantment now broadcasts every 60 seconds per mine / break. This is to prevent spam. (Thanks to @ItsYTWolfie again for that suggestion)
+- Charity enchantment now detects the total amount of tokens given to the player after the every 60 seconds cooldown. This also includes charity giving the total amount of tokens to the online players after the 60 seconds cooldown is over, instead of giving the online players tokens instantly.
+- Fixed drops not going straight into your inventory if the inventory feature is disabled in /autosell.
