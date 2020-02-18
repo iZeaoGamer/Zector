@@ -76,4 +76,4 @@
 - Receiving crate keys now work in Vote party.
 - Fortune now works on most blocks.
 - You can now receive x10 Vote keys from voting.
-- Sell boosters no longer give you more than one per: Crate opening, per vote party receive, and per command give.
+- Sell boosters no longer give you more than one per: Crate opening / receive, per vote party receive, and per command give.
