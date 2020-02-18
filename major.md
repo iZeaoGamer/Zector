@@ -62,3 +62,7 @@
 - Charity enchantment now broadcasts every 60 seconds per mine / break. This is to prevent spam. (Thanks to @ItsYTWolfie again for that suggestion)
 - Charity enchantment now detects the total amount of tokens given to the player after the every 60 seconds cooldown. This also includes charity giving the total amount of tokens to the online players after the 60 seconds cooldown is over, instead of giving the online players tokens instantly.
 - Fixed drops not going straight into your inventory if the inventory feature is disabled in /autosell.
+- Fixed Mine Prefix from not appearing in chat.
+- Fixed conflicting /fly command from reappearing.
+- Fixed conflicting /nick command from reappearing.
+- /feed now lasts longer before the hunger drops.
