@@ -75,3 +75,4 @@
 - You can now get x10 sell boosters from vote party.
 - Receiving crate keys now work in Vote party.
 - Fortune now works on most blocks.
+- You can now receive x10 Vote keys from voting.
