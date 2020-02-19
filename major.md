@@ -13,7 +13,7 @@
 - Fixed internal server errors when trying to enchant / remove an enchantment from Experienced CE.
 - Lazy Custom enchantment now works as expected, implemented new methods for Lazy CE, making it work better than before. Since the last method was messed up because it was relying on how much EXP a player had, instead of whether you've upgraded to the next level, and whether or not you've mined once or not after you leveled up. If break = one time after upgrade, it'll set to true, so the EXP Max didn't constantly keep decreasing every mine, and only once every levelup.
 - Crafting sellable items now properly adds onto the amount of items you're auto selling.
-- Added a new Custom Enchant: Auto Sell. There's two ways you can sell now, 1:
+- Added a new Custom Enchant: Auto Sell. There's two ways you can sell now.
 1. /autosell - Free, which allows you to turn on/off automatic selling without the need of custom enchantments.
 2. AutoSell CE - Can be useful for Custom enchantments related content.
 - Inventory picking up items somewhat has a working items amount when selling them. (I say somewhat because it's in BETA, and isn't fully accurate.
