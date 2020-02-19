@@ -1,4 +1,4 @@
-## V10.0 Update; Major
+## V10 Update; Major
 ## NOTE:
 # This update is a complete re-code of OP Prisons, and there are a lot of bugs that were fixed from the S4 update. We finally bring back OP Prisons with a new season, which should fix all the major bugs.
 # API, and some of the changes are classed as "Major", not "Minor". Which may include a lot of featuring-changes made in this update.
@@ -84,3 +84,4 @@ This would only occur upon every server restart, no matter if you had the sell b
 - Fixed players being teleported to the void upon their first join on OP Prisons.
 - Fixed player movement issues with the latest MCPE v1.14.30 bug - You should no longer experience player movement that is standing still; There may be some bugs relating to this because it's a patch method within the plugins that fixes this until MCPE releases a new update containing this fix.
 - Fixed plots world not being loaded upon every server restart.
+- Made a temporary fix for Playervaults not opening for players that have a rank. It'd only let them have access to PLayer vault 2 and 1. The reason why I say "Temporary fix", is because the permission grouping system is currently broken for PlayerVaults. I'm not sure when the author of the plugin will fix this. But I hope it will be soon.
