@@ -85,3 +85,5 @@ This would only occur upon every server restart, no matter if you had the sell b
 - Fixed player movement issues with the latest MCPE v1.14.30 bug - You should no longer experience player movement that is standing still; There may be some bugs relating to this because it's a patch method within the plugins that fixes this until MCPE releases a new update containing this fix.
 - Fixed plots world not being loaded upon every server restart.
 - Made a temporary fix for Playervaults not opening for players that have a rank. It'd only let them have access to Player vault 2 and 1. The reason why I say "Temporary fix", is because the permission grouping system is currently broken for PlayerVaults. I'm not sure when the author of the plugin will fix this. But I hope it will be soon.
+- Added a pickaxe texture animation upon join, just like the Prisons style!
+- Send welcome title to player once the onScreen Texture animation pops up.
