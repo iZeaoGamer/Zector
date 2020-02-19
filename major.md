@@ -83,3 +83,4 @@ This would only occur upon every server restart, no matter if you had the sell b
 - Clean-up join messages - Won't notice much of a difference in-game. It's the code that had been changed a bit.
 - Fixed players being teleported to the void upon their first join on OP Prisons.
 - Fixed player movement issues with the latest MCPE v1.14.30 bug - You should no longer experience player movement that is standing still; There may be some bugs relating to this because it's a patch method within the plugins that fixes this until MCPE releases a new update containing this fix.
+- Fixed plots world not being loaded upon every server restart.
