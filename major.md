@@ -87,3 +87,4 @@ This would only occur upon every server restart, no matter if you had the sell b
 - Made a temporary fix for Playervaults not opening for players that have a rank. It'd only let them have access to Player vault 2 and 1. The reason why I say "Temporary fix", is because the permission grouping system is currently broken for PlayerVaults. I'm not sure when the author of the plugin will fix this. But I hope it will be soon.
 - Added a pickaxe texture animation upon join, just like the Prisons style!
 - Send welcome title to player once the onScreen Texture animation pops up.
+(Video link in action): https://cdn.discordapp.com/attachments/562918048428720140/679779925301264595/2020-02-19_20-00-10.mp4
