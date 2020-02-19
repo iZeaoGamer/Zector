@@ -77,3 +77,8 @@
 - Fortune now works on most blocks.
 - You can now receive x10 Vote keys from voting.
 - Sell boosters no longer give you more than one per: Crate opening / receive, per vote party receive, and per command give.
+- Fixed a bug, where the notification of expiration with sell boosters would popup even though You never had the sell booster before, so notifications would come up randomly upon server restart.
+This would only occur upon every server restart, no matter if you had the sell booster before or not.
+- Fixed sell booster timer from continuously counting into negatives.
+- Clean-up join messages - Won't notice much of a difference in-game. It's the code that had been changed a bit.
+- Fixed players being teleported to the void upon their first join on OP Prisons.
