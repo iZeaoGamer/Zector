@@ -88,3 +88,5 @@ This would only occur upon every server restart, no matter if you had the sell b
 - Added a pickaxe texture animation upon join, just like the Prisons style!
 - Send welcome title to player once the onScreen Texture animation pops up.
 (Video link in action): https://cdn.discordapp.com/attachments/562918048428720140/679779925301264595/2020-02-19_20-00-10.mp4
+- Added anti VPN detection.
+- Fixed easy-bypasses with the Anti VPN system.
