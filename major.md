@@ -94,3 +94,8 @@ This would only occur upon every server restart, no matter if you had the sell b
 - EXP will now go directly to your inventory upon player kill.
 - XP Bottles will now pop XP directly to your inventory.
 - Fixed a major bug, where opening crates and then instantly going offline would crash the server.
+- Recoded PlayerVaults permissions completely.
+- Recoded permission grouping.
+- We’ve added a new permission node called: playervaults.vault.unlimited. This permission node will give you access to all playervaults without requiring op or any other extra permission nodes. You can also add negative before that permission node to disable operators having access to all playervaults, and then adding playervaults.vault.<max_vault>
+- You no longer require to add any extra permissions. Example: Giving players access to 3 playervaults, by adding playervaults.vault.2, and playervaults.vault.3. You can now add for example: playervaults.vault.12 to give the user or group access to PV’s 1-12. This will make it so you no longer have to add any extra permissions to the specific player or group.
+- Fixed permissioning group from only giving the player access to Pv 1-2, since before, it was looking for the lowest ranking permission. Now, we’ve removed those type of groups, and just implemented it into numbers. 5 for access to PV 1-5, etc.
