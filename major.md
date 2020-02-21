@@ -99,3 +99,5 @@ This would only occur upon every server restart, no matter if you had the sell b
 - Fixed permissioning group from only giving the player access to Pv 1-2, since before, it was looking for the lowest ranking permission. Now, we’ve removed those type of groups, and just implemented it into numbers. 5 for access to PV 1-5, etc.
 - Changed permissioning node from playervaults.vault to vault.unlimited, and vault.<max_vault> for less longer permission node. - If none of you have those PVS and you were a rank previously which had those once V10 releases, DM me. Thank you!
 - Ban and Mute times now calculate properly when banning / muting a player.
+- Added back the use of Anti-VPNS (in BETA)
+- Added /echest; Currently for Iron rank and above.
