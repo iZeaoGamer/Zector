@@ -101,3 +101,11 @@ This would only occur upon every server restart, no matter if you had the sell b
 - Ban and Mute times now calculate properly when banning / muting a player.
 - Added back the use of Anti-VPNS (in BETA)
 - Added /echest; Currently for Iron rank and above.
+- Fixed major inventory issues.
+- Fixed /echest from not being opened at all.
+- Fixed double chests not properly pairing, leading to major infentory issues.
+- Clean-up a lot of the plugins we don’t need.
+- Fixed /invsee from becoming a normal chest.
+- Fixed /enderinvsee from not responding, and simply not opening.
+- Removed slappers due to certain errors. We’ll add them back soon.
+- Fixed errors regarding entity rendering not being available on MCPE v1.14.2 and v1.14.30 versions.
