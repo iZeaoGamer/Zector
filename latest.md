@@ -7,3 +7,4 @@
 - Renamed command usage from /enchant pickaxe to /enchant tools
 - Updated sell prices, made it better.
 - Fixed permissions for donor mines.
+- Removed /tpa, /tpahere, /tpaccept, /tpdeny, /sethome, and /home from players and lower ranked staff members.
