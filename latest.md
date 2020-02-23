@@ -32,3 +32,12 @@ Done. It'll either enchant your item in your hand, or it'll say you don't have e
 3. The amount of levels you selected.
 It will ask you if you're sure you'd like to preceed this purchase. If you click yes, it'll load the purchase, and will let you know whether or not you have enough tokens to buy this enchantment. This proves it works lik a charm.
 - Not enough tokens error will now work like before, no matter what levels you selected when attempting to buy this enchantment if you don't have enough tokens.
+
+
+### So let's recap:
+The more levels you select for enchanting, the more tokens it'll cost.
+Before, it'd double it more than once per level. This means it'll be at a incredible amount of tokens which wouldn't be right. This would lead to it being impossible to know how much tokens each enchantment costs, because of:
+1. It wouldn't display the tokens cost information.
+2. It wouldn't display the confirmation page, making it impossible to know the total tokens cost of the final selection.
+
+This all should now be fixed, and time's it up properly.
