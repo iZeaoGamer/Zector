@@ -15,3 +15,11 @@
 - Added new information: Mute types to /history <player> 2.
 - Fixed Slient Ban / silent mute not working due to the server being broadcasted once a ban or mute has commenced even if they have turned on silent ban or silent mute.
 - Fixed showing wrong information when using /history <player>
+- Clean-up almost duplicated codes, and just added it as a one code which runs, instead of reoccurring a lot of the same codes being ran at once.
+- Fixed #server-logs chat from spamming with ban / mute types the sender had given him, but instead, it will say on the same text message, with commas to seperate the ban types, just like the reasons seperation that is on the same message.
+- Added new functions: getBanTypes(), setBanTypes(), addBanTypes(), and removeBanTypes().
+  
+getBanTypes(): Returns the full ban types, in commas and strings. Returns empty if no ban types are valid. This is also the same as getMuteTypes().
+setBanTypes(): Sets the ban type specificed. This is also the same as setMuteTypes().
+addBanTypes(): Adds onto the ban type, in commas, and plussing onto the other validable ban types. This is also the same as addMuteTypes().
+removeBanTypes(): Removes all of the ban types from the given ban. This is so ban types don't start duplicating onto the next ban. This is also the same as removeMuteTypes().
