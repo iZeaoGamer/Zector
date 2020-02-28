@@ -26,3 +26,6 @@ setBanTypes(): Sets the ban type specificed. This is also the same as setMuteTyp
 addBanTypes(): Adds onto the ban type, in commas, and plussing onto the other validable ban types. This is also the same as addMuteTypes().
 
 removeBanTypes(): Removes all of the ban types from the given ban. This is so ban types don't start duplicating onto the next ban. This is also the same as removeMuteTypes().
+
+- Fixed Creepers from stacking, making it harder for raids.
+- Creepers no longer stack. Other mobs however, do stack.
