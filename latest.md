@@ -9,3 +9,4 @@
 - Fixed issues raised to do with temp ban option being set to the wrong value in /history.
 - Type /history <player> 1 for bans information on a player, and /history <player> 2 for mutes information on a player.
 - Removed a lot of blank lines within the bans code.
+- Fixed commands not working whilst muted
