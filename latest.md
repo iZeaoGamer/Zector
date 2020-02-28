@@ -11,3 +11,7 @@
 - Removed a lot of blank lines within the bans code.
 - Fixed commands not working whilst muted
 - Fixed players being able to use certain commands whilst in combat.
+- Added new information: Ban types to /history <player> 1.
+- Added new information: Mute types to /history <player> 2.
+- Fixed Slient Ban / silent mute not working due to the server being broadcasted once a ban or mute has commenced even if they have turned on silent ban or silent mute.
+- Fixed showing wrong information when using /history <player>
