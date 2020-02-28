@@ -10,3 +10,4 @@
 - Type /history <player> 1 for bans information on a player, and /history <player> 2 for mutes information on a player.
 - Removed a lot of blank lines within the bans code.
 - Fixed commands not working whilst muted
+- Fixed players being able to use certain commands whilst in combat.
