@@ -20,6 +20,9 @@
 - Added new functions: getBanTypes(), setBanTypes(), addBanTypes(), and removeBanTypes().
   
 getBanTypes(): Returns the full ban types, in commas and strings. Returns empty if no ban types are valid. This is also the same as getMuteTypes().
+
 setBanTypes(): Sets the ban type specificed. This is also the same as setMuteTypes().
+
 addBanTypes(): Adds onto the ban type, in commas, and plussing onto the other validable ban types. This is also the same as addMuteTypes().
+
 removeBanTypes(): Removes all of the ban types from the given ban. This is so ban types don't start duplicating onto the next ban. This is also the same as removeMuteTypes().
