@@ -2,4 +2,4 @@
 
 - Fixed creepers not being able to be exploded using flint and steel.
 - Fixed creepers not being able to explode, but it'll die anyways from flint and steel.
-- Fixed enchantment display from not disappearing if there's no enchantments on the pickaxe.
+- Fixed enchantment display from not disappearing if there's no enchantments on the pickaxe. This bug was introduced in season 5 or 4, which I managed to fix.
