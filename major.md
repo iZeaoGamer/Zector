@@ -45,3 +45,25 @@ Through out the upcoming updates, we’ll be attempting to reimplement the bigge
 - Fixed players not being able to join properly due to chunk problems.
 - Fixed chunks taking forever to load even if you have fast internet. This problem only occurred here because of how chunks generated.
 - Added a lot of new blocks that are in vanilla.
+- Fixed players being able to kick themselves from the faction.
+- Fixed players being able to promote themselves from the faction.
+- Fixed players being able to demote themselves from the faction.
+- Fixed players being able to transfer leadership to themselves from the faction.
+- Fixed players being able to invite themselves to their own faction.
+- Fixed /seen from causing errors.
+- Added a check to ensure whether or not the player's been seen before in /seen.
+- Fixed /seen for its latest API's of the plugin.
+- Added back /feed and /heal, re-added some awesome particles to go along with it.
+- Added first played section to /seen, so you can now check when the player first started playing the server.
+- Fixed internal server errors upon player join.
+- Re-added back /spawner, made it even better.
+- Added a new way of confirming your purchase with spawners. Simple steps here:
+Type /spawner <spawner/list> <count>. If count is empty, it'll recognize it as 1. Once you've done that, it'll ask you if you're sure you want to preceed this purchase along with the purchase information. All you need to do, is type into chat "yes" or "confirm" to finish the purchase. You can however, cancel the purchase by typing "no" or "cancel" to cancel purchases made previously.
+- Mobs can now be activated whether if it is day or night. Before, this wasn't possible.
+- Added new functions: setArgs() and getArgs() to spawners shop.
+setArgs(): Sets the args the player is selecting (Basically its information nobody needs to see lol).
+getArgs(): get's the full arguments of a player. Returns empty if player data not found.
+- Added timed ranks, just like on void, back in 2017!
+- Added some new timed ranks, staff and donator ranks now have bypass to the plugin to prevent issues to do with the plugin setting other player's ranks to a lower rank.
+- Added PureChat, and PurePerms back!
+- Fixed chat formatting.
