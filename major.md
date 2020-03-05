@@ -62,6 +62,7 @@ Type /spawner <spawner/list> <count>. If count is empty, it'll recognize it as 1
 - Mobs can now be activated whether if it is day or night. Before, this wasn't possible.
 - Added new functions: setArgs() and getArgs() to spawners shop.
 setArgs(): Sets the args the player is selecting (Basically its information nobody needs to see lol).
+
 getArgs(): get's the full arguments of a player. Returns empty if player data not found.
 - Added timed ranks, just like on void, back in 2017!
 - Added some new timed ranks, staff and donator ranks now have bypass to the plugin to prevent issues to do with the plugin setting other player's ranks to a lower rank.
