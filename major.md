@@ -61,6 +61,7 @@ Through out the upcoming updates, we’ll be attempting to reimplement the bigge
 Type /spawner <spawner/list> <count>. If count is empty, it'll recognize it as 1. Once you've done that, it'll ask you if you're sure you want to preceed this purchase along with the purchase information. All you need to do, is type into chat "yes" or "confirm" to finish the purchase. You can however, cancel the purchase by typing "no" or "cancel" to cancel purchases made previously.
 - Mobs can now be activated whether if it is day or night. Before, this wasn't possible.
 - Added new functions: setArgs() and getArgs() to spawners shop.
+  
 setArgs(): Sets the args the player is selecting (Basically its information nobody needs to see lol).
 
 getArgs(): get's the full arguments of a player. Returns empty if player data not found.
