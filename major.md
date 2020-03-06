@@ -69,3 +69,11 @@ getArgs(): get's the full arguments of a player. Returns empty if player data no
 - Added some new timed ranks, staff and donator ranks now have bypass to the plugin to prevent issues to do with the plugin setting other player's ranks to a lower rank.
 - Added PureChat, and PurePerms back!
 - Fixed chat formatting.
+- Add a new /wild plugin.
+- /wild no longer brings you to the air.
+- /wild now has a re-coded timer before teleportation.
+- Add basic implementations for portal generations to the nether. (In BETA).
+There are some bugs with this such as:
+Building terrain not disappearing when teleporting between dimensions.
+
+- Entering the nether portal should now teleport you faster than before. (Atleast 1 second after entering before teleportation. Before, this would happen 4 seconds after).
