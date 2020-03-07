@@ -17,7 +17,7 @@ Through out the upcoming updates, we’ll be attempting to reimplement the bigge
 - Fixed errors upon join.
 - Fixed enderpearls.
 - Fixed duplication glitches with enderpearls, because it wasn't fully complete as of that time.
-- Using /heal and /feed will give you particles once healed and fed. just like back in the 2017 days!
+- Using /heal and /feed will give you particles once healed and fed, just like back in the 2017 days!
 - Implemented Ender pearl cooldown, just like vanilla! (Currently in BETA)
 - Chatting in-game is now fixed, time to start chat formatting. ;p
 - Fixed crash upon breaking.
