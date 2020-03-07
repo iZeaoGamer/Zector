@@ -10,7 +10,6 @@ Through out the upcoming updates, we’ll be attempting to reimplement the bigge
 - Added the good ol days factions plugin.
 - Add basic implementations for Elytras - Yes, they do currently work. Fly like a plane!
 - Fixed crashes upon leaving the game.
-- We’ve introduced support for wider-range MC versions, starting from v1.2 to the latest versions of minecraft. Along with this, we may also support beta versions too!
 - Added back /seen, works better than ever!
 - Added sign shops - Unfinished.
 - Fixed errors when typing /f help
@@ -18,7 +17,7 @@ Through out the upcoming updates, we’ll be attempting to reimplement the bigge
 - Fixed errors upon join.
 - Fixed enderpearls.
 - Fixed duplication glitches with enderpearls, because it wasn't fully complete as of that time.
-- Using /heal and /feed will give you the "hearts" particle once healed, just like back in the 2017 days!
+- Using /heal and /feed will give you particles once healed, just like back in the 2017 days!
 - Implemented Ender pearl cooldown, just like vanilla! (Currently in BETA)
 - Chatting in-game is now fixed, time to start chat formatting. ;p
 - Fixed crash upon breaking.
@@ -27,9 +26,6 @@ Through out the upcoming updates, we’ll be attempting to reimplement the bigge
 - Added /spawner list - To see a list of availble spawners.
 - /spawner <mob> will now give you a mob spawner with the mob inside of the cage, and is now placeable, just like vanilla! Yes, it costs economy to buy the spawners.
 - Fixed a bug, where spawners wouldn't function correctly, making it non functional tile.
-- Some mobs now have an AI built in to the software.
-- Added protocol support for MC version: v1.15.0.54 BETA Build. (Untested)
-- Added new event; EntityGenerateEvent, which executes the Generation of Entities from spawners.
 - Basic Implementation for Spawn eggs.
 - Fixed errors in console which caused mobs not to spawn properly.
 - Fixed ender pearls from players being able to collide themselves. (Tested to be fixed.)
