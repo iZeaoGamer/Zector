@@ -77,3 +77,18 @@ There are some bugs with this such as:
 Building terrain not disappearing when teleporting between dimensions.
 
 - Entering the nether portal should now teleport you faster than before. (Atleast 1 second after entering before teleportation. Before, this would happen 4 seconds after).
+- Added implementations for Enchantment tables.
+- Add basic implementations for end portal generations. (Currently in BETA, and may not work as expected).
+- Added hud (Popup), just like back in 2017, before scoreboards.
+- Added a check to ensure whether or not the player is in a faction for the hud. If not in a faction, it’ll return with the message: “No faction” instead of returning blank.
+- Fixed nether portals from crashing the server.
+- Fixed nether portals from lagging the server.
+- Fixed coordinates from returning a different color for Y and Z instead of leaving it as the same color.
+- Added drop party (Unfinished)
+- Added Chat Scramber, implemented new words to the chat scrambler system.
+- Fixed a crash upon player join.
+- Fixed a bug, where the hud bar wouldn’t appear even if the player had joined. You’d need to use the check to ensure whether or not the player should be having the hud bar.
+- Add basic implementations for Ender eyes. (A.K.A Eye of ender)
+- Fixed Eye Of Ender from having unusual behavior.
+- Fixed Eye Of Ender from not being placeable to the end portal frames, making it impossible to create the end portal.
+- Fixed a bug, where building terrain wouldn’t disappear. Note that most of this has been fixed. However, you may still experience this from time to time, since this is a Minecraft glitch. But we’ve patched some issues raised to do with this issue always occurring.
