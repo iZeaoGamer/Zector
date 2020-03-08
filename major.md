@@ -88,3 +88,9 @@ Building terrain not disappearing when teleporting between dimensions.
 - Fixed Eye Of Ender from having unusual behavior.
 - Fixed Eye Of Ender from not being placeable to the end portal frames, making it impossible to create the end portal.
 - Fixed a bug, where building terrain wouldn’t disappear. Note that most of this has been fixed. However, you may still experience this from time to time, since this is a Minecraft glitch. But we’ve patched some issues raised to do with this issue always occurring.
+- Fixed missing dollar symbol ($) from hud.
+- Added Online: counter section to the super hud.
+- Fixed cpu leak related to entity movements (~%550)
+- Optimized Entity updates (increases server tps adds delay to other world entities.
+- Added SkinAdapter things for api usage
+- Fixed Hopper transaction issue
