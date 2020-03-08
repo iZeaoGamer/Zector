@@ -97,7 +97,7 @@ Building terrain not disappearing when teleporting between dimensions.
 
 ### Combat Logger Updates
 - Better formatting for plugin.yml
-Implement functional Creative mode checks.
+- Implement functional Creative mode checks.
 - Rename CreativeCheck() to hasCreativeCheck() for better quality codes. [1 / 2]
 - Creative checks no longer depend on the server’s check. It will now require a Player dependency, rather than implementing it to the server, making the plugin non functional. This changes:
 1. Parameters for setCreativeCheck(), add’s Player parameter checks.
