@@ -94,3 +94,24 @@ Building terrain not disappearing when teleporting between dimensions.
 - Optimized Entity updates (increases server tps adds delay to other world entities.
 - Added SkinAdapter things for api usage
 - Fixed Hopper transaction issue
+
+### Combat Logger Updates
+- Better formatting for plugin.yml
+Implement functional Creative mode checks.
+- Rename CreativeCheck() to hasCreativeCheck() for better quality codes. [1 / 2]
+- Creative checks no longer depend on the server’s check. It will now require a Player dependency, rather than implementing it to the server, making the plugin non functional. This changes:
+1. Parameters for setCreativeCheck(), add’s Player parameter checks.
+2. Parameters for hasCreativeCheck(), add’s Player parameter checks.
+3. Changed CreativeCheck[] formatted arrays to require player name, instead of being kept false or true without requiring player’s name input.
+4. Added onJoin() class event to prevent any future errors with hasCreativeCheck() not being recognised as false or true.
+- Reformatted the code to make it look better.
+- Fixed Syntax error
+- Rename use import from PlayerJoinEvent to PlayerLoginEvent - This is to prevent undefined index issues. (Server crashes upon join) because before, the task was being executed first before the onJoin() event. The onJoin() event allows the creative mode checks to be set to false so the plugin actually recognises a true / false phase.
+- Added $player->spawned function to The hud task. This check is to ensure the player must be spawned in before executing the task. The task can’t go first before the onJoin() event. Otherwise, there will be errors.
+
+### OTHER UPDATES
+- Added awesome nametags above your head.
+
+### NOTE
+## The combat logger update will be pushed to the rest of the servers soon.
+## Also note we’ll be removing the flight disabled upon Damage event, and instead, allow checks to be made within the combat timer plugin, making it a lot easier to handle, and less issues too. Also, less bypasses within the plugin.
