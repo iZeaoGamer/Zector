@@ -112,6 +112,7 @@ Building terrain not disappearing when teleporting between dimensions.
 - Creepers no longer stack. This is for raiding purposes.
 - Creepers can now explode using flint and steel.
 - Fixed internal server error when trying to explode a creeper.
+- Mob spawners can now be broken in faction claims. This is due to the main purposes of factions. (Untested)
 
 ### OTHER UPDATES
 - Added awesome nametags above your head.
