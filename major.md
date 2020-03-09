@@ -5,7 +5,8 @@
 
 
 As a part of the v11 update for the network, we may be adding Classic OP Factions. Classic OP Factions is factions, but more classical. Basically, a 2017 style. 2017 in which made void factions popular. (40-60 players online).
-Through out the upcoming updates, we’ll be attempting to reimplement the biggest and most oldest features back in 2017. Or atleast the features we introduced to VoidFactions 2017. Before seasons, before scoreboards, and using the old API 1.12.0. Along with this, we’ve also introduced a custom version of the server software. No, we never made it, but re-adding the most vanilla-features, and reimplementing our own systems from before, rather than re-creating plugins for this,
+Through out the upcoming updates, we’ll be attempting to reimplement the biggest and most oldest features back in 2017. Or atleast the features we introduced to VoidFactions 2017. Before seasons, before scoreboards, and using the old API 1.12.0. Along with this, we’ve also introduced a custom version of the server software. No, we never made it, but re-adding the most vanilla-features, and reimplementing our own systems from before, rather than re-creating plugins for this.
+
 - Add basic implementations for Ender pearls. (Currently doesn’t work. Will try to fix this soon.)
 - Added the good ol days factions plugin.
 - Add basic implementations for Elytras - Yes, they do currently work. Fly like a plane!
