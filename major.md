@@ -109,6 +109,9 @@ Building terrain not disappearing when teleporting between dimensions.
 - Fixed Syntax error
 - Rename use import from PlayerJoinEvent to PlayerLoginEvent - This is to prevent undefined index issues. (Server crashes upon join) because before, the task was being executed first before the onJoin() event. The onJoin() event allows the creative mode checks to be set to false so the plugin actually recognises a true / false phase.
 - Added $player->spawned function to The hud task. This check is to ensure the player must be spawned in before executing the task. The task can’t go first before the onJoin() event. Otherwise, there will be errors.
+- Creepers no longer stack. This is for raiding purposes.
+- Creepers can now explode using flint and steel.
+- Fixed internal server error when trying to explode a creeper.
 
 ### OTHER UPDATES
 - Added awesome nametags above your head.
