@@ -81,7 +81,7 @@ Building terrain not disappearing when teleporting between dimensions.
 - Fixed nether portals from lagging the server.
 - Fixed coordinates from returning a different color for Y and Z instead of leaving it as the same color.
 - Added drop party (Unfinished)
-- Added Chat Scramber, implemented new words to the chat scrambler system.
+- Added Chat Scrambler, implemented new words to the chat scrambler system.
 - Fixed a crash upon player join.
 - Fixed a bug, where the hud bar wouldn’t appear even if the player had joined. You’d need to use the check to ensure whether or not the player should be having the hud bar.
 - Add basic implementations for Ender eyes. (A.K.A Eye of ender)
