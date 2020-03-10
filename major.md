@@ -120,3 +120,20 @@ Building terrain not disappearing when teleporting between dimensions.
 ### NOTE
 ## The combat logger update will be pushed to the rest of the servers soon.
 ## Also note we’ll be removing the flight disabled upon Damage event, and instead, allow checks to be made within the combat timer plugin, making it a lot easier to handle, and less issues too. Also, less bypasses within the plugin.
+
+- Added /cp and /custompotion (Both the same command)
+- Added /cpadmin - For higherups only.
+- You can now get custom potions! Just use /cp or /custompotion!
+- Parameter args text from chat no longer pops up if you don’t have permission to use /cpadmin.
+- Fixed internal server errors when trying to use /custompotion.
+- Added a confirmination chat before executing whether or not you have enough money to buy this potion. How this works:
+When you type /cp (potion) (count = 1), it’ll let you know the purchase information, and will ask if you’re sure. If you are, you can type /cp (potion) (count) confirm.
+How the confirmination system works:
+Upon player join, it’ll generate a uniqid, basically a 13 or more digit code in which is designed to prevent errors, since later on, this will be used to make the “confirm” parameter.
+Once the player enters the required parameters, it will ask for your purchase details, and will ask if you’re sure to use this command. If yes, you can type: /cp (potion) (count) confirm. Upon first execution, leaving out the count will automatically recognise it as 1. The same goes with if you enter a string as the count.
+- Fixed ways to bypass the “confirmed” command selection before execution.
+- Fixed money not being taken away from you upon bought.
+- Fixed being able to execute the command again without the confirmination page if the “You do not have enough money” error pops up.
+- Fixed /cpadmin from not working.
+- Added /hud - You can now turn off / on the hud at will.
+- Fixed custom potions effects from kicking you due to internal server error upon consuming.
