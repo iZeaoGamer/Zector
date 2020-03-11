@@ -137,3 +137,13 @@ Once the player enters the required parameters, it will ask for your purchase de
 - Fixed /cpadmin from not working.
 - Added /hud - You can now turn off / on the hud at will.
 - Fixed custom potions effects from kicking you due to internal server error upon consuming.
+- Fixed inventory transaction issues, and still more to fix. If we can. Yes, this has to do with buying potions.
+- Updated the codes which relate to potions being stacked, rather than separated to full inventory issues because of too many potions; They stack, but transactions may be buggy. Though, we've fixed moving them, not dragging them. Since dragging is currently not implemented into custom potions, not sure if we ever will. But we'll always try to reimplement those.
+- Fixed transaction issues upon slot change without dragging the item. Since that's currently not implemented into the plugin.
+- Fixed usage being popped up and success message being popped up both at once when successfully executing /cpadmin <player> <potion>
+- Fix TPS issues when entering portals. (Yes, portals are currently buggy, which we plan to fix in the future. But again, portals never worked back on old void. So we may just leave it like that until we find some sort of proper implementation for nether and end portals in the future.
+- Fix /cpadmin from crashing the server if the player you're executing to isn't online and when executed from console.
+- Fix /cpadmin from giving you "Internal server error" if the player you're executing to isn't online and when executed from in-game.
+- Fix enchantments; This won't be like back on old void unfortunately due to the early stages of functionality, and not knowing whether or not "enchantments" worked back then.
+- Updated and improved "confirmed" feature before buying potions. (Nothing major, so minor that I won't display what had fixed.)
+- Fixed /wild from taking you too far, therefore glitching out. (Will be implementing World borders shortly.)
