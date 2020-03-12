@@ -150,3 +150,8 @@ Once the player enters the required parameters, it will ask for your purchase de
 - Added World Border (Max; 10k range)
 - /wild only goes upto the max range: 5k blocks to prevent getting stuck in the world border.
 - Fixed crash upon player join.
+- Added brand new Masks
+- Added /mask and /maskshop, they both do the same thing.
+- Added /maskadmin. Usage: /maskadmin charm all <count> to give everyone online an amount of masks, and /maskadmin charm <player> <count> to give the specific player an amount of masks.
+- Masks now give you effects. Some good ones too!
+- Renamed Namespace + A core clean-up. Removed some of the messy codes, and replaced it with decently nice ones.
