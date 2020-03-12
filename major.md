@@ -147,3 +147,6 @@ Once the player enters the required parameters, it will ask for your purchase de
 - Fix enchantments; This won't be like back on old void unfortunately due to the early stages of functionality, and not knowing whether or not "enchantments" worked back then.
 - Updated and improved "confirmed" feature before buying potions. (Nothing major, so minor that I won't display what had fixed.)
 - Fixed /wild from taking you too far, therefore glitching out. (Will be implementing World borders shortly.)
+- Added World Border (Max; 10k range)
+- /wild only goes upto the max range: 5k blocks to prevent getting stuck in the world border.
+- Fixed crash upon player join.
