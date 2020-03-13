@@ -155,3 +155,5 @@ Once the player enters the required parameters, it will ask for your purchase de
 - Added /maskadmin. Usage: /maskadmin charm all <count> to give everyone online an amount of masks, and /maskadmin charm <player> <count> to give the specific player an amount of masks.
 - Masks now give you effects. Some good ones too!
 - Renamed Namespace + A core clean-up. Removed some of the messy codes, and replaced it with decently nice ones.
+- Added a new check to ensure whether or not the player has an item in their hand whilst using /mask and /cp. This is so your item in your hand does not disappear whilst containing the new item in hand.
+- Fixed a confirm page bypass, where you were able to type /cp <potion> <count> confirm whilst typing /mask charm <count> confirm, therefore bypassing the confirm page.
