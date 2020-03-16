@@ -37,3 +37,10 @@ As a part of the v11 update for the network, there will be a new season of OP Pr
 - Explosive CE now explodes the player and entity being attacked properly.
 - The attacker no longer takes any damage from Explosive since they're using it against the player or entity.
 - KeyPlus and TokenPlus Max CE Levels have been reduced to 10.
+- Added quests!
+- Changed area from Kits to Quests at spawn, where you can select what quests you'd like to choose!
+- Added Repair and Rename UI menu!
+- You can now rename your items for EXP or Money!
+- You can now repair your items for EXP or money!
+- You can now choose two methods to pay. Either using EXP or Money.
+- You can now custom-lore your item, making it stand out!
