@@ -1,7 +1,7 @@
 ## V11.0; MAJOR
 
 # Note:
-# We have made a lot of changes over the new v11.0 update, which fixes bugs, and implements a new server coming soon.
+# We have made a lot of changes over the new v11.0 update, which fixes bugs, and a new Season of OP Prisons coming soon!
 
 
 As a part of the v11 update for the network, there will be a new season of OP Prisons, which is S6. This season enhances many bug fixes, improvements, and a lot of reworks for Custom Enchants. We're reworking some of them due to the fact there were some useless ones, and some which we didn't think we need. We're also adding a few new CE's as well.
