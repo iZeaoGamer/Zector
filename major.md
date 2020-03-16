@@ -4,156 +4,36 @@
 # We have made a lot of changes over the new v11.0 update, which fixes bugs, and implements a new server coming soon.
 
 
-As a part of the v11 update for the network, we may be adding Classic OP Factions. Classic OP Factions is factions, but more classical. Basically, a 2017 style. 2017 in which made void factions popular. (40-60 players online).
-Through out the upcoming updates, we’ll be attempting to reimplement the biggest and most oldest features back in 2017. Or atleast the features we introduced to VoidFactions 2017. Before seasons, before scoreboards, and using the old API 1.12.0. Along with this, we’ve also introduced a custom version of the server software. No, we never made it, but re-adding the most vanilla-features, and reimplementing our own systems from before, rather than re-creating plugins for this.
+As a part of the v11 update for the network, there will be a new season of OP Prisons, which is S6. This season enhances many bug fixes, improvements, and a lot of reworks for Custom Enchants. We're reworking some of them due to the fact there were some useless ones, and some which we didn't think we need. We're also adding a few new CE's as well.
 
-- Add basic implementations for Ender pearls. (Currently doesn’t work. Will try to fix this soon.)
-- Added the good ol days factions plugin.
-- Add basic implementations for Elytras - Yes, they do currently work. Fly like a plane!
-- Fixed crashes upon leaving the game.
-- Added back /seen, works better than ever!
-- Added sign shops - Unfinished.
-- Fixed errors when typing /f help
-- Fixed errors onEnable()
-- Fixed errors upon join.
-- Fixed enderpearls.
-- Fixed duplication glitches with enderpearls, because it wasn't fully complete as of that time.
-- Using /heal and /feed will give you particles once healed and fed, just like back in the 2017 days!
-- Implemented Ender pearl cooldown, just like vanilla! (Currently in BETA)
-- Chatting in-game is now fixed, time to start chat formatting. ;p
-- Fixed crash upon breaking.
-- Basic implementation for Vanilla-like Mob spawners.
-- Added /spawner - Allows you to buy spawners, the old fashioned way!
-- Added /spawner list - To see a list of availble spawners.
-- /spawner <mob> will now give you a mob spawner with the mob inside of the cage, and is now placeable, just like vanilla! Yes, it costs economy to buy the spawners.
-- Fixed a bug, where spawners wouldn't function correctly, making it non functional tile.
-- Basic Implementation for Spawn eggs.
-- Fixed errors in console which caused mobs not to spawn properly.
-- Fixed ender pearls from players being able to collide themselves. (Tested to be fixed.)
-- Added Ender and nether worlds, they look a lot like vanilla now. yay!
-- We're now using a vanilla-like server software instead of using the older versions of its API. Yes, this does mean we won't be supporting multi-versions or even beta versions. This however, may come in the future.
-- When teleporting to the end or nether, it'll now say "Building terrain" just like vanilla!
-- Implemented better normal world generations.
-- Re-coded /spawner command completely due to the older-type API that previously supported this.
-- Added implementations for Hoppers.
-- Added implementations for EnderChests.
-- EnderChests can now open properly.
-- Add basic implementation for ShulkerBoxes.
-- Fixed players not being able to join properly due to chunk problems.
-- Fixed chunks taking forever to load even if you have fast internet. This problem only occurred here because of how chunks generated.
-- Added a lot of new blocks that are in vanilla.
-- Fixed players being able to kick themselves from the faction.
-- Fixed players being able to promote themselves from the faction.
-- Fixed players being able to demote themselves from the faction.
-- Fixed players being able to transfer leadership to themselves from the faction.
-- Fixed players being able to invite themselves to their own faction.
-- Fixed /seen from causing errors.
-- Added a check to ensure whether or not the player's been seen before in /seen.
-- Fixed /seen for its latest API's of the plugin.
-- Added back /feed and /heal, re-added some awesome particles to go along with it.
-- Added first played section to /seen, so you can now check when the player first started playing the server.
-- Fixed internal server errors upon player join.
-- Re-added back /spawner, made it even better.
-- Added a new way of confirming your purchase with spawners. Simple steps here:
-Type /spawner <spawner/list> <count>. If count is empty, it'll recognize it as 1. Once you've done that, it'll ask you if you're sure you want to preceed this purchase along with the purchase information. All you need to do, is type into chat "yes" or "confirm" to finish the purchase. You can however, cancel the purchase by typing "no" or "cancel" to cancel purchases made previously.
-- Mobs can now be activated whether if it is day or night. Before, this wasn't possible.
-- Added new functions: setArgs() and getArgs() to spawners shop.
-  
-setArgs(): Sets the args the player is selecting (Basically its information nobody needs to see lol).
+- Changed the server from Classic Factions to OP Prisons due to people wanting OP Prisons more than classic.
+- Reworked on a lot of CE’s.
+- Added new CE: Panic. Desc: When low on health, it’ll give you speed 2 for a few seconds. Type: Armor
+- Added new CE: Explosive. Desc: Explodes your enemy. Type: Weapon
+- Added new CE: Driller. Desc: Makes a 3x3 hole when mining (depending on your level)
+- Added new CE: XPMag. Desc: chance to give more exp every 10 blocks mined :blocks lessen after each level: Type: Tools
+- Added new CE: OreMag. Desc: Ores give more money. The higher ore you mine, the more money you’ll receive. Type: Tools
+- Added new CE: OverLord. Desc: Adds 1 extra heart per level. Type: Armor
+- Added new CE: LifeSteal. Desc: Chance to steal another player’s heart whilst pvping. Type: Weapons
+- Added new CE: Feed. Desc: Whilst mining, it’ll slowly fill your hunger bar. The more levels, the more it’ll feed you. Type: Tools
+- TokenPlus and KeyPlus are no longer commonly activated when used. (More with this will be added soon).
+- Added new CE: Transfusion. Desc: Chance to upgrade ore to the next level. Example: If you mine coal ore, you’ll get Iron ingot because that’s the next level. Type: Tools
+- Added new CE: Gears. Desc: Gives you speed 1. Type: Boots
+- Added new CE: Bunny. Desc: Gives you jump boost. Type: Boots
+- Added new CE: Glowing. Desc: Gives you night vision when wearing helmet. Type: Helmet
+- Added new CE: Lightning. Desc: Chance to strike your enemy. More levels = More chance of striking your enemy.
+- Reworked on Explosive CE.
+- Explosive CE now goes on a Sword, rather than a pickaxe.
+- Explosive CE now targets the player instead of the blocks.
+- Removed a lot of CE’s that weren’t needed.
+- Added more vanilla enchantments to /enchant.
+- Added more categories to /enchant.
 
-getArgs(): get's the full arguments of a player. Returns empty if player data not found.
-- Added timed ranks, just like on void, back in 2017!
-- Added some new timed ranks, staff and donator ranks now have bypass to the plugin to prevent issues to do with the plugin setting other player's ranks to a lower rank.
-- Added PureChat, and PurePerms back!
-- Fixed chat formatting.
-- Add a new /wild plugin.
-- /wild no longer brings you to the air.
-- /wild now has a re-coded timer before teleportation.
-- Add basic implementations for portal generations to the nether. (In BETA).
-There are some bugs with this such as:
-Building terrain not disappearing when teleporting between dimensions.
+## NOTE
+# Big thanks to @Wizerd123 for these suggested ideas!
 
-- Entering the nether portal should now teleport you faster than before. (Atleast 1 second after entering before teleportation. Before, this would happen 4 seconds after).
-- Added implementations for Enchantment tables.
-- Add basic implementations for end portal generations. (Currently in BETA, and may not work as expected).
-- Added hud (Popup), just like back in 2017, before scoreboards.
-- Added a check to ensure whether or not the player is in a faction for the hud. If not in a faction, it’ll return with the message: “No faction” instead of returning blank.
-- Fixed nether portals from crashing the server.
-- Fixed nether portals from lagging the server.
-- Fixed coordinates from returning a different color for Y and Z instead of leaving it as the same color.
-- Added drop party (Unfinished)
-- Added Chat Scrambler, implemented new words to the chat scrambler system.
-- Fixed a crash upon player join.
-- Fixed a bug, where the hud bar wouldn’t appear even if the player had joined. You’d need to use the check to ensure whether or not the player should be having the hud bar.
-- Add basic implementations for Ender eyes. (A.K.A Eye of ender)
-- Fixed Eye Of Ender from having unusual behavior.
-- Fixed Eye Of Ender from not being placeable to the end portal frames, making it impossible to create the end portal.
-- Fixed a bug, where building terrain wouldn’t disappear. Note that most of this has been fixed. However, you may still experience this from time to time, since this is a Minecraft glitch. But we’ve patched some issues raised to do with this issue always occurring.
-- Fixed missing dollar symbol ($) from hud.
-- Added Online: counter section to the super hud.
-- Fixed cpu leak related to entity movements (~%550)
-- Optimized Entity updates (increases server tps adds delay to other world entities.
-- Added SkinAdapter things for api usage
-- Fixed Hopper transaction issue
-
-### Combat Logger Updates
-- Better formatting for plugin.yml
-- Implement functional Creative mode checks.
-- Rename CreativeCheck() to hasCreativeCheck() for better quality codes. [1 / 2]
-- Creative checks no longer depend on the server’s check. It will now require a Player dependency, rather than implementing it to the server, making the plugin non functional. This changes:
-1. Parameters for setCreativeCheck(), add’s Player parameter checks.
-2. Parameters for hasCreativeCheck(), add’s Player parameter checks.
-3. Changed CreativeCheck[] formatted arrays to require player name, instead of being kept false or true without requiring player’s name input.
-4. Added onJoin() class event to prevent any future errors with hasCreativeCheck() not being recognised as false or true.
-- Reformatted the code to make it look better.
-- Fixed Syntax error
-- Rename use import from PlayerJoinEvent to PlayerLoginEvent - This is to prevent undefined index issues. (Server crashes upon join) because before, the task was being executed first before the onJoin() event. The onJoin() event allows the creative mode checks to be set to false so the plugin actually recognises a true / false phase.
-- Added $player->spawned function to The hud task. This check is to ensure the player must be spawned in before executing the task. The task can’t go first before the onJoin() event. Otherwise, there will be errors.
-- Creepers no longer stack. This is for raiding purposes.
-- Creepers can now explode using flint and steel.
-- Fixed internal server error when trying to explode a creeper.
-- Mob spawners can now be broken in faction claims. This is due to the main purposes of factions. (Untested)
-
-### OTHER UPDATES
-- Added awesome nametags above your head.
-
-### NOTE
-## The combat logger update will be pushed to the rest of the servers soon.
-## Also note we’ll be removing the flight disabled upon Damage event, and instead, allow checks to be made within the combat timer plugin, making it a lot easier to handle, and less issues too. Also, less bypasses within the plugin.
-
-- Added /cp and /custompotion (Both the same command)
-- Added /cpadmin - For higherups only.
-- You can now get custom potions! Just use /cp or /custompotion!
-- Parameter args text from chat no longer pops up if you don’t have permission to use /cpadmin.
-- Fixed internal server errors when trying to use /custompotion.
-- Added a confirmination chat before executing whether or not you have enough money to buy this potion. How this works:
-When you type /cp (potion) (count = 1), it’ll let you know the purchase information, and will ask if you’re sure. If you are, you can type /cp (potion) (count) confirm.
-How the confirmination system works:
-Upon player join, it’ll generate a uniqid, basically a 13 or more digit code in which is designed to prevent errors, since later on, this will be used to make the “confirm” parameter.
-Once the player enters the required parameters, it will ask for your purchase details, and will ask if you’re sure to use this command. If yes, you can type: /cp (potion) (count) confirm. Upon first execution, leaving out the count will automatically recognise it as 1. The same goes with if you enter a string as the count.
-- Fixed ways to bypass the “confirmed” command selection before execution.
-- Fixed money not being taken away from you upon bought.
-- Fixed being able to execute the command again without the confirmination page if the “You do not have enough money” error pops up.
-- Fixed /cpadmin from not working.
-- Added /hud - You can now turn off / on the hud at will.
-- Fixed custom potions effects from kicking you due to internal server error upon consuming.
-- Fixed inventory transaction issues, and still more to fix. If we can. Yes, this has to do with buying potions.
-- Updated the codes which relate to potions being stacked, rather than separated to full inventory issues because of too many potions; They stack, but transactions may be buggy. Though, we've fixed moving them, not dragging them. Since dragging is currently not implemented into custom potions, not sure if we ever will. But we'll always try to reimplement those.
-- Fixed transaction issues upon slot change without dragging the item. Since that's currently not implemented into the plugin.
-- Fixed usage being popped up and success message being popped up both at once when successfully executing /cpadmin <player> <potion>
-- Fix TPS issues when entering portals. (Yes, portals are currently buggy, which we plan to fix in the future. But again, portals never worked back on old void. So we may just leave it like that until we find some sort of proper implementation for nether and end portals in the future.
-- Fix /cpadmin from crashing the server if the player you're executing to isn't online and when executed from console.
-- Fix /cpadmin from giving you "Internal server error" if the player you're executing to isn't online and when executed from in-game.
-- Fix enchantments; This won't be like back on old void unfortunately due to the early stages of functionality, and not knowing whether or not "enchantments" worked back then.
-- Updated and improved "confirmed" feature before buying potions. (Nothing major, so minor that I won't display what had fixed.)
-- Fixed /wild from taking you too far, therefore glitching out. (Will be implementing World borders shortly.)
-- Added World Border (Max; 10k range)
-- /wild only goes upto the max range: 5k blocks to prevent getting stuck in the world border.
-- Fixed crash upon player join.
-- Added brand new Masks
-- Added /mask and /maskshop, they both do the same thing.
-- Added /maskadmin. Usage: /maskadmin charm all <count> to give everyone online an amount of masks, and /maskadmin charm <player> <count> to give the specific player an amount of masks.
-- Masks now give you effects. Some good ones too!
-- Renamed Namespace + A core clean-up. Removed some of the messy codes, and replaced it with decently nice ones.
-- Added a new check to ensure whether or not the player has an item in their hand whilst using /mask and /cp. This is so your item in your hand does not disappear whilst containing the new item in hand.
-- Fixed a confirm page bypass, where you were able to type /cp <potion> <count> confirm whilst typing /mask charm <count> confirm, therefore bypassing the confirm page.
+- Fixed internal server errors when using Explosive CE.
+- Fixed server crashes with wrongful enchantments.
+- Explosive CE now explodes the player and entity being attacked properly.
+- The attacker no longer takes any damage from Explosive since they're using it against the player or entity.
+- KeyPlus and TokenPlus Max CE Levels have been reduced to 10.
