@@ -44,3 +44,11 @@ As a part of the v11 update for the network, there will be a new season of OP Pr
 - You can now repair your items for EXP or money!
 - You can now choose two methods to pay. Either using EXP or Money.
 - You can now custom-lore your item, making it stand out!
+- Added XP Converter system! (Thanks @ExoCrafter123 for the suggestion!) You can type /converter, and you can convert XP to Money, Tokens, Sell Boosters, and Pickaxe EXP!
+- Fixed internal server errors when executing the success message.
+- Fixed internal server errors when executing an error message.
+- Fixed Sell Boosters from not being activated when interacted.
+- Fixed internal server errors when using Explosive CE.
+- Explosive CE no longer destroys blocks. It only damages the enemy, not the attacker or the blocks.
+- Added new Slider: Sell Booster Timer, where you can now set the amount of sell booster timers in seconds. Yes, this will cost more. So keep an eye out!
+- Sell Boosters from conversions are now accurate in terms with Sell Booster timers.
