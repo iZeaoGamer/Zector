@@ -63,3 +63,10 @@ As a part of the v11 update for the network, there will be a new season of OP Pr
 - Added back /chatcolor - For donators only.
 - Added back /echest, for Iron+ rank!
 - Fixed permissions for Donor mines.
+- Added CombatTimer 2.0!
+- Your flight will now get disabled whilst in combat, not if you hit a player in a protected area.
+- Fixed PvP being enabled in plots.
+- Fixed fall damage being turned on in plots.
+- Disabled Fire and Lava Damage in plots.
+- Clean-up core once again, removed useless events that we didn't need.
+- Added on Screan texture animation upon player join!
