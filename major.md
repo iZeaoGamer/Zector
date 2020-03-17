@@ -76,3 +76,9 @@ As a part of the v11 update for the network, there will be a new season of OP Pr
 - Added new option: spawn-location. This option allows you to decide whether the world border range depends on /setworldspawn, instead of specifying the coordinates, and depending on default level spawnpoint location.
 - The range (in blocks) in plots, is 1k. This is simply because there should be a maximum of plots intotal, instead of counting infinite. This just lowers the usage of our resources when it comes down to databases.
 - Added vote kit upon /vote claim.
+- Added Kit shop to /kit.
+- Donator kits are the only kits that are Buyable from /kit (Kit shop category). You'll need to receive Youtube kits by applying for YouTube Rank.
+- LuckyBlocks are no longer as OP.
+- Added Scoreboard to OP Prisons - no idea why this wasn't added in the first place lawl.
+- Fixed OP Prisons Info not showing up on the scoreboard.
+- Fixed crash upon player join.
