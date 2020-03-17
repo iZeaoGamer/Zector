@@ -52,3 +52,14 @@ As a part of the v11 update for the network, there will be a new season of OP Pr
 - Explosive CE no longer destroys blocks. It only damages the enemy, not the attacker or the blocks.
 - Added new Slider: Sell Booster Timer, where you can now set the amount of sell booster timers in seconds. Yes, this will cost more. So keep an eye out!
 - Sell Boosters from conversions are now accurate in terms with Sell Booster timers.
+- Fixed plots world not loading upon every server restart.
+- Fixed crates from resetting every server restart.
+- Added /ot to the server!
+- Fixed internal server errors when using /mban.
+- Added kits to /kit, better, and less OP.
+- Add new PlayerVaults new permissioning system! As seen previously, but for some reason was removed. Not sure why, but it's back now, with its permission limits.
+- Added Permission kits and categories to the correct ranks.
+- Added Plot claiming permissions to donator ranks; Gain the maximum of plots per rank, as seen on the store.
+- Added back /chatcolor - For donators only.
+- Added back /echest, for Iron+ rank!
+- Fixed permissions for Donor mines.
