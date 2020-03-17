@@ -70,3 +70,4 @@ As a part of the v11 update for the network, there will be a new season of OP Pr
 - Disabled Fire and Lava Damage in plots.
 - Clean-up core once again, removed useless events that we didn't need.
 - Added on Screan texture animation upon player join!
+- Removed Weather and lightning strikes from occurring during storm.
