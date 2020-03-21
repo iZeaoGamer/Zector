@@ -82,9 +82,6 @@ As a part of the v11 update for the network, there will be a new season of OP Pr
 - Added Scoreboard to OP Prisons - no idea why this wasn't added in the first place lawl.
 - Fixed OP Prisons Info not showing up on the scoreboard.
 - Fixed crash upon player join.
-- Added Scoreboard to OP Prisons - no idea why this wasn't added in the first place lawl.
-- Fixed OP Prisons Info not showing up on the scoreboard.
-- Fixed crash upon player join.
 - Added a brand new offenses system to /mban and /mmute. How this works?:
 Everyone on the server get’s 0 offenses. If a player get’s banned or muted, it’ll add onto their offense.
 With Temp bans and temp mutes, if the user get’s banned for Kill Aura for 60 days (example), and they have more than one offense already, then it’ll double the ban time. Same goes for Mute times also.
