@@ -82,3 +82,25 @@ As a part of the v11 update for the network, there will be a new season of OP Pr
 - Added Scoreboard to OP Prisons - no idea why this wasn't added in the first place lawl.
 - Fixed OP Prisons Info not showing up on the scoreboard.
 - Fixed crash upon player join.
+- Added Scoreboard to OP Prisons - no idea why this wasn't added in the first place lawl.
+- Fixed OP Prisons Info not showing up on the scoreboard.
+- Fixed crash upon player join.
+- Added a brand new offenses system to /mban and /mmute. How this works?:
+Everyone on the server get’s 0 offenses. If a player get’s banned or muted, it’ll add onto their offense.
+With Temp bans and temp mutes, if the user get’s banned for Kill Aura for 60 days (example), and they have more than one offense already, then it’ll double the ban time. Same goes for Mute times also.
+The more offenses the player has, the more it’ll double their ban or mute.
+- Revamped Mute lengths - Thanks @Bubbly for that!
+- Fixed typos to do with /enchant saying the wrong item.
+- Fixed a bug, where /converter wouldn’t work, and would come up with no permission error. Thanks for reporting this issue, @ExoCrafter123!
+- Added Offenses to /history.
+- Fixed internal server errors when trying to access Driller and Smelting CE's.
+- Added a complete AuctionHouse recode.
+- Added sorting's list for AuctionHouse.
+- Fixed GUI from disappearing.
+- Added Bidding to /auctionhouse.
+- Added organized AuctionHouse GUI.
+- Fixed "no permission" error occurring when typing /trash.
+- Added PvP Mine Spawn - Suggested by @Wizerd123!
+- You can now PvP once you've dropped down to the PvP Mine! Instead of PvP only being enabled in the mines. The only place you can't PvP, is at PvP Mine Spawn (in the sky)
+- Fixed /mytokens from requiring a permission node. Should be fixed now. ;D
+- Updated warp for PvP Mine.
