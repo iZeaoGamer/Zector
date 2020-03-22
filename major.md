@@ -108,3 +108,4 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - Added message upon opening your own profile.
 - The plugin will automatically open your own profile if no arguments were used after /profile. It'll display that you're opening your own profile, and it'll let you know that you can open other profile's, just by simply using /profile <player>.
 - Opening somebody elses profile now requires permission nodes. You must be Manager and above to be able to see other users profiles.
+- Remove kit slappers that were removed because it had been replaced by Quests section.
