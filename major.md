@@ -101,3 +101,10 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - You can now PvP once you've dropped down to the PvP Mine! Instead of PvP only being enabled in the mines. The only place you can't PvP, is at PvP Mine Spawn (in the sky)
 - Fixed /mytokens from requiring a permission node. Should be fixed now. ;D
 - Updated warp for PvP Mine.
+- Fixed crash with Bunny Custom Enchant.
+- Temporary fix for Enchantments and CE's from not working properly. This would have to do with Pocketmine using API Version v3.11.2 and above which made enchantments not work. Still working towards this fix for future API upgrades.
+- Fixed bug with zombies having a AI look, but broken.
+- Removed the self advertisement in /profile without using any args.
+- Added message upon opening your own profile.
+- The plugin will automatically open your own profile if no arguments were used after /profile. It'll display that you're opening your own profile, and it'll let you know that you can open other profile's, just by simply using /profile <player>.
+- Opening somebody elses profile now requires permission nodes. You must be Manager and above to be able to see other users profiles.
