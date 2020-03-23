@@ -109,3 +109,29 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - The plugin will automatically open your own profile if no arguments were used after /profile. It'll display that you're opening your own profile, and it'll let you know that you can open other profile's, just by simply using /profile <player>.
 - Opening somebody elses profile now requires permission nodes. You must be Manager and above to be able to see other users profiles.
 - Remove kit slappers that were removed because it had been replaced by Quests section.
+- Re-coded Protection areas (per world).
+- Remove the old prefix plugin, and implemented a new, updated, and improved Prefixes plugin which works with the new prisons plugin.
+- Added a new and improved Prisons plugin, which offers:
+* Prestiges
+* More options!
+* Adds Mine Reset compatibility with World protections!
+* Customisable chat formatting system built-in!
+* Sell Boosters increase 0.5 every prestige.
+* Removed rebirths, and replaced it with Prestiges.
+* World protections built-in, including:
+   * Which world you can use /sell in.
+   * Which worlds you can't break/place blocks.
+   * Which worlds you are unable to PvP in.
+* Adds a new message if you're not in the prison worlds.
+- Fixed not being able to break/place blocks in your plots if you're near spawn protection or near the warp location.
+- Fixed crash upon player join.
+- Updated ScoreBoards to display Prestige information.
+- New chat formatting for Prisons style!
+- Fixed crash upon Max rank (before prestige).
+- Reduced Rankup prices because before, it was too much.
+- Fixed crash upon selling an item.
+- Removed the new /sell because it's broken. Instead, we've added compatibility for the new Prisons plugin to Auto Sell and /sell.
+- Fixed N Mine from not being able to access any mines below it.
+- Fixed /sell commands from not counting the prestige sell multiplier.
+- Fixed crash on player join. (More fixes to do with that).
+- Fixed displaying the wrong message when first joined.
