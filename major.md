@@ -142,7 +142,7 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - Fixed nicknames finally! yey!
 - When you type /nick <name>, it'll now change your nick instead of automatically reverting to your username.
 - Fixed /realname from returning with errors.
-- Fixed OverLord hearts not being removed when removing OverLord armor from your armor inventory slot. Thanks <@417102257017061377> for reporting this!
+- Fixed OverLord hearts not being removed when removing OverLord armor from your armor inventory slot. Thanks @Wizerd123 for reporting this!
 - Reduced OverLord levels to Max Level 5.
 - Bug fixes with The auctionHouse 2.0 plugin.
 - Fixed lore not displaying in auction house.
