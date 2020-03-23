@@ -136,3 +136,4 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - Fixed crash on player join. (More fixes to do with that).
 - Fixed displaying the wrong message when first joined.
 - Removed duplicated slappers at spawn.
+- Added message when at the max prestige + rank (Z), instead of it coming up with No money error.
