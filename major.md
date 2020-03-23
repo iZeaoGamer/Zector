@@ -137,3 +137,8 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - Fixed displaying the wrong message when first joined.
 - Removed duplicated slappers at spawn.
 - Added message when at the max prestige + rank (Z), instead of it coming up with No money error.
+- Fixed crash on player attempted login.
+- Fixed crash on player join.
+- Fixed nicknames finally! yey!
+- When you type /nick <name>, it'll now change your nick instead of automatically reverting to your username.
+- Fixed /realname from returning with errors.
