@@ -135,3 +135,4 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - Fixed /sell commands from not counting the prestige sell multiplier.
 - Fixed crash on player join. (More fixes to do with that).
 - Fixed displaying the wrong message when first joined.
+- Removed duplicated slappers at spawn.
