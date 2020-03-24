@@ -147,3 +147,10 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - Bug fixes with The auctionHouse 2.0 plugin.
 - Fixed lore not displaying in auction house.
 - Fixed WorldBorder being too short in plots. Before, it was at 100. Now it’s at 1k. I plan to increase it if people want me to.
+- Fixed a bug with AuctionHouse.
+- Added back /ah, which is an alias of /auctionhouse.
+- Fixed crash upon player first join.
+- Fixed player not being teleported to spawn upon first join.
+- Cleared Player data due to the closed beta being over + So it's fair on the community.
+- Removed everyone from whitelist until release or livestream. From then on, I'll be adding only a certain amount of people to the whitelist.
+- Prepare release for v11.0.
