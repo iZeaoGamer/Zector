@@ -154,3 +154,9 @@ The more offenses the player has, the more it’ll double their ban or mute.
 - Cleared Player data due to the closed beta being over + So it's fair on the community.
 - Removed everyone from whitelist until release or livestream. From then on, I'll be adding only a certain amount of people to the whitelist.
 - Prepare release for v11.0.
+- Added Prestige mines!
+- Fixed an issue, where XP would be causing the server to lag.
+- The hub is now back! Come join! play.zectorpe.ml Port: 19132
+- Fix plots being able to be accessed unlimitedly by operators. (Untested)
+- Fixed internal seever error when accessing Page 4 of /mines A-Z.
+- Fixed crash upon teleportation when offline during the process.
