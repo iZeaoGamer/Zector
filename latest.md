@@ -8,3 +8,16 @@
 - Changed the XP Prices in /converter so it's more useful, and less expensive.
 - Added Sub Categories to /shop
 - Shop Prices have been changed.
+- Sell Boosters 2.0.0 Update has arrived!
+- Added new time formatting; Finally works!
+- Fixed Temp Sell Boosters from becoming glitchy when put out of your inventory, or upon server restart.
+- Temp Sell Boosters now save properly, without resetting upon server restart.
+- Temp Sell Boosters will now count for all online players, not just for one person.
+- Sell Boosters Duration timers are now accurate.
+- Sell Boosters will always remain to work, even if the server restarts, or if you put it in a safe chest.
+- Sell Boosters in /converter will now start from 2, and above. This is because Sell Booster x1 is pointless, because x1 is by default, so this wouldn't of worked out properly, and would've been useless.
+- Fixed Sell Booster timers from becoming string timers, when it should've been numeric timers.
+- Added full time formatting. Yay!
+- Though the temp sell boosters may not currently work whilst offline, it will work whenever you join. There is no bypasses to this because it'd start counting whenever you join the server AKA play. So even if you don't log back in, you wouldn't be able to play it properly. ;P
+- Fixed typo between "TIme" and "Time" in /converter.
+- Remove sells for certain items from /shop.
