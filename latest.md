@@ -17,3 +17,8 @@
 - Added Custom reasons tab to /mmute - This should only be used if the reason like "caps" is not on the muteable offenses list.
 - Fixed Auto Sell not selling whole inventory when Auto sell Inventory feature is turned on.
 - Fixed /sell inv only selling for $0.
+- Added back quests!
+- Added a new command: /questplay - Allows you to complete, and list all the current quests we have to offer for you.
+- Fixed other Quests not working.
+- Prestiging now teleports you to spawn.
+- Fixed internal server error upon selling your inventory via AutoSell feature.
