@@ -5,8 +5,8 @@
 - Pickaxes will now drop out of your inventory when you're full on inventory. (VoteParty)
 - Added AFK detector to OnlineTime! How this works: When you're A.F.K for a certain amount of time, the online time will stop your activity, and pause it until you become un A.F.K
 - Added MultiWarnUI - A new multi-type system, just like MultiBanUI and MultiMuteUI, but differs with functionality.
-- Added /warn <player> - Warns a player. <player> is optional, and should only be used when offline.
-  - Added /removewarn <player> - Removes the entire warning of a player. Soon, I plan to introduce a way so you don't have to remove the entire warning of a player. It'd also rely on warn points.
+- Added /warn [player] - Warns a player. [player] is optional, and should only be used when offline.
+  - Added /removewarn [player] - Removes the entire warning of a player. Soon, I plan to introduce a way so you don't have to remove the entire warning of a player. It'd also rely on warn points.
   
   ## What is Warn Points?
   Warn points, are essentially how many warns you give a player. We call it "Warn points" for short because it's just an easier way of saying it.
