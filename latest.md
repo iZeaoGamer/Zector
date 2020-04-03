@@ -12,6 +12,6 @@
   Warn points, are essentially how many warns you give a player. We call it "Warn points" for short because it's just an easier way of saying it.
   
 - Added /warns - Lists the players that have been warned.
-- Added warnings information to /history 3, which is also known as the warnings page
-- Fixed internal server errors when using /history <player> 3 when the player was not found.
+- Added warnings information to /history [player] 3, which is also known as the warnings page
+- Fixed internal server errors when using /history [player] 3 when the player was not found.
 - Added Custom reasons tab to /mmute - This should only be used if the reason like "caps" is not on the muteable offenses list.
