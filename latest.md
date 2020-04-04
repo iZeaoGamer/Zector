@@ -4,6 +4,8 @@
 - Fixed internal server error when ranking up to prestige.
 - Fixed internal server error on prestige, where it would attempt to teleport you to spawn, but failed.
 - Fixed internal server error upon opening your inventory.
+
+## AuctionHouse Updates
 - Added Auction Limits.
 - Fixed "can't afford bid" not showing when having no previous bids.
 - Fixed bid amount item not updating when too little money.
