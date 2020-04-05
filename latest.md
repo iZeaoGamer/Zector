@@ -14,3 +14,6 @@
 - Better validation for form inputs.
 - Fixed missing filtered text due to menu simplification
 - Make the auction creation menu more user friendly
+
+## LuckyBlocks Updates
+- LuckyBlocks receiving rewards are now handled with Action bar message, rather than chat message. Meaning the reward messages for Luckyblocks aren't chat messages anymore. They're now vis action bar message.
