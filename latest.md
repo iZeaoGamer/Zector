@@ -27,3 +27,4 @@
 - Fixed N Mine not being accessable if you're above N Mine. This error would happen when you've added warp setting "Custom Search Bar" to false.
 - Fixed crash on mine reset.
 - Fixed internal server error when ranking up to certain mines.
+- Fixed internal server error when typing /rankup command really fast.
