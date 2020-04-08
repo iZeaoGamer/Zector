@@ -18,7 +18,7 @@
 ## LuckyBlocks Updates
 - LuckyBlocks receiving rewards are now handled with Action bar message, rather than chat message. Meaning the reward messages for Luckyblocks aren't chat messages anymore. They're now vis action bar message.
 
-## BIG PRISON UPDATES
+## PRISON UPDATES
 
 - Mine reset now teleports you to the warp location of the specific mine - Before, it'd teleport you above the mine, which did impact server crashes issues, which should be now resolved. SO for example, if you're mining at Mine C, and the mine resets, you'll automatically be teleported to Mine C warp location.
 - Seperated /rankup and added /prestige - This fixes errors relating to /prestige, and /rankup from causing wrong messages. This also fixes errors relating to zero money you need to prestige sometimes. We've added all the checks to ensure /prestige doesn't get abused as well as /rankup.
