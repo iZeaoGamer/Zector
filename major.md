@@ -1,3 +1,14 @@
+## V12.0 UPDATE; MAJOR.
+## The update that changes everything.
+
+# Welcome to another brand new version: v12.0. This update brings out so many bug fixes, improvements, and implements so many new CE's that will bring your game experience into joy!
+# We've also added MCMMO which no other servers have. We've also introduced Acrobatics, and level-up game experiences that you will love and enjoy.
+# This update also releases a recode with /enchant and how it enchants the item; Now, it will see the isVanilla() tag (which never happened before), and will detect whether or not the enchant is vanilla. We've cleaned-up enchantItem() function, and implemented isVanilla() tag which will do two actions. 1. If isVanilla() is true, it'll enchant using pocketmine's default enchant functions. If isVanilla() is false, it'll automatically use custom enchant's methods of enchanting.
+# Yes, this fixes some CE's if not most from not working properly, such as: Glowing, and some others which were originally reported to not work, which have now been fixed.
+# We've also added new PvPMine and Spawn.
+# And so much more! The update is endless! This update actually changes everything, and for the better too.
+
+## Here is the new on-going changelog for V12.0:
 - Added Classes - When you first join, a UI will popup, asking you what class you'd like to pick for the rest of the season. You can pick a class, which will contain forever features, such as: An effect, MCMMO Levels, Tokens, MonthlyCrates, Pickaxe Levels, and so much more! You can also get an item from Legendary crate, which is called "Class Transfer", where you can use that item to pick for another class in which you can choose from. This item is rare, and can only be found in legendary crates.
 - Revamped "Welcome Message", rebranded the player count (in total for this season) to include default Pocketmine player data, rather than implementing it ourselves, making us implement more useless files that would've been an issue later on. Also, for opening too.
 - Removed useless Join and leave functions, and added brand new exclusive ones.
