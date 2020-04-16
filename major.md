@@ -67,62 +67,107 @@ Paralyse:1-5: Gives enemy slowness, mining fatigue
 Piercing: 1-5: ignore armour when dealing damage
 
 SWORD
+
 Headless:1-3: Has a chance of dropping heads 15% per level
+
 Poison: 1-5: Gives the enemy poison
+
 Wither: 1-5: Gives enemy wither
+
 Sloth: 1-5: Gives enemy slowness and Mining fatigue
+
 Hallucination:1-3: give enemy nausea 
+
 Double damage: 1-3: gives chance of doing double the damage (like 2%)
+
 Ariel:1-5: Increase damage dealt in air
+
 Deep wounds:1-3: CHance of making player bleed
+
 Backstab:1-3:Increased damage dealt when sneaking 
+
 Vampire:1-3: Convert damage taken to health
 
 Axes
 
 Blessed: 1-3: Clears all negative effects
+
 Wither: 1-5: give enemy wither 
+
 Poison:1-5: Gives enemy poison
+
 Sloth: 1-5: Gives enemy slowness and mining fatigue 
+
 Hallucination: 1-3: Nausea to enemy
+
 Decapitation: 1-3: Chance of dropping head upon kill/death 15% per level
+
 Maniac: 1: GIves haste
+
 Double damage: 1-3: gives chance of doing double the damage (like 2%)
+
 Vampire:1-3: Convert damage taken to health
+
 Beserker:1-5:gives u a chance of strength for 10seconds
 
 HELMET
 
 Glowing:1: night vision
+
 Drunk:1-3: strength (1level=1level of strength) mining fatigue and slowness
+
 AntiToxin:1: Immune to poison
+
 Implants: Feeds the player every time damage is taken
+
 Meditation:1-3: Heals health and hunger every 30s
+
 Focused:1: immune to nausea
+
 
 All Armour
 
 Heavy:1-5: Reduces axe damage
+
 Enlightened:1-5: Gives yourself regeneration
+
 Molten:1-5: Sets enemy on fire
+
 Poisoned: 1-3: Gives enemy poison upon impact
+
 Cloaking:1-5: Gain invisibility upon impact
+
 Tank:1-3: Less damage taken from projectiles
+
 Shielded:1-3: Gives resistance while worn
+
 Armoured:1-5: less damage taken from swords
+
 
 Boots
 Endershift:1-5:Regeneration and speed at low health
+
 Gears:1-3: speed boost (fix it as it just gives speed 1 for all levels)
+
 Hulk:1-5: Damage to enemy if taking fall damage
+
+
 - Fix unexpected crashes due to our newest API Update.
+
 - Rebranded MCMMO to a whole new level!
+
 - We've added the following new MCMMO Types:
+
 * Swords - Chance of bleeding the player. + Strength
+
 * Unarmed - Gives you Speed, and Strength.
+
 * Axes - Damages armor quicker + More critical particles + Strength.
+
 * HERB - Breaks crops = EXP which leads to leveling up your MCMMO.
+
 * Archery - Bow MCMMO.
+
 - Excavation improvements.
 - Adds more features to the MINING MCMMO Type.
 - Added /mctop - Shows the top 10 highest MCMMO leveled player.
