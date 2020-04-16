@@ -65,6 +65,7 @@ Lightning: 1: chance of summoning lightning bolt on impact
 Paralyse:1-5: Gives enemy slowness, mining fatigue
 
 Piercing: 1-5: ignore armour when dealing damage
+
 SWORD
 Headless:1-3: Has a chance of dropping heads 15% per level
 Poison: 1-5: Gives the enemy poison
@@ -89,6 +90,7 @@ Maniac: 1: GIves haste
 Double damage: 1-3: gives chance of doing double the damage (like 2%)
 Vampire:1-3: Convert damage taken to health
 Beserker:1-5:gives u a chance of strength for 10seconds
+
 HELMET
 
 Glowing:1: night vision
