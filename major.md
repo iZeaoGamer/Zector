@@ -198,3 +198,10 @@ Hulk:1-5: Damage to enemy if taking fall damage
 - All enchantments from /enchant now work. This is due to poorly coded functions, and files. Now, it's been made to work with all enchantments (Including CE's)
 - Some Custom Enchantment levels effects should no longer plus one a effect. Example: If I were to have Gears Level 3, the effects amplifier would be 4, rather than 3. Now, the amplifier will depend on the amount of CE levels you have. (Untested, and still under development. - May work on more relating to this if need be).
 - Fixed Acrobatics rolled system from giving you fall damage even if the acrobatics rolled was successful.
+- Completely redesigned, and recoded Cells.
+- Added new Ce's:
+* Dragon Hunter - Has a rare chance of finding Dragon eggs whilst mining. This can be used later on when creating cells.
+* Beaconator - Has a chance of finding Beacons whilst mining. This can be used later on when creating cells.
+
+- Fix typo for Guardian CE. It's meant to be Guardian, not Gaudian! Silly me.
+- Added "NEW" tags for those categories and CE's that are classed as "NEW" for this season in /enchant.
