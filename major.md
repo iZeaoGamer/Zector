@@ -205,3 +205,24 @@ Hulk:1-5: Damage to enemy if taking fall damage
 
 - Fix typo for Guardian CE. It's meant to be Guardian, not Gaudian! Silly me.
 - Added "NEW" tags for those categories and CE's that are classed as "NEW" for this season in /enchant.
+- Added a new parmater to Enchant - string $enchantClass
+This will be used to identify the enchant name / id class just for future implementations. With this, we've added:
+* A error message - The enchantment you specified must either match more of the current enchantment level. The enchantment level you specified can't either:
+A. Be the same as the current enchantment level.
+B. Be less than the current enchantment level, since then you'll be wasting more tokens! Let's be safe, aye, and do it the easier way = Less complaints of losing tokens over having the enchantment level less than the current enchantment level you have.
+
+- Added a null check to ensure getLevel() isn't null when selecting a enchantment that you haven't yet received. If getLevel() is null, it'll return the level as zero. getLevel() will only become null if the enchantment selected isn't on your item.
+- Upgraded the Tokens cost for Beaconator and Dragon hunter. Thanks @IST | YT for that!
+- Removed LifeSteal from /enchant - It was meant to be removed, but for some reason, it was still displaying in /enchant.
+- Added Tree Feller ability.
+- Added new CE: KillAura. Description: Hits Multiple entities at once.
+- Fixed DeepWounds from being too overpowered. Because of this major fix, I have decided to buff the max enchantment for DeepWounds to Level 10. Trust me, it isn't as OP as before. Hence why I buffed it. Aren't I just a genius now? ;P
+- Fixed /mctop from not updating until the server restarts. It now updates live, on the server.
+- Removed Custom Enchantment: Explosive because of how OP it was. We have replaced this with Kill Aura Custom Enchant, which is explained above.
+- More than one entity should now be damaged with Kill Aura Enchantment. The more Levels you go up with Kill Aura CE, the more further you can hit the mobs or players. The max is 3 because of its OPness.
+- Added back the good ol /vanish system
+- You can no longer be damaged in /vanish.
+- You can no longer be killed in /vanish.
+- Recoded how /enchant stores data - Instead of retrieving Player data using its player.yml file, it'll now create a new file called "data.yml". This will offer: Player name, Enchant name, and Total cost. This is all storted in the data.yml file, and this is also apart of the S7 data recode update.
+- Fixed a bug, where removing all of the enchantments from /enchant would still show up as enchanted within your item. This bug was introduced back in S5, and should've been fixed in S6, but for some reason, the new update removed it. :think: . Though, this fix should be re-added, and ready for S7 of OP Prisons.
+- Fixed enchant data not being stored properly.
