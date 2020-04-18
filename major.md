@@ -226,3 +226,10 @@ B. Be less than the current enchantment level, since then you'll be wasting more
 - Recoded how /enchant stores data - Instead of retrieving Player data using its player.yml file, it'll now create a new file called "data.yml". This will offer: Player name, Enchant name, and Total cost. This is all storted in the data.yml file, and this is also apart of the S7 data recode update.
 - Fixed a bug, where removing all of the enchantments from /enchant would still show up as enchanted within your item. This bug was introduced back in S5, and should've been fixed in S6, but for some reason, the new update removed it. :think: . Though, this fix should be re-added, and ready for S7 of OP Prisons.
 - Fixed enchant data not being stored properly.
+- Cells 2.0 brings in the most requested feature - A cell in the void, instead of in a flat or normal world. Yes, this has now been added because cells were right next to each other. Well, Cells 2.0 offers Cells in the void. There are so much new commands you can use to level-up your advantage, including:
+* /cell top.
+* Add a player to your cell.
+* Kick, and Ban players from your cell.
+* Name your cell by typing /cell name <name>
+* Fly in your cell! Just by typing /cell fly.
+* And so much more!
