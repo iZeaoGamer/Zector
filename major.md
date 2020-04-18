@@ -51,6 +51,7 @@ setPickaxeLevels(), setGrayColor(), setAquaColor(), setDarkGrayColor(), setGoldC
 - Fixed crash upon player death.
 - Fixed crash upon player movement.
 - AutoRepair now repairs your items in your inventory automatically when moving.
+
 We have added the following new CE's:
 BOW
 
@@ -78,11 +79,11 @@ Sloth: 1-5: Gives enemy slowness and Mining fatigue
 
 Hallucination:1-3: give enemy nausea 
 
-Double damage: 1-3: gives chance of doing double the damage (like 2%)
+Double damage: 1-3: gives chance of doing double the damage (2% per level)
 
 Ariel:1-5: Increase damage dealt in air
 
-Deep wounds:1-3: CHance of making player bleed
+Deep wounds:1-3: Chance of making player bleed
 
 Backstab:1-3:Increased damage dealt when sneaking 
 
@@ -102,9 +103,9 @@ Hallucination: 1-3: Nausea to enemy
 
 Decapitation: 1-3: Chance of dropping head upon kill/death 15% per level
 
-Maniac: 1: GIves haste
+Maniac: 1: Gives haste
 
-Double damage: 1-3: gives chance of doing double the damage (like 2%)
+Double damage: 1-3: gives chance of doing double the damage (2% per level)
 
 Vampire:1-3: Convert damage taken to health
 
@@ -162,7 +163,7 @@ Hulk:1-5: Damage to enemy if taking fall damage
 
 * Unarmed - Gives you Speed, and Strength.
 
-* Axes - Damages armor quicker + More critical particles + Strength.
+* Axes - Damages armor quicker + More critical particles + Strength + Tree Feller Ability.
 
 * HERB - Breaks crops = EXP which leads to leveling up your MCMMO.
 
@@ -179,7 +180,7 @@ Hulk:1-5: Damage to enemy if taking fall damage
 - You can now have a chance of bleeding the player using MCMMO swords; Just activate the swords ability, and you’ll be good to go.
 - You can now levelup just by killing Mobs.
 - Added new function: addDeepWounds() - Allows you to add deep wounds AKA Make the player bleed. We name this function to DeepWounds() because it works like Deep Wounds. There was no other name we could think of to name this function other than addDeepWounds().
-- You now automatically levelup when selecting the appropriate race class from Swords and axes. Before, this didn’t work.
+- You now automatically level-up when selecting the appropriate race class from Swords and axes. Before, this didn’t work.
 - Reduced Mining MCMMO EXP to 1. This is due to Driller being too OP.
 - Renamed /rr to /blacksmith.
 - Fixed crash upon shooting projectiles when lightning strikes. This is because MCMMO didn't recognize the lightning wasn't a player, therefore crashing the server due to lightning not being a player.
@@ -223,7 +224,7 @@ B. Be less than the current enchantment level, since then you'll be wasting more
 - Added back the good ol /vanish system
 - You can no longer be damaged in /vanish.
 - You can no longer be killed in /vanish.
-- Recoded how /enchant stores data - Instead of retrieving Player data using its player.yml file, it'll now create a new file called "data.yml". This will offer: Player name, Enchant name, and Total cost. This is all storted in the data.yml file, and this is also apart of the S7 data recode update.
+- Recoded how /enchant stores data - Instead of retrieving Player data using its player.yml file, it'll now create a new file called "data.yml". This will offer: Player name, Enchant name, and Total cost. This is all stored in the data.yml file, and this is also apart of the S7 data recode update.
 - Fixed a bug, where removing all of the enchantments from /enchant would still show up as enchanted within your item. This bug was introduced back in S5, and should've been fixed in S6, but for some reason, the new update removed it. :think: . Though, this fix should be re-added, and ready for S7 of OP Prisons.
 - Fixed enchant data not being stored properly.
 - Cells 2.0 brings in the most requested feature - A cell in the void, instead of in a flat or normal world. Yes, this has now been added because cells were right next to each other. Well, Cells 2.0 offers Cells in the void. There are so much new commands you can use to level-up your advantage, including:
