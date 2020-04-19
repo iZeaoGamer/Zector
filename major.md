@@ -249,3 +249,10 @@ B. Be less than the current enchantment level, since then you'll be wasting more
 * Dodge - Chance to dodge physical enemy attacks, increased chance if sneaking. Max: 5 Type: All Armor
 
 - Added back LifeSteal.
+- We’ve added 3 more new Custom Enchants to the collection! Here are the following we’ve introduced:
+* ArrowLifeSteal: A chance to steal health from opponent while fighting Max: 5 Type: Bow
+* Master Mob Killer: Massively increases EXP drops from mobs. Requires Mob Killer IV enchant on item to apply. Max: 4 Type: Sword
+* Mob Killer: Increases EXP drops from mobs. Max: 4. Type: Sword
+
+NOTE
+Mob Killer enchants is useful for when killing mobs at spawn. You’ll be able to obtain more XP, which leads to being able to buy repairs using /blacksmith, and being able to convert using XP as Currency by typing /converter.
