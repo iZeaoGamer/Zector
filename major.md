@@ -234,3 +234,18 @@ B. Be less than the current enchantment level, since then you'll be wasting more
 * Name your cell by typing /cell name <name>
 * Fly in your cell! Just by typing /cell fly.
 * And so much more!
+  
+- We’ve been working on adding even more CE’s. In today’s update, I’ve added atleast 12 new Custom enchants that will more-benefit the server, and make the game more enjoyable. Here are the following new CE’s we’ve introduced, the descriptions of each of them, max levels, and the type of item this can be allocated on;
+* Nimble - Increases mcMMO XP gained in Acrobatics while equipped. Max: 5. Type: Boots
+* Skilling - Increases mcMMO XP gained in all GATHERING skills while equipped. Max: 10 Type: Weapons and tools.
+* RagDoll - Whenever you take damage you are pushed far back. Max: 4 Type: All Armor
+* Obliterate - Extreme knockback. Max: 5 Type: All Weapons
+* Ravenous - A chance to regain hunger. Max: 4 Type: Axes
+* Stormcaller - Strikes lightning on attacking players. Max: 4 Type: All Armour
+* Voodoo - Gives a chance to deal weakness. Max: 6 Type: All Armour
+* Godly OverLord - A very large permanent increase in hearts. Requires Overload III enchant on item to apply. Max: 3. Type: All Armour
+* Training - Increases mcMMO XP gained in all COMBAT skills while equipped. Max: 10 Type: Weapons
+* Skill Swipe - A chance to steal some of your enemy's EXP every time you damage them. Max: 5 Type: Swords
+* Dodge - Chance to dodge physical enemy attacks, increased chance if sneaking. Max: 5 Type: All Armor
+
+- Added back LifeSteal.
