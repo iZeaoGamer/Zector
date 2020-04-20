@@ -257,3 +257,33 @@ B. Be less than the current enchantment level, since then you'll be wasting more
 NOTE
 
 Mob Killer enchants is useful for when killing mobs at spawn. You’ll be able to obtain more XP, which leads to being able to buy repairs using /blacksmith, and being able to convert using XP as Currency by typing /converter.
+- Fixed enchants becoming free in /enchant, and not reducing your tokens.
+- Cleaned-up Auto Restarting.
+- We've removed the following functions from AutoRestart system:
+getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This is simply because it was too buggy to handle.
+- Restart Timer is now configurable.
+- Restart Timer now relies on minutes, not seconds.
+- Fixed a bug, where Restart Timer would be buggy, and wouldn't always restart as it should do. (Untested)
+- Broadcast announcements for restarting is now more better, and easier understandable. Example: 2 minutes till restart would broadcast instead of 2:00. This was sometimes very confusing as to what it meant, so we've decided to add this change for the better as well.
+- Fixed slowness being too OP on Sloth.
+- Fixed slowness being too OP on Paralyse
+- Fixed crash upon activating Skill Swipe.
+- LifeSteal now has 1% per level chance of activation.
+- Wither now has 1% per level chance of activation.
+- Poison now has a 1% per level chance of activation.
+- Fixed crash caused by OverLord and max health. (Untested)
+- Lightning now activates on players, rather than on blocks. (Untested)
+- Lethal now activates on players, rather than on blocks. (Untested)
+- Hallucination now has a 1% per level chance of activation.
+- Fixed Godly OverLord dupe glitch, where hearts would endlessly regain health without any max health limits.
+- Godly OverLord now requires OverLord 3+ to activate.
+- Obliterate Custom Enchant has been debuffed to Level 1. This is due to its OPness.
+- RagDoll custom enchant no longer takes fall damage upon landing after activation took place.
+- Storm Caller now deals Damage to the attacker.
+- Fixed amplifier for Poison.
+- Fixed amplifier for Wither.
+- Obliterate now has a 1% per level chance of activation.
+- RagDoll now has a 2% per level chance of activation.
+- Storm Caller now has a 2% per level chance of activation.
+- Voodoo now has a 2% per level chance of activation.
+- Messages for all MCMMO related custom enchants. (Skill Swipe, Training, Nimble, etc etc) now appear once enchant is activated.
