@@ -255,4 +255,5 @@ B. Be less than the current enchantment level, since then you'll be wasting more
 * Mob Killer: Increases EXP drops from mobs. Max: 4. Type: Sword
 
 NOTE
+
 Mob Killer enchants is useful for when killing mobs at spawn. You’ll be able to obtain more XP, which leads to being able to buy repairs using /blacksmith, and being able to convert using XP as Currency by typing /converter.
