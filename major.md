@@ -287,3 +287,4 @@ getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This
 - Storm Caller now has a 2% per level chance of activation.
 - Voodoo now has a 2% per level chance of activation.
 - Messages for all MCMMO related custom enchants. (Skill Swipe, Training, Nimble, etc etc) now appear once enchant is activated.
+- You can now take fall damage in PvP Mine. In season 6, this wasn’t possible.
