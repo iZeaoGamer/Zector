@@ -288,3 +288,19 @@ getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This
 - Voodoo now has a 2% per level chance of activation.
 - Messages for all MCMMO related custom enchants. (Skill Swipe, Training, Nimble, etc etc) now appear once enchant is activated.
 - You can now take fall damage in PvP Mine. In season 6, this wasn’t possible.
+- Added cooldown messages. Messages such as:
+* When a skill becomes deactivated.
+* When a skill is activated again / refreshed.
+
+- Added Fireworks upon activation and deactivation of your MCMMO.
+- Fixed Archery MCMMO from not working. Now it does!
+- Fixed disarming from not working as expected when using Unarmed MCMMO. (Untested)
+- Added new functions for fireworks.
+- Added explosions to fireworks upon activation / deactivation of MCMMO.
+- Fixed fireworks not working upon activation / deactivation of MCMMO.
+- Added a functional working cooldown notifications! (Will add cooldown error in the future).
+- Finally added Cooldown Error messages with MCMMO.
+- You'll now be able to know how long until you're able to use the ability again for MCMMO.
+- Added /jackpot to the server!
+- Added /jackpot current - Opens a UI with all the information you need to know about this draw.
+- Added /jackpot buy <amount> - Buys the amount of tickets you specified.
