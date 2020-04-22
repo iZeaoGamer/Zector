@@ -304,3 +304,9 @@ getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This
 - Added /jackpot to the server!
 - Added /jackpot current - Opens a UI with all the information you need to know about this draw.
 - Added /jackpot buy <amount> - Buys the amount of tickets you specified.
+- FireWorks with MCMMO now works as expected! No more unexpected bugs!
+- Fixed an issue, where fireworks wouldn't activate if one ability is already enabled during that time.
+- Fixed Archery not working once again.
+- Fixed swords working with Archery - Basically you can get swords to level-up archery levels. This shouldn't of happened, and we've since then patched this issue.
+- Fixed MCMMO from still giving you EXP even if in a protected area.
+- Mining for keys is now a lot harder, and rare to obtain (Without KeyPlus custom enchantment).
