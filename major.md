@@ -310,3 +310,12 @@ getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This
 - Fixed swords working with Archery - Basically you can get swords to level-up archery levels. This shouldn't of happened, and we've since then patched this issue.
 - Fixed MCMMO from still giving you EXP even if in a protected area.
 - Mining for keys is now a lot harder, and rare to obtain (Without KeyPlus custom enchantment).
+- Excavation is no longer as OP when leveling up.
+OP Prisons S7 / V12 UPCOMING UPDATE
+- Added Contrabands! - Finally! We've added it for bedrock edition! Contrabands.
+
+What is Contrabands?
+Contrabands, is essentially lootboxes, but as a different name. It offers the speciality of gaining really awesome rewards, such as: Bosses, Keys, Custom Enchants, MCMMO Tokens (High amount of levels), Ranks, Pickaxe EXP, Godly pickaxe, Godly Sword, and Godly armour.
+
+- Fixed player inventory from disappearing after opening it a few times.
+- Added spaced player names support!
