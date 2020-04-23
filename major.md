@@ -311,7 +311,6 @@ getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This
 - Fixed MCMMO from still giving you EXP even if in a protected area.
 - Mining for keys is now a lot harder, and rare to obtain (Without KeyPlus custom enchantment).
 - Excavation is no longer as OP when leveling up.
-OP Prisons S7 / V12 UPCOMING UPDATE
 - Added Contrabands! - Finally! We've added it for bedrock edition! Contrabands.
 
 What is Contrabands?
