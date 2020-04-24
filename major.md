@@ -318,3 +318,16 @@ Contrabands, is essentially lootboxes, but as a different name. It offers the sp
 
 - Fixed player inventory from disappearing after opening it a few times.
 - Added spaced player names support!
+- Completely recoded Autosell, and how it's suppose to work.
+- Auto Sell is now supported by SellAll plugin.
+- Cleaned-up a lot of shitty codes that weren't even needed, when the Sell All plugin did it, so there was no point of duplicating the codes from different plugins.
+- Renamed option to "sell every 10 seconds" in /autosell.
+- Fixed Autosell from not working when both options have been set to false, when enabling it, it'll stop working. Weird bug I know, but this should be fixed. (As tested).
+- Removed Sell Timer system, and just allow pocketmine's default task timer to do the job. Less buggy too.
+- Auto Inventory Sell is now more powerful than ever - It'll start detecting more than once whether or not your inventory is full. This is simply for security measures, which shouldn't be anyway to bypass this if turned on. It may sell inventory more than once, but that's simply for security measures, attempting to sell inventory more than once so nothing get's in the way of its security task.
+- Fixed duplication glitch with /sell inv, and Auto sell (Inventory feature). This was because before, it wasn't fully supporting the SellAll plugin. Now, it does, so no matter what happens, this glitch should never happen again. Thanks for reporting this dupe glitch, <@!640034352067117078>!
+- Added a notice / warning for setting both options to true in /autosell. Yes, this is a warning to let people know that setting both options to true will infact not work. This is because AutoSell options do not go well together. You need to decide which option to use before making it work. This is for those confused about why they both don't work together. Well, now, there's a warning message when using /autosell. Very useful!
+- Fixed Fireworks MCMMO Deactivation message and action from executing from all online players even if they never executed the MCMMO Activation message. This was simply because before, it was recognizing all online players. Now, it only relies on the one person executing the ability deactivated message.
+- Added a error message when enabling both auto sell options in /autosell.
+- Added a "Updating Auto Sell Settings" message.
+- Added a "Saved Auto Sell Settings Message".
