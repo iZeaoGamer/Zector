@@ -331,3 +331,9 @@ Contrabands, is essentially lootboxes, but as a different name. It offers the sp
 - Added a error message when enabling both auto sell options in /autosell.
 - Added a "Updating Auto Sell Settings" message.
 - Added a "Saved Auto Sell Settings Message".
+- Added /cells upgrade - Allows you to Upgrade your cells! Thanks for the suggestion, @EST Tivercey!
+- You can now use two currencies for /cells upgrade. Tokens, and Money.
+- Fixed /cells upgrade from causing internal server errors.
+- Increasement is now unlimited. Whatever you add to the increasement bar, is adding onto the increased cell, rather than setting it as that.
+- Added rank transfers! Simply type /fixrank to correct your rank. - In beta.
+- All cells are now in the same world, rather than recreating worlds, thus causing TPS or server lag.
