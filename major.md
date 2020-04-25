@@ -337,3 +337,13 @@ Contrabands, is essentially lootboxes, but as a different name. It offers the sp
 - Increasement is now unlimited. Whatever you add to the increasement bar, is adding onto the increased cell, rather than setting it as that.
 - Added rank transfers! Simply type /fixrank to correct your rank. - In beta.
 - All cells are now in the same world, rather than recreating worlds, thus causing TPS or server lag.
+- Added Tokens Notes, and Bank Notes (Money Notes) to OP Prisons S7!
+- Fixed OverLord from crashing the server whilst logging out during combat. (Same goes with GodlyOverLord).
+- Fixed GodlyOverLord crash upon player join (After player has left the server whilst in combat, and joins back again).
+- Fixed Custom enchantments not working when opening Contrabands. This would happen most likely because Contrabands plugin was sometimes loading before the Custom enchants plugin was, leading to this error because it didn't notice a change between the enabling state.
+- Changed Custom Enchants function to onLoad() to ensure the plugin get's loaded before any other compatible plugins get loaded.
+- Fixed Aerial and Backstab enchants from becoming free in /enchant.
+- Fixed another crash for OverLord (Untested).
+- Do not activate certain custom enchants in protected areas.
+This fixes issues raised to do with custom enchantments activating in protected areas, which shouldn't be enabled.
+- Make Auto Repair custom enchant for Weapons and tools only. This is to reduce how OP it is, especially on armor.
