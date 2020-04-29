@@ -347,3 +347,45 @@ Contrabands, is essentially lootboxes, but as a different name. It offers the sp
 - Do not activate certain custom enchants in protected areas.
 This fixes issues raised to do with custom enchantments activating in protected areas, which shouldn't be enabled.
 - Make Auto Repair custom enchant for Weapons and tools only. This is to reduce how OP it is, especially on armor.
+- We’ve rebranded our gamemode to combine OP Prisons and OP Factions together, making it Hybrid S1.
+- Added /ceshop!
+- We’ve rebranded the way rarities work with Custom enchants!
+- Added new rarities:
+* Epic
+* Legendary
+* Godly
+
+- Removed Mythic rarity.
+- Fixed crash with Archery MCMMO.
+- We’ve reorganised Custom enchants into different rarities (appropriately)
+- Fixed helmets custom enchantments from not being compatible. This was because of a typo made with Helmets type.
+- Lazy CE shouldn't be in common category in /ceshop. We've moved Lazy CE to its appropriate category (Uncommon).
+- Added Spawner stacking + Mob stacking to the server!
+- Activated Redstone; Currently in BETA.
+- Fixed crash upon interaction with Common books.
+- Fixed unused $ signs being added to /ceshop, when it costs tokens, not money.
+- Added a new restart system; Less buggy.
+- Fixed restart spam.
+- Restarting the server no longer transfers you to a server (Hub).
+- Added basic implementation for use of Off hand.
+- Fixed Contrabands from removing your part of the inventory.
+- Added the following new CE's:
+* Name: Recovery
+Information: after killing a player gives regeneration for 5 sec
+What item: chestplate
+Rarity: legendary
+Levels : 5
+* Name: adrenaline 
+Info: after killing a player you gain strength for 5 secs (each level is a higher level of strength)
+Item: chestplate
+Rarity: godly or legendary
+Levels: 2
+* Name: Mini Sell
+Info: Has A 0.1% Chance To Double The Amount Of Money You Got From Mining (Autosell Must Be On To Work)
+Item: Pickaxe
+Rarity: Legendary
+Level: 5
+
+- Added Item stacker - When you drop two items that are the same, it'll stack.
+- Added Trading UI system!
+- Fixed Player flickering issue - We’ve finally fixed a bug, where every 1 second, players would dissappear, then reappear. This bug was known for some time, in which has been fixed. Yay! No more players flickering issue. ;D
