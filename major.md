@@ -432,3 +432,35 @@ Those custom enchantments have been currently untested, so bugs may occur with t
 - Server now restarts every 1 hour and 30 minutes.
 - Fixed crash with LuckyBlocks. (Untested)
 - Fixed crash upon using JackPot Custom enchant.
+- Fixed TNT from crashing the server when bad luck happens. (Upon spawning TNT).
+- Fixed crash for TNT.
+- Fixed TNT not exploding blocks, and it'll only damage players.
+- Blocks will now automatically direct to your inventory upon explosion. This is to prevent server crashes, and lag with the server.
+- Fixed crash upon Item stacking.
+- Having a full Inventory will no longer allow you to break blocks until you clear your inventory.
+- Brand new colors when having a full inventory.
+- Fixed GodlyOverLord from being too OP. This is to prevent further server crashes.
+- Added protection for spawn, and Koth.
+- Fixed koth fall damage issue when dropping down to the koth arena.
+- Fixed parts of spawn not being protected properly.
+- Fall damage is now enabled once you're in the Koth Arena.
+- Added a complete shop recode, including:
+* Generators shop (Includes Auto Generators)
+* Markets (Sells included)
+* Spawners.
+* And so much more!
+
+- Fixed crash when using /shop.
+- Fixed crash when receiving the items.
+- We've done a complete reconomied (Also known as a Money balance, and tokens revamp - Basically, changed the way they're displayed).
+- Money now displays in commas, just like normal numbers (In vanilla-wised concept.) So for example, 1000 would now display as 1,000. The same goes with Tokens also.
+- Changed the way ScoreBoards updates, and generators;
+- We've reorganised a category, renamed a category called "Hybrid" via scoreboards, which displays: Faction STR, Faction Money, Rank Up Cost, and Rankup Name. You're probably wondering:
+
+Where is the prestige information?
+Well, Prestige information will be shown to you once you've ranked up to Z mine. This is due to ScoreBoards limitations in vanilla having the maxed lines 15. It'll automatically update to Prestige information once you're at Z rank, don't worry about that!
+
+- The new money reformatting update has been added to scoreboards.
+- The new Tokens reformatting update has been added to scoreboards.
+- Changed the way: /seenmoney, /mymoney, and /topmoney is formatted; In terms with display.
+- Changed the way /seetokens, /mytokens, and /tokentop is formatted; In terms with display.
