@@ -389,3 +389,46 @@ Level: 5
 - Added Item stacker - When you drop two items that are the same, it'll stack.
 - Added Trading UI system!
 - Fixed Player flickering issue - We’ve finally fixed a bug, where every 1 second, players would dissappear, then reappear. This bug was known for some time, in which has been fixed. Yay! No more players flickering issue. ;D
+- Added back /wild! Better than ever.
+- Allow /wild to only take you to the "wild" world.
+- Fixed /wild from putting you under the ground.
+- Added a detection for /wild, where when you're underground, it'll automatically teleport you above ground, thus making it possible to not take damage.
+- Fix crash when using /wild. ;-;
+- Added particles when teleporting to wildness.
+- Changed teleportation message for less confusion.
+- Added Custom names support with Item stacking.
+- Items now stack with custom names (when dropped near each other.)
+- Added basic implementation for Envoys.
+- Added /envoy - A command to teleport to the envoys area.
+- Set up rewards for envoys.
+- Added [item] and [inventory] back! - For those that don't know how this works, whenever you type [item] or [inventory] in chat, it'll display details about the item you're holding (for [item]), and for [inventory], it'll display your whole inventory in chat along with enchantments display.
+- Add spaced player names support to Envoys.
+- Spawners now work at spawn.
+- Added Generators. Generators can be used to generate blocks above the other block. With the items you collect, you can sell the dropped items using auto sell, or /sell.
+- Recoded LuckyBlocks to 2.0!
+- We've rebranded LuckyBlocks to make it so you'll have a percentage of good luck, and bad luck. Will you be lucky?
+- You can now receive certain kits from Good rewards for LuckyBlocks.
+- Custom sounds added to LuckyBlocks (If bad luck occurs).
+
+- **We've added even more new Custom Enchantments!**
+Here are the following new Custom enchantments we've added to Hybrid S1:
+
+* Annihilation: Increase damage the lower your opponent's health is. Max: 10 Rarity: Rare Type: Weapons
+* Bleed: Have a chance to multiply your damage. Max: 10 Rarity:  Legendary. Type: Weapons
+* JackPot: Have a chance to earn money while mining. Max: 5 Rarity: Legendary. Type: Tools
+* Luck: Increase your chance of getting a lucky block. Max: 1 Rarity: Godly. Type: Tools
+* Monopolize: Have a chance to steal xp from your opponent. Max: 5 Rarity: Godly. Type: Weapons
+* Resist: Reduce knockback effects. Max: 3 Rarity: Legendary. Type: Armor.
+* Shatter: Break your opponent's armor faster. Max: 5 Rarity: Legendary Type: Weapons
+* Stun: Have a chance to stun your opponent. Max: 5 Rarity: Godly Type: Weapons
+* Velocity: Increase the speed of your arrow and make it travel straighter. Max: 5 Rarity: Legendary. Type: Bows
+
+**NOTE**
+Those custom enchantments have been currently untested, so bugs may occur with this.
+
+- You now have a rare chance of receiving Emerald Ore generator when mining stone.
+- Rebranded Auto restarting system.
+- Allow full formats (includes hours, minutes, and seconds display text).
+- Server now restarts every 1 hour and 30 minutes.
+- Fixed crash with LuckyBlocks. (Untested)
+- Fixed crash upon using JackPot Custom enchant.
