@@ -464,3 +464,14 @@ Well, Prestige information will be shown to you once you've ranked up to Z mine.
 - The new Tokens reformatting update has been added to scoreboards.
 - Changed the way: /seenmoney, /mymoney, and /topmoney is formatted; In terms with display.
 - Changed the way /seetokens, /mytokens, and /tokentop is formatted; In terms with display.
+- We’ve changed the way unbanning, unmuting, and removing warns on a player works.
+- Unbanning a player using /pardon, or /pardon-ip no longer broadcasts to the server. Only to the sender.
+- Unbanning using /pardon or /pardon-ip now broadcasts the logs in <#700688869485707276> along with the reason of the unban. Reasons can have spaces in them without requiring “”.
+- Unmuting using /unmute now broadcasts the logs in <#700688869485707276> along with the reason of the unmute. Reasons can have spaces in them without requiring “”.
+- Unmuting a player using /unmute no longer broadcasts it to the server. Only to the sender.
+- Unwarning a player using /removewarn now has warn points you can take off a specific player. The real usage is now: /removewarn <player> <warn points> <reason>
+- Unwarning a player now has a reason section you need to fill out, which then broadcasts it to <#700688869485707276>.
+- Fixed warns from not broadcasting properly in <#700688869485707276>.
+
+**Why did you update this?**
+I’ve decided to update this to better our security system. For example, before; /pardon-ip would broadcast to the server. This was very wrong in doing so due to the ip being broadcasted to the server. That’s very poor security if we were to continue doing this, and would be bad for our server’s reputation.
