@@ -497,3 +497,8 @@ I’ve decided to update this to better our security system. For example, before
 - Fixed multiple crashes when leaving the game and the Auto generators are still continuing.
 - Fixed crash when unloading chunks that have chests included in them.
 - Added Chat Rewards - Chat to earn money! This includes a leveling-up system when chatting. With chatting, you can gain "Chat XP", which is used to levelup automatically.
+- Fixed crash upon ranking up to the max prestige.
+- Added /coinflip - Replacing this from /jackpot. Jackpot is being removed due to issues raised to do with this. /jackpot will be replaced with /coinflip.
+- Fixed crash upon form UI confirmation.
+- Fixed bug, where the form would send to the player that had put a coinflip up using /cf add, instead of the sender (the user that used /cf list).
+- Fixed bug, where /cf cancel would bring up internal server errors when the coinflip was never used.
