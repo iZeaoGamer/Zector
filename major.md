@@ -475,3 +475,25 @@ Well, Prestige information will be shown to you once you've ranked up to Z mine.
 
 **Why did you update this?**
 I’ve decided to update this to better our security system. For example, before; /pardon-ip would broadcast to the server. This was very wrong in doing so due to the ip being broadcasted to the server. That’s very poor security if we were to continue doing this, and would be bad for our server’s reputation.
+
+
+- Looting and Fortune enchantments now work as expected.
+- Fixed Unban, and Unwarn commands from receiving the wrong reasons.
+- Completely recoded Spawner stacking + Mobs stacking!
+- Reformatted colors with nametags for Mobs that stack.
+- Fixed /shop from not being able to buy and sell multiple amounts. This would lead to internal server errors.
+- Fixed looting with the new Mobs stacking system.
+- Added the following new spawners:
+* Spiders
+* Pigs
+* Iron Golems
+* Blaze
+* Cows
+
+- Iron Golems now drop Nether star as well!
+- Changed the way stacking a mob spawner works - You now need to interact with the current spawner for it to stack, instead of placing the spawner near the other one. This is to prevent buggy spawners not stacking as well as they should. The more they stack, the more that'll spawn.
+- Fixed a major dupe glitch with Auto Generators - It may still display duped items, but it's not actually in your inventory; Just a visual glitch!
+- Fixed crash when placing Auto generators, and the chest.
+- Fixed multiple crashes when leaving the game and the Auto generators are still continuing.
+- Fixed crash when unloading chunks that have chests included in them.
+- Added Chat Rewards - Chat to earn money! This includes a leveling-up system when chatting. With chatting, you can gain "Chat XP", which is used to levelup automatically.
