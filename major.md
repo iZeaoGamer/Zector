@@ -502,3 +502,24 @@ I’ve decided to update this to better our security system. For example, before
 - Fixed crash upon form UI confirmation.
 - Fixed bug, where the form would send to the player that had put a coinflip up using /cf add, instead of the sender (the user that used /cf list).
 - Fixed bug, where /cf cancel would bring up internal server errors when the coinflip was never used.
+- Fixed fireworks deactivating for everyone even if you were the only person that originally activated them. (DOUBLEFIX)
+/tpa, /tpdeny, /tpaccept, and /tpahere can no longer be used in Mines, and prestige mines. This is to prevent cheating.
+- Added Blocked-commands for certain worlds.
+- Fixed bypasses to blocked commands.
+- Fixed koth respawn positions issue.
+- When you die during a koth game, it’ll now teleport you to the koth warp.
+- Fixed internal server errors when using commands.
+- Fixed wrongful blocked messages from worlds that didn’t have blocked commands in them.
+- Added bosses - The proper way.
+- Added abilities to Spider boss.
+- Added a respawn timer for Zombie boss to be every 30 minutes.
+- Added rewards to Bosses. How they work?:
+* When a player get’s the most damage from the boss, they will receive more rewards. Everyone else that damages the boss only get’s one reward.
+- Added trap to spider boss that doesn’t last long.
+- Fixed internal server error upon killing zombie boss.
+- Spider is now the best and OP boss, along with better rewards.
+- Fixed crash upon auto boss spawn.
+- Bosses will now spawn in the PvPMine.
+- Retexted messages.
+- Traps for Spider boss now has a chance of activating.
+- You can now only spawn one boss at a time.
