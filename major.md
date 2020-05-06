@@ -3,8 +3,7 @@
 
 # Welcome to another brand new version: v12.0. This update brings out so many bug fixes, improvements, and implements so many new CE's that will bring your game experience into joy!
 # We've also added MCMMO which no other servers have. We've also introduced Acrobatics, and level-up game experiences that you will love and enjoy.
-# This update also releases a recode with /enchant and how it enchants the item; Now, it will see the isVanilla() tag (which never happened before), and will detect whether or not the enchant is vanilla. We've cleaned-up enchantItem() function, and implemented isVanilla() tag which will do two actions. 1. If isVanilla() is true, it'll enchant using pocketmine's default enchant functions. If isVanilla() is false, it'll automatically use custom enchant's methods of enchanting.
-# Yes, this fixes some CE's if not most from not working properly, such as: Glowing, and some others which were originally reported to not work, which have now been fixed.
+# This major update also brings out combination between Factions and Prisons, which makes i Hybrid S1.
 # We've also added new PvPMine and Spawn.
 # And so much more! The update is endless! This update actually changes everything, and for the better too.
 
@@ -20,7 +19,6 @@ Removed the following functions:
 setPickaxeLevels(), setGrayColor(), setAquaColor(), setDarkGrayColor(), setGoldColor(), setGreenColor(), setEXP(), setEXPLevel(), setBlocksMinedBeforeReset(), setBlocksMined(), getTempSellBooster(), addTempSellBooster(), hasGrayColor(), hasAquaColor(), hasDarkGrayColor(), hasGoldColor(), hasGreenColor().
 - Fixed crash upon break.
 - Fixed crash upon player join.
-- Added back Cells - WIP.
 - Removed Plots.
 - Fixed crash upon opening MonthlyCrates.
 - Fixed crash upon receiving Temp Sell Boosters (If full on inventory).
@@ -31,13 +29,6 @@ setPickaxeLevels(), setGrayColor(), setAquaColor(), setDarkGrayColor(), setGoldC
 - Fixed crash upon auto selling items due to our newest API Update.
 - Fixed crash when breaking blocks and you've upgraded to the next Pickaxe Levels - This bug was introduced due to our newest API Update.
 - Added MCMMO Tokens! You can receive them from crates including monthly crate, and in there contains certain MCMMO Levels for certain types of MCMMO.
-- Fixed crash upon inviting yourself to the gang.
-- Fixed crash upon demoting yourself from the gang.
-- Fixed crash upon promoting yourself from the gang.
-- Fixed crash upon inviting other players from the gang when they're offline.
-- You can now promote offline players if they're in your gang.
-- You can now demote offline players if they're in your gang.
-- You can now kick offline players if they're in your gang. (/g kick)
 - Fixed conflicts between MCMMO Tokens and Class Transfer Orb items.
 - Fixed crash when receiving the MCMMO Tokens!
 - Fixed Renaming your item not displaying Custom enchants properly when using /rr.
@@ -227,14 +218,6 @@ B. Be less than the current enchantment level, since then you'll be wasting more
 - Recoded how /enchant stores data - Instead of retrieving Player data using its player.yml file, it'll now create a new file called "data.yml". This will offer: Player name, Enchant name, and Total cost. This is all stored in the data.yml file, and this is also apart of the S7 data recode update.
 - Fixed a bug, where removing all of the enchantments from /enchant would still show up as enchanted within your item. This bug was introduced back in S5, and should've been fixed in S6, but for some reason, the new update removed it. :think: . Though, this fix should be re-added, and ready for S7 of OP Prisons.
 - Fixed enchant data not being stored properly.
-- Cells 2.0 brings in the most requested feature - A cell in the void, instead of in a flat or normal world. Yes, this has now been added because cells were right next to each other. Well, Cells 2.0 offers Cells in the void. There are so much new commands you can use to level-up your advantage, including:
-* /cell top.
-* Add a player to your cell.
-* Kick, and Ban players from your cell.
-* Name your cell by typing /cell name <name>
-* Fly in your cell! Just by typing /cell fly.
-* And so much more!
-  
 - We’ve been working on adding even more CE’s. In today’s update, I’ve added atleast 12 new Custom enchants that will more-benefit the server, and make the game more enjoyable. Here are the following new CE’s we’ve introduced, the descriptions of each of them, max levels, and the type of item this can be allocated on;
 * Nimble - Increases mcMMO XP gained in Acrobatics while equipped. Max: 5. Type: Boots
 * Skilling - Increases mcMMO XP gained in all GATHERING skills while equipped. Max: 10 Type: Weapons and tools.
@@ -263,7 +246,7 @@ Mob Killer enchants is useful for when killing mobs at spawn. You’ll be able t
 getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This is simply because it was too buggy to handle.
 - Restart Timer is now configurable.
 - Restart Timer now relies on minutes, not seconds.
-- Fixed a bug, where Restart Timer would be buggy, and wouldn't always restart as it should do. (Untested)
+- Fixed a bug, where Restart Timer would be buggy, and wouldn't always restart as it should do. 
 - Broadcast announcements for restarting is now more better, and easier understandable. Example: 2 minutes till restart would broadcast instead of 2:00. This was sometimes very confusing as to what it meant, so we've decided to add this change for the better as well.
 - Fixed slowness being too OP on Sloth.
 - Fixed slowness being too OP on Paralyse
@@ -271,9 +254,9 @@ getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This
 - LifeSteal now has 1% per level chance of activation.
 - Wither now has 1% per level chance of activation.
 - Poison now has a 1% per level chance of activation.
-- Fixed crash caused by OverLord and max health. (Untested)
-- Lightning now activates on players, rather than on blocks. (Untested)
-- Lethal now activates on players, rather than on blocks. (Untested)
+- Fixed crash caused by OverLord and max health.
+- Lightning now activates on players, rather than on blocks.
+- Lethal now activates on players, rather than on blocks.
 - Hallucination now has a 1% per level chance of activation.
 - Fixed Godly OverLord dupe glitch, where hearts would endlessly regain health without any max health limits.
 - Godly OverLord now requires OverLord 3+ to activate.
@@ -301,9 +284,6 @@ getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This
 - Added a functional working cooldown notifications! (Will add cooldown error in the future).
 - Finally added Cooldown Error messages with MCMMO.
 - You'll now be able to know how long until you're able to use the ability again for MCMMO.
-- Added /jackpot to the server!
-- Added /jackpot current - Opens a UI with all the information you need to know about this draw.
-- Added /jackpot buy <amount> - Buys the amount of tickets you specified.
 - FireWorks with MCMMO now works as expected! No more unexpected bugs!
 - Fixed an issue, where fireworks wouldn't activate if one ability is already enabled during that time.
 - Fixed Archery not working once again.
@@ -331,13 +311,7 @@ Contrabands, is essentially lootboxes, but as a different name. It offers the sp
 - Added a error message when enabling both auto sell options in /autosell.
 - Added a "Updating Auto Sell Settings" message.
 - Added a "Saved Auto Sell Settings Message".
-- Added /cells upgrade - Allows you to Upgrade your cells! Thanks for the suggestion, @EST Tivercey!
-- You can now use two currencies for /cells upgrade. Tokens, and Money.
-- Fixed /cells upgrade from causing internal server errors.
-- Increasement is now unlimited. Whatever you add to the increasement bar, is adding onto the increased cell, rather than setting it as that.
-- Added rank transfers! Simply type /fixrank to correct your rank. - In beta.
-- All cells are now in the same world, rather than recreating worlds, thus causing TPS or server lag.
-- Added Tokens Notes, and Bank Notes (Money Notes) to OP Prisons S7!
+- Added Tokens Notes, and Bank Notes (Money Notes) to Hybrid S1
 - Fixed OverLord from crashing the server whilst logging out during combat. (Same goes with GodlyOverLord).
 - Fixed GodlyOverLord crash upon player join (After player has left the server whilst in combat, and joins back again).
 - Fixed Custom enchantments not working when opening Contrabands. This would happen most likely because Contrabands plugin was sometimes loading before the Custom enchants plugin was, leading to this error because it didn't notice a change between the enabling state.
@@ -469,7 +443,7 @@ Well, Prestige information will be shown to you once you've ranked up to Z mine.
 - Unbanning using /pardon or /pardon-ip now broadcasts the logs in <#700688869485707276> along with the reason of the unban. Reasons can have spaces in them without requiring “”.
 - Unmuting using /unmute now broadcasts the logs in <#700688869485707276> along with the reason of the unmute. Reasons can have spaces in them without requiring “”.
 - Unmuting a player using /unmute no longer broadcasts it to the server. Only to the sender.
-- Unwarning a player using /removewarn now has warn points you can take off a specific player. The real usage is now: /removewarn <player> <warn points> <reason>
+- Unwarning a player using /removewarn now has warn points you can take off a specific player. The real usage is now: /removewarn [player] [warn points] [reason]
 - Unwarning a player now has a reason section you need to fill out, which then broadcasts it to <#700688869485707276>.
 - Fixed warns from not broadcasting properly in <#700688869485707276>.
 
