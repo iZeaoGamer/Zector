@@ -497,3 +497,16 @@ I’ve decided to update this to better our security system. For example, before
 - Retexted messages.
 - Traps for Spider boss now has a chance of activating.
 - You can now only spawn one boss at a time.
+- Added Sell Wands.
+- Added Sell Wands rewards to Spider Boss.
+- You can now interact with a chest using a diamond hoe to sell contents inside of a chest. (Yes, Sell wands is what I'm referring to. ;P)
+- Fixed crash upon using sell wand.
+- Completely recoded envoys 2.0!
+- Added multiworld support. This means Envoys should no longer locate in a world that it shouldn't be in. Example: The envoys should spawn in the wild. If multiworld support wasn't enabled with this, then envoys would locate to worlds that shouldn't even be located at, because Envoys spawn in one world. - In other words, envoys used to spawn in different worlds if the position is the same as each other's. When it shouldn't do that.
+- Rebranded rewards along with chances system + Stable and Smooth chance system.
+- Removed /envoy to teleport to the envoys spawn position, and added /envoys, where you can select a list of envoys and their positions so you can go and find them.
+- Envoy Rewards are now fully set up and ready to work. 😄
+- Added Koth rewards
+- Completely recoded Teleportation timer when teleporting to certain warps.
+- You can now move whilst teleporting. The cache is if you move from 3 blocks within your original position when you originally executed the command, it'll cancel your teleportation.
+- Fixed N Mine from not being able to be teleported to if you're above N mine.
