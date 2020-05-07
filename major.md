@@ -518,3 +518,15 @@ I’ve decided to update this to better our security system. For example, before
 - Added Mining rewards, better than ever!
 - Instead of giving them the keys directly, it'll now come up in a "Crate key note" whilst mining. You can use that to claim a certain key depending on which one it states in the note.
 - You will now be teleported to our newest spawn on teleportation when you join the server.
+- Completely recoded Bosses, and how they’re made.
+- Removed Zombie and spiders entity types as bosses, and implemented it as its own Entity type.
+- Added human skins for both bosses.
+- You can now use a spawn egg to spawn a boss in - Basically bringing back the Spawning machanic.
+- Fixed internal server error upon interaction.
+- Fixed constant errors popping up.
+- Fixed crash upon killing Zombie boss.
+- Bosses no longer conflict with mobs.
+- Fixed crash upon zombie and spider kill.
+- Bosses deal more damage to you than they did before.
+- Added new broadcast message for placing a spawn egg in PvP Mine.
+- Corrected for Auto boss spawn; display /boss instead of /pvpmine, since that’s not a command.
