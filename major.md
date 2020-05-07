@@ -517,3 +517,4 @@ I’ve decided to update this to better our security system. For example, before
 - There is now a 0.01% chance of gaining Generators (Depending on which block you mine at the time). So say if I was mining emerald blocks, I could get a Emerald generator. Thanks to @CST Zach Games YT for this suggestion!
 - Added Mining rewards, better than ever!
 - Instead of giving them the keys directly, it'll now come up in a "Crate key note" whilst mining. You can use that to claim a certain key depending on which one it states in the note.
+- You will now be teleported to our newest spawn on teleportation when you join the server.
