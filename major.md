@@ -514,6 +514,6 @@ I’ve decided to update this to better our security system. For example, before
 - Crates can now be instantly opened.
 - We've revamped the contents of MonthlyCrates, and what you can receive from them. Another thing done on the todolist. Get hyped everyone! We're almost there!!
 - Added bosses to Legendary crates. (Specifically Spider boss).
-- There is now a 0.01% chance of gaining Generators (Depending on which block you mine at the time). So say if I was mining emerald blocks, I could get a Emerald generator.
+- There is now a 0.01% chance of gaining Generators (Depending on which block you mine at the time). So say if I was mining emerald blocks, I could get a Emerald generator. Thanks to @CST Zach Games YT for this suggestion!
 - Added Mining rewards, better than ever!
 - Instead of giving them the keys directly, it'll now come up in a "Crate key note" whilst mining. You can use that to claim a certain key depending on which one it states in the note.
