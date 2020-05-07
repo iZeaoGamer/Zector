@@ -510,3 +510,10 @@ I’ve decided to update this to better our security system. For example, before
 - Completely recoded Teleportation timer when teleporting to certain warps.
 - You can now move whilst teleporting. The cache is if you move from 3 blocks within your original position when you originally executed the command, it'll cancel your teleportation.
 - Fixed N Mine from not being able to be teleported to if you're above N mine.
+- Added crates, completely redesigned to how they work! - Done, and will be updated on the todolist LIVE.
+- Crates can now be instantly opened.
+- We've revamped the contents of MonthlyCrates, and what you can receive from them. Another thing done on the todolist. Get hyped everyone! We're almost there!!
+- Added bosses to Legendary crates. (Specifically Spider boss).
+- There is now a 0.01% chance of gaining Generators (Depending on which block you mine at the time). So say if I was mining emerald blocks, I could get a Emerald generator.
+- Added Mining rewards, better than ever!
+- Instead of giving them the keys directly, it'll now come up in a "Crate key note" whilst mining. You can use that to claim a certain key depending on which one it states in the note.
