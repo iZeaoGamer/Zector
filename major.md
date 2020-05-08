@@ -538,3 +538,24 @@ I’ve decided to update this to better our security system. For example, before
 - Fixed crash upon Bleed enchant, and using it on Zombie boss.
 - Fixed bug, where teleporting to locations would get rid of your effects within the class. It now activates forever, unless you change your class mid season.
 - Modified properties to make bosses less OP, as in attack damage, and in general; Better to battle.
+- Added Quests 2.0 recode.
+- Added /quests - Which implements Quests shop, where you can buy items using Quests points. You can gain Quests points by doing daily quests. The quests update all the time, so you can do different quests whenever.
+
+- Added Drops pouch - If you kill a player, the player will drop a Drops pouch. You can tap anywhere to redeem their stuff they originally dropped.
+- Added Custom death messages.
+
+- Added WorldBorder 2.0 recode. - Mark as complete in the todolist. Not much further to go now before Closed beta. ;D
+- Fixed being stuck in the world border. You should no longer get this issue. ;D
+- WorldBorder only affects the factions world.
+- Added ExcavationMine warp in /mines.
+- Brand new messages added to WorldBorder.
+- Added ClearLag 2.0 recode.
+- Removed more useless plugins.
+- Fixed Zombie boss from being able to be spawned even if a boss has already been spawned in the area.
+- Clear Lag no longer clears bosses.
+- Fixed being able to receive Legendary keys for free in /quests.
+
+- Fixed crash upon enabling server.
+- Added an error message for if the enchantment ID is not found in the Custom enchantments data. If you get an error like this, as an example: "Failed to enchant. Reason: The ID 392 no longer exists on the database. Please send this ID 392 To Zeao on discord so he can take a look and fix it."
+then this means the enchant you're trying to enchant doesn't exist. This prevents internal server errors, not knowing the cause of the problem. If you get an ID 392, then that means there was/is an id in the database 392, but it doesn't exist in any of the enchants data. If you get an error like it says above, please DM me, so I can resolve it. Since some IDS may have had a typo added to it. The good thing about this new erroring system, is it won't take away your enchant book if you do get an error like this, so you can go along with your day, report the bug, and hopefully it'll be fixed ASAP.
+This is a much better way of handling errors than receiving "Internal server errors". More within this system will be implemented to all of our plugins in the upcoming updates This would only occur if an instanceof wasn't found, or if a check wasn't added, to where the error would come in. Errors such as: Undefined variable, or other undefined issues, will not be able to be fixed within the new erroring system.
