@@ -537,3 +537,4 @@ I’ve decided to update this to better our security system. For example, before
 - Added some safety checks to ensure server crashes do not happen.
 - Fixed crash upon Bleed enchant, and using it on Zombie boss.
 - Fixed bug, where teleporting to locations would get rid of your effects within the class. It now activates forever, unless you change your class mid season.
+- Modified properties to make bosses less OP, as in attack damage, and in general; Better to battle.
