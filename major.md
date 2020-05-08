@@ -561,3 +561,6 @@ then this means the enchant you're trying to enchant doesn't exist. This prevent
 This is a much better way of handling errors than receiving "Internal server errors". More within this system will be implemented to all of our plugins in the upcoming updates This would only occur if an instanceof wasn't found, or if a check wasn't added, to where the error would come in. Errors such as: Undefined variable, or other undefined issues, will not be able to be fixed within the new erroring system.
 - Add knockback to players when they try to interact with a crate that they can’t use because of an error.
 - Added new error message: “You do not have a crate->getName() key”.
+- Fixed kills from resetting.
+- Fixed Quest points from resetting.
+- Fixed LuckyBlocks from resetting.
