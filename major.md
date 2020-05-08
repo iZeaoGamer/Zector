@@ -3,7 +3,7 @@
 
 # Welcome to another brand new version: v12.0. This update brings out so many bug fixes, improvements, and implements so many new CE's that will bring your game experience into joy!
 # We've also added MCMMO which no other servers have. We've also introduced Acrobatics, and level-up game experiences that you will love and enjoy.
-# This major update also brings out combination between Factions and Prisons, which makes i Hybrid S1.
+# This major update also brings out combination between Factions and Prisons, which makes Hybrid S1.
 # We've also added new PvPMine and Spawn.
 # And so much more! The update is endless! This update actually changes everything, and for the better too.
 
