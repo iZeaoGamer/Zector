@@ -530,3 +530,10 @@ I’ve decided to update this to better our security system. For example, before
 - Bosses deal more damage to you than they did before.
 - Added new broadcast message for placing a spawn egg in PvP Mine.
 - Corrected for Auto boss spawn; display /boss instead of /pvpmine, since that’s not a command.
+- Fixed crash upon join and instant leave. This could occurr when things such as Internal server errors upon join occurred, leading to the crash. This can also occurr if you’re trying to abuse a glitch or a bug.
+- Added wild 2.0 recode!
+- Fixed crash upon /wild teleportation.
+- Fixed bug, where after teleported is success, it’ll keep saying “Failed to teleport”.
+- Added some safety checks to ensure server crashes do not happen.
+- Fixed crash upon Bleed enchant, and using it on Zombie boss.
+- Fixed bug, where teleporting to locations would get rid of your effects within the class. It now activates forever, unless you change your class mid season.
