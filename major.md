@@ -566,3 +566,4 @@ This is a much better way of handling errors than receiving "Internal server err
 - Fixed LuckyBlocks from resetting.
 - Added /ce remove - Allows you to remove a custom enchantment from your item.
 - Removed /enchant. This is because we don't need this system anymore, and future enchantment holders can be displayed in the Enchantment Table form UI (Which will be added tomorrow hopefully). (Vanilla enchants)
+- Added Dragon eggs and Beacons to /f value.
