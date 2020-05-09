@@ -567,3 +567,17 @@ This is a much better way of handling errors than receiving "Internal server err
 - Added /ce remove - Allows you to remove a custom enchantment from your item.
 - Removed /enchant. This is because we don't need this system anymore, and future enchantment holders can be displayed in the Enchantment Table form UI (Which will be added tomorrow hopefully). (Vanilla enchants)
 - Added Dragon eggs and Beacons to /f value.
+- Added Enchantment table functionality (Using form UI’s)
+- Fixed not having a specific key error from always stating legendary key even if you never interacted with Legendary crate.
+- Updated some mines that had LuckyBlocks in them to make LuckyBlocks work again.
+- Added Golden apples + Enchanted golden apples cooldown 2.0 recode.
+- Added: Bows, Arrows, and Enchanted golden apples to Kits.
+
+## NOTE
+There isn't much enchanted golden apples in kits whatsoever. It's just a small boost for those wanting them. It isn't much compared to how much we could've added.
+
+- Added new WorldGuard flag: bosses - This flag will allow the operators to edit whether or not Bosses should be enabled in this region.
+- Fixed bosses from being able to be spawned in PvP Mine Spawn.
+- Fixed PvP being enabled in PvP Mine spawn.
+- Reorganised checks from first to last - This is because some checks whilst in the wild didn't work out properly, so we had to reorganize the checks of spawning bosses.
+- You can now receive Bosses from Godly Contraband, and crates - Though, receiving them from Crates is very rare, atleast 3% chance of receiving it.
