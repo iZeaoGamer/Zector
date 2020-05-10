@@ -581,3 +581,13 @@ There isn't much enchanted golden apples in kits whatsoever. It's just a small b
 - Fixed PvP being enabled in PvP Mine spawn.
 - Reorganised checks from first to last - This is because some checks whilst in the wild didn't work out properly, so we had to reorganize the checks of spawning bosses.
 - You can now receive Bosses from Godly Contraband, and crates - Though, receiving them from Crates is very rare, atleast 3% chance of receiving it.
+- Fixed LuckyBlocks from teleporting you to the wild if you have bad luck. It'll now teleport you to spawn (if you have bad luck, and had this chance of teleporting).
+- Fixed Kits not working from luckyblocks, and receiving the "No permission error".
+- Fixed Kits not working from LuckyBlocks, and receiving the "Not enough money" error.
+- Fixed internal server error upon player kill.
+- Fixed players not being able to break blocks in A Mine.
+- Added new boss: Witch. The boss can only be obtainable in Contrabands, or from the store.
+- Added more rewards to Spider and Witch bosses.
+- Zombie boss is now more OP. This is because Zombies are not obtainable. They are only activated via automatic spawning.
+- Fixed typo mistake with sell boosters - permanent instead of parmanate.
+- Fixed being able to spawn Witch bosses when there is already a boss in the PvP Mine.
