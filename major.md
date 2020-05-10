@@ -591,3 +591,21 @@ There isn't much enchanted golden apples in kits whatsoever. It's just a small b
 - Zombie boss is now more OP. This is because Zombies are not obtainable. They are only activated via automatic spawning.
 - Fixed typo mistake with sell boosters - permanent instead of parmanate.
 - Fixed being able to spawn Witch bosses when there is already a boss in the PvP Mine.
+- Added more awesome rewards for winning a Koth game.
+- Added more Koth compatibilities for Factions plugins.
+- Players in your faction can now receive rewards for winning a koth game automatically - It'll detect whether or not you're in the same faction as one another. If so, it'll give the players in your faction the same rewards as the person that won a koth game. (Untested)
+- Revamped Sell Booster timer completely! Whoopee!
+- Sell Booster timer now works even if you're offline. For example,
+* Before; When you activate the booster, and you go offline, the sell booster timer wouldn't go down if offline, thus abusing the sell booster timer system by just being offline. Dumb I know. Lmao.
+* Now; When you activate the booster, and you go offline, the sell booster will still work no matter if you're online or offline. That way, boosters don't stop counting down no matter what. ;D
+
+- Revamped Broadcasting system if a player wins the koth game, and added rewards they had got, just like how the Bosses system works, but less OP.
+- Fixed {line} variable showing up when receiving the booster item.
+- Added a recode with timer - Live on your screen, it's less big, and has small details such as:
+*Amount
+* Duration.
+
+- The duration text is no longer big and massive on the screen, it just counts down the seconds.
+- Reverted compatibility koth systems with factions (As in fully). This is due to unexpected bugs, and abuse with it.
+- Changed chest kit ID’s to Minecart chest.
+- Kits now stack.
