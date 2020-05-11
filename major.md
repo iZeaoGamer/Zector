@@ -609,3 +609,29 @@ There isn't much enchanted golden apples in kits whatsoever. It's just a small b
 - Reverted compatibility koth systems with factions (As in fully). This is due to unexpected bugs, and abuse with it.
 - Changed chest kit ID’s to Minecart chest.
 - Kits now stack.
+- Fixed bug, where kits wouldn't be moveable if more than one is onto each other. This is due to the Minecart chest id being buggy.
+- Reverted kit id to a Chest for better stacking compatibility.
+- Changed Enchanted golden apples cooldown to 25 seconds.
+- Fixed Zombie spawning broadcast from not appearing in color text.
+- Equipping a kit now sends you a title, and a message regarding so - Thus leading to a more compatibility with Kits in the future.
+- You can now break blocks in mines, but not place blocks. This is because you're not meant to place blocks in mines; The mines are there for breaking, not placing. Hence why you have /wild. So you can place things such as LuckyBlocks, or if you wanted to build a base, etc. Mines are for mining, and ranking up.
+- Explosions are now disabled in mines. This is because of explosions within the outside of the mines if on the inside. We may fix this in the future.
+- Added Chunked hoppers to Hybrid S1. How it works?:
+You can drop an item near a hopper, and it'll suck it into the nearest hopper.
+- Added Bedrock and Obsidian Breaker 2.0 to Hybrid S1.
+- Bedrock and Obsidian will only start to break from TNT if in a faction claim.
+- TNT will now only explode if in a faction claim.
+- Fixed /f claim from not working as expected.
+- Fixed /f admin addstrength from giving wrong arguments.
+- Added Entity limiter system. How this works?
+If the entity count total in a world is above 250, then entities that are causing lag will start to clear - This should prevent lag a bit from occurring. Yes, lag may still be upon us, but it will try to clear the entities on the ground, rather than leaving them there.
+- Fixed crash upon lightning TNT.
+- Removed Item stacker.
+- Added "Item display" feature, where the dropped item will display, but even better. ;D
+- Added Anti void system. How this works?
+If you're going into the void in the wildness, bedrock will spawn below your feet, preventing you from falling.
+- Fixed crash on Lazy and Experienced CE.
+- Fixed crash on /f claim.
+- Claim message now appears properly when claiming a plot.
+- Fixed /f claim from becoming free.
+- Removed Flint and steel cooldown with TNT.
