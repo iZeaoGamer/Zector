@@ -648,3 +648,7 @@ If you're going into the void in the wildness, bedrock will spawn below your fee
 - /home now has a delay before teleportation, just like any other warps.
 - Blocked commands can no longer be executed in Donator mines.
 - Using /warp <name> or tapping an NPC no longer requires you to wait before teleportation is successful.
+- Added back Wood Mine finally! Just type /mines, then select Free mines. It'll be in there as always, and it isn't griefed too! ;D
+- ExcavationMine will now teleport you to the appropriate warp (Its own mine warp) when mine resets. Same goes with Wood Mine too.
+- Removed Plots from /mines - Not sure why that was still there, lol.
+- Fixed not being able to use Warp settings in /mines.
