@@ -636,3 +636,11 @@ If you're going into the void in the wildness, bedrock will spawn below your fee
 - Fixed /f claim from becoming free.
 - Removed Flint and steel cooldown with TNT.
 - /cords now displays the coordinates on your screen.
+- Fixed Regions updating issue.
+- You no longer have to move for the regions to update. This means bugs such as PvP being enabled in regions for a second if you don't move, will now be fixed, and bypasses within the regions are fixed.
+- Fixed being able to receive keys even if AutoSell was not yet generated within the user.
+- Fixed activation of tool enchantments when in a protected area.
+- Fixed activation of KeyPlus even if in a protected area.
+- Fixed crash when using KeyPlus.
+- You will no longer be able to receive keys when in a protected area, or an area where you cannot break blocks.
+- Fixed autosell allowing you to break blocks when the user hasn't yet enabled it.
