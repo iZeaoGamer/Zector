@@ -644,3 +644,7 @@ If you're going into the void in the wildness, bedrock will spawn below your fee
 - Fixed crash when using KeyPlus.
 - You will no longer be able to receive keys when in a protected area, or an area where you cannot break blocks.
 - Fixed autosell allowing you to break blocks when the user hasn't yet enabled it.
+- Added back /home.
+- /home now has a delay before teleportation, just like any other warps.
+- Blocked commands can no longer be executed in Donator mines.
+- Using /warp <name> or tapping an NPC no longer requires you to wait before teleportation is successful.
