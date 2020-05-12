@@ -652,3 +652,11 @@ If you're going into the void in the wildness, bedrock will spawn below your fee
 - ExcavationMine will now teleport you to the appropriate warp (Its own mine warp) when mine resets. Same goes with Wood Mine too.
 - Removed Plots from /mines - Not sure why that was still there, lol.
 - Fixed not being able to use Warp settings in /mines.
+- Fixed crash upon leaving the game whilst killing bosses - Finally, this has been fixed. No more crashes to do with Bosses. ;D
+- Removed teleportation to spawn if you get bad luck.
+- Fixed respawn menu from not being clickable.
+- Boss will now always aim towards someone nonetheless, instead of the broken boss AI upon spawning.
+- Fixed crash upon Experienced CE.
+- Refactored colors for Generators to make it more original. Thanks <@!494527249987665923>.
+- /shop no longer requires permissions to buy certain things from /shop.
+- Updated Generators API to make it compatible with the newest colors.
