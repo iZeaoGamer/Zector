@@ -277,7 +277,7 @@ getRestartTimer(), getEarlyTimer(), setRestartTimer(), and setEarlyTimer(). This
 
 - Added Fireworks upon activation and deactivation of your MCMMO.
 - Fixed Archery MCMMO from not working. Now it does!
-- Fixed disarming from not working as expected when using Unarmed MCMMO. (Untested)
+- Fixed disarming from not working as expected when using Unarmed MCMMO.
 - Added new functions for fireworks.
 - Added explosions to fireworks upon activation / deactivation of MCMMO.
 - Fixed fireworks not working upon activation / deactivation of MCMMO.
@@ -397,9 +397,6 @@ Here are the following new Custom enchantments we've added to Hybrid S1:
 * Stun: Have a chance to stun your opponent. Max: 5 Rarity: Godly Type: Weapons
 * Velocity: Increase the speed of your arrow and make it travel straighter. Max: 5 Rarity: Legendary. Type: Bows
 
-**NOTE**
-Those custom enchantments have been currently untested, so bugs may occur with this.
-
 - You now have a rare chance of receiving Emerald Ore generator when mining stone.
 - Rebranded Auto restarting system.
 - Allow full formats (includes hours, minutes, and seconds display text).
@@ -408,8 +405,6 @@ Those custom enchantments have been currently untested, so bugs may occur with t
 - Fixed crash upon using JackPot Custom enchant.
 - Fixed TNT from crashing the server when bad luck happens. (Upon spawning TNT).
 - Fixed crash for TNT.
-- Fixed TNT not exploding blocks, and it'll only damage players.
-- Blocks will now automatically direct to your inventory upon explosion. This is to prevent server crashes, and lag with the server.
 - Fixed crash upon Item stacking.
 - Having a full Inventory will no longer allow you to break blocks until you clear your inventory.
 - Brand new colors when having a full inventory.
@@ -436,7 +431,7 @@ Well, Prestige information will be shown to you once you've ranked up to Z mine.
 
 - The new money reformatting update has been added to scoreboards.
 - The new Tokens reformatting update has been added to scoreboards.
-- Changed the way: /seenmoney, /mymoney, and /topmoney is formatted; In terms with display.
+- Changed the way: /seemoney, /mymoney, and /topmoney is formatted; In terms with display.
 - Changed the way /seetokens, /mytokens, and /tokentop is formatted; In terms with display.
 - We’ve changed the way unbanning, unmuting, and removing warns on a player works.
 - Unbanning a player using /pardon, or /pardon-ip no longer broadcasts to the server. Only to the sender.
@@ -477,7 +472,7 @@ I’ve decided to update this to better our security system. For example, before
 - Fixed bug, where the form would send to the player that had put a coinflip up using /cf add, instead of the sender (the user that used /cf list).
 - Fixed bug, where /cf cancel would bring up internal server errors when the coinflip was never used.
 - Fixed fireworks deactivating for everyone even if you were the only person that originally activated them. (DOUBLEFIX)
-/tpa, /tpdeny, /tpaccept, and /tpahere can no longer be used in Mines, and prestige mines. This is to prevent cheating.
+/tpa, /tpdeny, /tpaccept, and /tpahere can no longer be used in Mines and prestige mines. This is to prevent cheating.
 - Added Blocked-commands for certain worlds.
 - Fixed bypasses to blocked commands.
 - Fixed koth respawn positions issue.
