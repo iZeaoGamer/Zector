@@ -635,3 +635,4 @@ If you're going into the void in the wildness, bedrock will spawn below your fee
 - Claim message now appears properly when claiming a plot.
 - Fixed /f claim from becoming free.
 - Removed Flint and steel cooldown with TNT.
+- /cords now displays the coordinates on your screen.
