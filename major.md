@@ -690,3 +690,5 @@ When the server is full, a donator can join when the server's full. It's more be
 - Removed Driller CE, and added new CE: Slaughter. Info: Deals more damage to bosses. Max: 10. Rarity: Godly.
 - Fixed crash upon receiving generators from mining.
 - Fixed crash upon completing PvP Related quests.
+- Added back /enchant, but for vanilla enchantments only.
+- Fixed crash upon Fire aspect.
