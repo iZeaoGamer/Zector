@@ -665,3 +665,24 @@ When the server is full, a donator can join when the server's full. It's more be
 - Added new function: getFireWorksConstant(), which leads to the FireWorks Constant class for future use.
 - Use closuretask for onEnable() state for a more stability.
 - Fixed crash upon firework display.
+- Fixed crash upon ability refreshed.
+- Upgraded VoteParty rewards.
+- VoteParty no longer relies on a countdown; It's now instant.
+- Removed a bunch of useless voteparty code that was getting too long.
+- If VoteParty reaches to zero votes left, it'll go straight back up to 150 votes.
+- It'll now start counting down from 150 and downwards, rather than upwards.
+- Changed up the scoreboard VoteParty status.
+- Removed /50 signal, and made it so it only shows how much votes left before Vote Party begins via scoreboard.
+- Fixed /vote voteparty from being able to bypass the vote status, and it'll start to countdown; This bug could've been abused if we didn't fix this sooner.
+- VoteParty rewards are now a lot better. Here's the following rewards you could get when vote party has begun:
+* Sell Wand - 20 Uses
+* LuckyBlocks - 60% lucky.
+* XPNote - From 10 - 100.
+* Money Notes - From $1,000 to $100,000.
+* Token Notes - From 100 - 1,000.
+* Random enchantment book - From Common to Godly.
+* Kit Note - Within any kit.
+* Crate Key Note - From Common to Legendary.
+* Enchanted Golden apples - From 10 to 20 of them.
+
+- Fixed crash upon receiving certain items from Vote Party.
