@@ -655,3 +655,13 @@ If you're going into the void in the wildness, bedrock will spawn below your fee
 - Refactored colors for Generators to make it more original. Thanks <@!494527249987665923>.
 - /shop no longer requires permissions to buy certain things from /shop.
 - Updated Generators API to make it compatible with the newest colors.
+- Added Upgraded VIPJoin feature. How this works?
+When the server is full, a donator can join when the server's full. It's more better and reliable than VIP Slots, in which is an old plugin anyways.
+- Added a customisable /list - Displays all the ranks using /list, and is just in general; A better way of displaying /list.
+- Fixed crash when selecting Dwarf class.
+- Fixed crash upon player join.
+- MCMMO now enables without any errors.
+- Added new class: FireWorksConstant to MCMMO plugin. This class stores any virtual class details, such as: Fireworks color, type, and more.
+- Added new function: getFireWorksConstant(), which leads to the FireWorks Constant class for future use.
+- Use closuretask for onEnable() state for a more stability.
+- Fixed crash upon firework display.
