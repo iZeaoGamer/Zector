@@ -695,3 +695,6 @@ When the server is full, a donator can join when the server's full. It's more be
 - Fixed crash upon using Fire aspect to kill mobs, and players.
 - Fixed Punch and Power enchantments from becoming free in /enchant.
 - Added basic implementations for: Fire aspect, Punch, and Power enchantments.
+- Added basic implementation for Flame enchantment, and added Flame enchant to /enchant.
+- Fixed crash upon Spawners.
+- Fixed a bug, where it'd pop up with you've received a generator message even if you're not mining the specific block which offers generators.
