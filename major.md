@@ -701,4 +701,5 @@ When the server is full, a donator can join when the server's full. It's more be
 - Reward Message now pops up when you open a crate with its appropriate rewards. That way, you'll now know what you received from the crate.
 - Fixed respawn bug occurring.
 - Reduced the Effects cooldown for races to be 10 seconds, but it isn't limited. The timer will continue to go back to 10 seconds nonetheless. That way, there won't be any glitchy 1.0m seconds or minutes from happening, thus being messed up.
-
+- Fixed crash upon koth capture.
+- Fixed /koth join bug, thinking you were in the koth game still when you weren't.
