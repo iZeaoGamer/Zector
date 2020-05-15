@@ -692,3 +692,6 @@ When the server is full, a donator can join when the server's full. It's more be
 - Fixed crash upon completing PvP Related quests.
 - Added back /enchant, but for vanilla enchantments only.
 - Fixed crash upon Fire aspect.
+- Fixed crash upon using Fire aspect to kill mobs, and players.
+- Fixed Punch and Power enchantments from becoming free in /enchant.
+- Added basic implementations for: Fire aspect, Punch, and Power enchantments.
