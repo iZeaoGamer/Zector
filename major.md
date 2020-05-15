@@ -698,3 +698,5 @@ When the server is full, a donator can join when the server's full. It's more be
 - Added basic implementation for Flame enchantment, and added Flame enchant to /enchant.
 - Fixed crash upon Spawners.
 - Fixed a bug, where it'd pop up with you've received a generator message even if you're not mining the specific block which offers generators.
+- Reward Message now pops up when you open a crate with its appropriate rewards. That way, you'll now know what you received from the crate.
+
