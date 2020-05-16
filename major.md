@@ -709,3 +709,5 @@ When the server is full, a donator can join when the server's full. It's more be
 - Fixed /f pay becoming broken.
 - Added Floating texts to /spawn, and PvP Mine.
 - Fixed Floating Texts not displaying when changing world locations.
+- Fixed Mini YT counting as staff, when it should've counted as YouTube rank.
+- Fixed crash upon TNT explosions.
