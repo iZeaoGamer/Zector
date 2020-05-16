@@ -707,3 +707,5 @@ When the server is full, a donator can join when the server's full. It's more be
 - Added /start - This command shows a lot of information about the server, and some of the features it offers.
 - Added /rules - Yes, finally, we've added back /rules command, updated, and better than ever! We'll be using that command from now on instead of looking elsewhere!
 - Fixed /f pay becoming broken.
+- Added Floating texts to /spawn, and PvP Mine.
+- Fixed Floating Texts not displaying when changing world locations.
