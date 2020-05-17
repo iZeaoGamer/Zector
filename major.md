@@ -712,3 +712,4 @@ When the server is full, a donator can join when the server's full. It's more be
 - Fixed Mini YT counting as staff, when it should've counted as YouTube rank.
 - Fixed crash upon TNT explosions.
 - Fixed not receiving Wood cutting MCMMO when selecting Dwarf Class.
+- Added Repair all to /blacksmith.
