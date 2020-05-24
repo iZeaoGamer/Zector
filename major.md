@@ -23,7 +23,7 @@
 - Auto Sell should no longer lag the server. (Untested).
 - There should be no more /shop exploits along with /sell exploits.
 - Added a complete /sell recode.
-- Added /sell <hand/all/auto>. I'll explain which each of them do:
+- Added /sell <hand/all/auto>. I'll explain what each of them do:
 * hand - Sells items in your hand.
 * all - Sells everything that's sellable in your inventory.
 * auto - Toggles on/off autosell. Yes, this is now combined with /sell.
