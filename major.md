@@ -5,9 +5,9 @@
 - Recoded Scoreboards to make it function, and add proper API methods for scoreboards.
 - ScoreBoard title now has a colored name.
 - Remove multiple scoreboard plugin names, and just implement as one scoreboard plugin.
-- Added /pvphud - Shows PvP Scoreboard Information, such as:
-* Durabilities for Armor.
-* Cooldowns for Enchanted golden apples, Golden apples, and Ender pearls.
+- Added /pvphud - Shows PvP Scoreboard Information, which show two type of main informations:
+1. Durabilities for Armor.
+2. Cooldowns for Enchanted golden apples, Golden apples, and Ender pearls.
 
 - Show colored rank name along with the player name on scoreboard.
 - Removed a lot of useless shit that didn't need to be on the scoreboard. (Upto 9 lines).
