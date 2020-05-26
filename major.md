@@ -23,7 +23,7 @@
 - Auto Sell should no longer lag the server. (Untested).
 - There should be no more /shop exploits along with /sell exploits.
 - Added a complete /sell recode.
-- Added /sell <hand/all/auto>. I'll explain what each of them do:
+- Added /sell [hand/all/auto]. I'll explain what each of them do:
 * hand - Sells items in your hand.
 * all - Sells everything that's sellable in your inventory.
 * auto - Toggles on/off autosell. Yes, this is now combined with /sell.
@@ -39,7 +39,7 @@
 - Completely recoded Alias 2.0.0.
 - Added new usage /alias [player] [ip/device] (Tested to work).
 - Fixed potential duplications of usernames that weren't related. (Untested)
-- /alias <player> Device now only displays Device ID / Modal, not Device name.
+- /alias [player] Device now only displays Device ID / Modal, not Device name.
 - Added anticheat for: Auto clicker, Kill Aura (Clicking from a far distance), ToolBox detection (Untested), Nuker, and instant break. (Untested) - Try out)
 - Fixed crash upon breaking blocks.
 - Added staff alerts detection to the anticheat.
