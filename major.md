@@ -36,3 +36,28 @@
 - Fixed AutoSell from still working even if autosell is turned off.
 - AutoSell (/sell auto) is now for certain ranks only (Most likely for donators only).
 - Fixed crash upon mining LuckyBlocks.
+- Completely recoded Alias 2.0.0.
+- Added new usage /alias [player] [ip/device] (Tested to work).
+- Fixed potential duplications of usernames that weren't related. (Untested)
+- /alias <player> Device now only displays Device ID / Modal, not Device name.
+- Added anticheat for: Auto clicker, Kill Aura (Clicking from a far distance), ToolBox detection (Untested), Nuker, and instant break. (Untested) - Try out)
+- Fixed crash upon breaking blocks.
+- Added staff alerts detection to the anticheat.
+- Crates have been recoded!
+- Added quick-animations for crates.
+- Fixed crash upon Enable().
+- Fixed crash upon opening Rare crate.
+- Fixed crash upon opening Common crate.
+- Removed the following crates:
+* Uncommon
+* UltraRare
+
+- Added a new crate called “Epic”. It’s the 2nd best crate in the game.
+- Keys are now virtual rather than physical. This is so you don’t ever lose your keys if your inventory is full. It’s also to make the server professional, with its all unique color texts above the crates.
+- Added the following functions:
+* getKeys()
+* addKeys()
+* removeKeys()
+* setKeys() - Just to be safe. May remove this if no other plugins are using this function.
+
+- Floating texts now update live upon opening crate.
