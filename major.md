@@ -61,3 +61,14 @@
 * setKeys() - Just to be safe. May remove this if no other plugins are using this function.
 
 - Floating texts now update live upon opening crate.
+- Added duels system to the server! How it works? You can duel a player, just by using /duel ask <player>. To accept a duel, you can type /duel accept <player>. To deny a duel, type: /duel deny <player>.
+- Added a 10 seconds countdown before the game starts. It comes up with awesome messages as the title. Example: 10 To 8 seconds: Duel against <player>, 7 - 6 seconds: Good luck. And the countdown timer from 5-0 seconds.
+- Countdown timers can no longer be broken if a player leaves the game. Instead, it’ll teleport the winning player to spawn. The player can win in two ways.
+1. By killing the other player in a duel.
+2. By the other player quitting the game, making you the prime winner.
+
+- You can no longer duel yourself. What was I thinking? :P
+- Countdown display now stops if a player quits the game, making the other player the winner of the duel, and will teleport the appropriate players to spawn.
+- Fixed crash upon dueling someone.
+- Fixed crash upon countdown display.
+- Fixed crash upon player quit.
