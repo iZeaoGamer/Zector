@@ -72,3 +72,9 @@
 - Fixed crash upon dueling someone.
 - Fixed crash upon countdown display.
 - Fixed crash upon player quit.
+- The death screen will no longer appear when a player dies in a duels arena.
+- Added Crate keys note, which you can get from mining.
+- Fixed crash upon breaking blocks.
+- Fixed crash upon auto server restart.
+- The server will now restart properly.
+- The server will now kick players from the server properly upon restart.
