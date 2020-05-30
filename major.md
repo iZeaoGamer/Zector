@@ -117,3 +117,5 @@
 - Fixed server crash upon player quit.
 - Added homes to the My SQL database.
 - Fixed crash upon using the /list command.
+- Added /spectate - Allows you to spectate a player, and instantly teleports to the player.
+- Added back /spawn.
