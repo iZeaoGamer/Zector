@@ -97,3 +97,23 @@
 - Rank permissions, groups, and chat formatting are now handled coded-side, meaning no one but the owner can access, and edit them.
 - Added new functions to identify grouping systems, permissions, and new discord Management API methods.
 - Added multi-server support with Permissions and ranks for future reference.
+- Added activity checks for #last-seen (on Join and Leave.
+- Recoded #last-seen 2.0 to make it even better, and to make it stand out better than before!
+- Added a custom Home system to ZectorPE!
+* Type /home <name> to teleport to a home.
+* Type /sethome <name> to set a home.
+* Type /homeadmin <player> <name> to teleport to another player's home - For admins and above only!
+* Type /removehome <name> to remove a home of yours.
+- There's now a home limit per user. The higher your rank is, the more homes you'll have.
+- Added PlayerVaults limit to Ranks and permissioning systems, rather than implementing pocketmine's methods.
+- Added /vanish <on/off> to enable/disable vanish.
+- A vanish popup now occurs when you're in vanish. Great for Moderators and above.
+- You can no longer use /sethome whilst in vanish, or spectator mode. This is simply to prevent abuse.
+- Actively checking database every 60 seconds to prevent future errors.
+- Fixed crash upon join.
+- /pv 2 and above now works for the appropriate ranks that should have this.
+- Added /alias command to Trials and above.
+- No longer require player vault permissions for ranks, since rank permissions are already pre-set.
+- Fixed server crash upon player quit.
+- Added homes to the My SQL database.
+- Fixed crash upon using the /list command.
