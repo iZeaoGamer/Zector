@@ -78,3 +78,22 @@
 - Fixed crash upon auto server restart.
 - The server will now restart properly.
 - The server will now kick players from the server properly upon restart.
+- Completely recoded ranks and how they work!
+- Completely recoded chat formatting, along with better-ranking security, and better permissioning systems.
+- Completely recoded #server-logs 2.0 to make it even better formatting.
+- All permissions are already pre-compatible with the new permissioning system!
+- Added new chat formatting - So much better than before!
+- Fixed permissions from not always working, and therefore, requiring you to relog.
+- Added new command: /setrank, also known as /setgroup (Better formatting).
+- Added new YouTube ranks: YouTube, and Famous ranks.
+- Removed the YouTube rank: MiniYT.
+- Removed all the useless ranks that weren't needed.
+- Added #public-chat - This chat will track all in-game chats!
+- Added #staff-commands - This chat will track ALL commands executed by a member of staff. You can't see this chat because you don't have access to this chat. It's only for Managers and Owners to view.
+- Managers and Owners now require Operator to execute anymore commands, rather than permissions its self.
+- For the first time since forever, we're finally removing PurePerms, and PureChat support. This is simply because we now have our own grouping, and permissions system. Yay!
+- Fixed crash upon executing /setgroup, where the database would eventually disconnect. This issue should no longer occur.
+- Added new command: /addpermission - Adds a permission for the user.
+- Rank permissions, groups, and chat formatting are now handled coded-side, meaning no one but the owner can access, and edit them.
+- Added new functions to identify grouping systems, permissions, and new discord Management API methods.
+- Added multi-server support with Permissions and ranks for future reference.
