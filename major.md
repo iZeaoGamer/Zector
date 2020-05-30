@@ -97,7 +97,7 @@
 - Rank permissions, groups, and chat formatting are now handled coded-side, meaning no one but the owner can access, and edit them.
 - Added new functions to identify grouping systems, permissions, and new discord Management API methods.
 - Added multi-server support with Permissions and ranks for future reference.
-- Added activity checks for #last-seen (on Join and Leave.
+- Added activity checks for #last-seen (on Join and Leave.)
 - Recoded #last-seen 2.0 to make it even better, and to make it stand out better than before!
 - Added a custom Home system to ZectorPE!
 * Type /home <name> to teleport to a home.
