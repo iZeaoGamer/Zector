@@ -119,3 +119,25 @@
 - Fixed crash upon using the /list command.
 - Added /spectate - Allows you to spectate a player, and instantly teleports to the player.
 - Added back /spawn.
+- Added chat format to Nametags, except without the message content.
+- Removed Faction only nametags, and replaced it with the chat formatting along with faction name, rank, and more.
+- Added a new usage: /homeadmin <player> <type> <home>.
+<player> is the player name you want to enter.
+<type> can be two types. One which is list, where the <home> section isn't required, and it'll list all the homes for this user, and two: teleport or tp, where <home> is required, allowing you to teleport to another player's home.
+We've decided to make this change because before, /homeadmin was merely impossible to check for a player's home. Now, it's possible.
+- Updated Scoreboard to implement proper Rank colored name, as seen in the chat.
+- Added /rewards - How this works:
+When your inventory's full, items or blocks will automatically export into /rewards, which opens a GUI interface, where you can collect those rewards so you don't lose them.
+- Added /inbox - How this works:
+It's similar to /rewards, but instead, /inbox only works with Trading. For example: If your inventory's full whilst trading, the item that you receive will be automatically imported into /inbox.
+- Added new trading system 2.0!
+- Fixed crash upon /trade.
+- Added new usage: /trade <ask/accept/deny> <player>
+- Fixed crash upon mining blocks.
+- Fixed {message} appearing in nametags.
+- Added new parameter for Nametag formatting within ranks parameter.
+- Added bosses!
+- There's now a boss arena! Type /pvp boss to teleport to the Boss arena.
+- Added new command and arguments: /pvp <players/boss>
+* /pvp players is for PvP arena.
+* /pvp boss is for Boss arena.
