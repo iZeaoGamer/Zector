@@ -141,3 +141,11 @@ It's similar to /rewards, but instead, /inbox only works with Trading. For examp
 - Added new command and arguments: /pvp <players/boss>
 * /pvp players is for PvP arena.
 * /pvp boss is for Boss arena.
+- Fixed crash upon TNT Explosions.
+- Fixed crash upon chatting.
+- Added a chat cooldown for ranks below Bedrock.
+- Fixed crash upon killing bosses.
+- Fixed crash upon killing Spider Boss.
+- Fixed crash when using /f home.
+- Fixed being able to trade yourself.
+- Added new rank colors back to scoreboard.
