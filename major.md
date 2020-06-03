@@ -149,3 +149,9 @@ It's similar to /rewards, but instead, /inbox only works with Trading. For examp
 - Fixed crash when using /f home.
 - Fixed being able to trade yourself.
 - Added new rank colors back to scoreboard.
+- Added /rankup - You can rankup to receive better perks, such as more PVS, homes limit increasement, more commands, and more. Yes, I've based it off from Harry potter mainly because why not? Makes it original, etc. - Thanks to <@!355854401379893259> for testing.
+- You can no longer receive keys from mining. You can now receive them in LuckyBlocks. (Untested, and may need more revamps, and some BC-Breaks containing this also, which we'll look into.)
+- Fixed crash upon /rankup.
+
+**NOTE**
+/rankup cannot be obtained from above Guest. This is because of some bugs if we were to change this that could reoccur. Though, we may try to resolve this in a way where it's fair for everyone. Not confirmed yet though.
