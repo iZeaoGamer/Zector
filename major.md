@@ -61,8 +61,8 @@
 * setKeys() - Just to be safe. May remove this if no other plugins are using this function.
 
 - Floating texts now update live upon opening crate.
-- Added duels system to the server! How it works? You can duel a player, just by using /duel ask <player>. To accept a duel, you can type /duel accept <player>. To deny a duel, type: /duel deny <player>.
-- Added a 10 seconds countdown before the game starts. It comes up with awesome messages as the title. Example: 10 To 8 seconds: Duel against <player>, 7 - 6 seconds: Good luck. And the countdown timer from 5-0 seconds.
+- Added duels system to the server! How it works? You can duel a player, just by using /duel ask <player>. To accept a duel, you can type /duel accept [player]. To deny a duel, type: /duel deny [player]
+- Added a 10 seconds countdown before the game starts. It comes up with awesome messages as the title. Example: 10 To 8 seconds: Duel against [player], 7 - 6 seconds: Good luck. And the countdown timer from 5-0 seconds.
 - Countdown timers can no longer be broken if a player leaves the game. Instead, it’ll teleport the winning player to spawn. The player can win in two ways.
 1. By killing the other player in a duel.
 2. By the other player quitting the game, making you the prime winner.
@@ -100,13 +100,13 @@
 - Added activity checks for #last-seen (on Join and Leave.)
 - Recoded #last-seen 2.0 to make it even better, and to make it stand out better than before!
 - Added a custom Home system to ZectorPE!
-* Type /home <name> to teleport to a home.
-* Type /sethome <name> to set a home.
-* Type /homeadmin <player> <name> to teleport to another player's home - For admins and above only!
-* Type /removehome <name> to remove a home of yours.
+* Type /home [name] to teleport to a home.
+* Type /sethome [name] to set a home.
+* Type /homeadmin [player] [name] to teleport to another player's home - For admins and above only!
+* Type /removehome [name] to remove a home of yours.
 - There's now a home limit per user. The higher your rank is, the more homes you'll have.
 - Added PlayerVaults limit to Ranks and permissioning systems, rather than implementing pocketmine's methods.
-- Added /vanish <on/off> to enable/disable vanish.
+- Added /vanish [on/off] to enable/disable vanish.
 - A vanish popup now occurs when you're in vanish. Great for Moderators and above.
 - You can no longer use /sethome whilst in vanish, or spectator mode. This is simply to prevent abuse.
 - Actively checking database every 60 seconds to prevent future errors.
@@ -121,9 +121,9 @@
 - Added back /spawn.
 - Added chat format to Nametags, except without the message content.
 - Removed Faction only nametags, and replaced it with the chat formatting along with faction name, rank, and more.
-- Added a new usage: /homeadmin <player> <type> <home>.
-<player> is the player name you want to enter.
-<type> can be two types. One which is list, where the <home> section isn't required, and it'll list all the homes for this user, and two: teleport or tp, where <home> is required, allowing you to teleport to another player's home.
+- Added a new usage: /homeadmin [player] [type] [home]
+[player] is the player name you want to enter.
+[type] can be two types. One which is list, where the [home] section isn't required, and it'll list all the homes for this user, and two: teleport or tp, where [home] is required, allowing you to teleport to another player's home.
 We've decided to make this change because before, /homeadmin was merely impossible to check for a player's home. Now, it's possible.
 - Updated Scoreboard to implement proper Rank colored name, as seen in the chat.
 - Added /rewards - How this works:
@@ -132,13 +132,13 @@ When your inventory's full, items or blocks will automatically export into /rewa
 It's similar to /rewards, but instead, /inbox only works with Trading. For example: If your inventory's full whilst trading, the item that you receive will be automatically imported into /inbox.
 - Added new trading system 2.0!
 - Fixed crash upon /trade.
-- Added new usage: /trade <ask/accept/deny> <player>
+- Added new usage: /trade [ask/accept/deny] [player]
 - Fixed crash upon mining blocks.
 - Fixed {message} appearing in nametags.
 - Added new parameter for Nametag formatting within ranks parameter.
 - Added bosses!
 - There's now a boss arena! Type /pvp boss to teleport to the Boss arena.
-- Added new command and arguments: /pvp <players/boss>
+- Added new command and arguments: /pvp [players/boss]
 * /pvp players is for PvP arena.
 * /pvp boss is for Boss arena.
 - Fixed crash upon TNT Explosions.
