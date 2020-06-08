@@ -36,10 +36,6 @@
 - Fixed AutoSell from still working even if autosell is turned off.
 - AutoSell (/sell auto) is now for certain ranks only (Most likely for donators only).
 - Fixed crash upon mining LuckyBlocks.
-- Completely recoded Alias 2.0.0.
-- Added new usage /alias [player] [ip/device] (Tested to work).
-- Fixed potential duplications of usernames that weren't related. (Untested)
-- /alias [player] Device now only displays Device ID / Modal, not Device name.
 - Added anticheat for: Auto clicker, Kill Aura (Clicking from a far distance), ToolBox detection (Untested), Nuker, and instant break. (Untested) - Try out)
 - Fixed crash upon breaking blocks.
 - Added staff alerts detection to the anticheat.
@@ -168,3 +164,10 @@ A proxy, is essentially a way to make a network. A proxy isn't a server, and doe
 - Fixed proxy not working as expected.
 - Fixed proxy authentication problem not verifying you within the join event.
 - The proxy we use, is basically like Bungeecord. So in other words - Bungeecord in MCPE. The same messages, the same ol system, ported to bedrock edition. Now, we can be a proper network. ;D
+- Added offline support finally for /alias!
+- Alias recode 3.0.0 includes more fixes, optimization, a MySQLDatabase implementation for /alias, and so much more.
+- Added new chat formatted text for /alias.
+- You can now check for players that are offline, but have joined this server before. How awesome is that? ;D That way, if you want to alias someone that's offline, then you can do so! Just by typing /alias <player> ip/device>. Yay! This is something a lot of staff wanted, which will be provided in V13.
+- Fixed player name duplicating in /alias ip and /alias device. Especially /alias device. ;)
+- /alias is no longer stored in a config. It's now stored via a MySQL Database, increasing its better benefits within the plugin. ;D
+- When using an incorrect type of Alias, it'll now say "Wrong usage", rather than just not work.
