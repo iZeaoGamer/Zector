@@ -171,3 +171,28 @@ A proxy, is essentially a way to make a network. A proxy isn't a server, and doe
 - Fixed player name duplicating in /alias ip and /alias device. Especially /alias device. ;)
 - /alias is no longer stored in a config. It's now stored via a MySQL Database, increasing its better benefits within the plugin. ;D
 - When using an incorrect type of Alias, it'll now say "Wrong usage", rather than just not work.
+- Added a Factions plugin recode 2.0.0, which includes: Many optimizations, bug fixes, and new features implemented.
+- Rebranded /f map to open a UI, rather than a message.
+- Removed /f top value. We may add this back in the future. We simply don't know yet.
+- You can now claim in multiple areas. Before, you could only claim once per faction.
+- Fixed crash on /f claim.
+- Fixed crash on /f home.
+- Fixed crash on /f sethome.
+- Factions now handles data via the MySQL Database.
+- Recoded /f chat to how it's suppose to work.
+- Added new usage: /f chat <chat-type>. If you do not enter chat-type field, it'll choose for you automatically in order.
+- Fixed being able to kick yourself from the faction.
+- Fixed being able to promote yourself from the faction.
+- Fixed being able to demote yourself from the faction.
+- Fixed being able to invite yourself from the faction.
+- Removed /f accept, and added /f join <faction>. Note that you can only use this command if someone from that faction invited you.
+- Updated, and rebranded /f help command.
+- Recoded the plugin, separated each sub command into its own classes for cleaner uses.
+- Creating your faction now gives you the Leader role properly.
+- Added new command: /f fix <player>. This command will reset another player's faction information to fix possible issues to do with the user and the faction plugin - Basically a reset.
+- /f claim now requires 3 members in your faction.
+-  Removed /f say, and changed it to /f announce - It'll broadcast a title to the faction members.
+- Added new role Recruit - Which will be the first role you will receive when joining a faction.
+- Leader now has three (***) instead of two (**).
+- Using /f home now has a 5 second delay before teleporting. This is to prevent combat logged players.
+- Fixed crash upon join.
