@@ -196,3 +196,12 @@ A proxy, is essentially a way to make a network. A proxy isn't a server, and doe
 - Leader now has three (***) instead of two (**).
 - Using /f home now has a 5 second delay before teleporting. This is to prevent combat logged players.
 - Fixed crash upon join.
+- Added Online timer and Offline timer to #last-seen. How it works:
+OnlineTime basically detects how long they've been playing on the server since they last joined.
+OfflineTIme basically detects how long the player's been offline for, and when they next join, it'll display that. This is great for activity reasons. Thanks to @MST | Bubbly for sharing this idea!
+- Fixed crash onJoin once again.
+- Added a new Staffchat recode 2.0.0.
+- Changed permissions for it. Soon, we may add it so only staff ranks can use the command. If they are opped, and they're guest, then they'll no longer be able to use the command.
+- Reformatted Staffchat.
+- Added a way so only staff ranks can see and talk in staffchat.
+- Added Server: section to #last-seen chat.
