@@ -152,18 +152,6 @@ It's similar to /rewards, but instead, /inbox only works with Trading. For examp
 **NOTE**
 /rankup cannot be obtained from above Guest. This is because of some bugs if we were to change this that could reoccur. Though, we may try to resolve this in a way where it's fair for everyone. Not confirmed yet though.
 
-- Added a brand new proxy to the server.
-- The proxy will now instantly teleport you to the appropriate server. How cool is that? ;D
-- When the server restarts, you'll now automatically have combat logged disabled, and be teleported to the lobby. This is so you don't lose your stuff when PvPing players.
-- We're now handled by a Proxy.
-
-What is a proxy?
-A proxy, is essentially a way to make a network. A proxy isn't a server, and doesn't support pocketmine plugins. There's a difference between a proxy and a normal server. Think of it like a hub of servers - You've got the main point which is the Proxy. The proxy then locates you to the hub upon join. The locating instances will find the lobby server (If available). This will allow you to connect to the proxy. If the proxy is down, then the whole wide range of Zector servers would be also unavailable using that ip.
-
-- Error messages will now popup if you're unable to join the specific server. Example: If I can't join OP Factions due to it being offline, then it'll display "Cound not connect to server", then show like java servers offer when a server within their network is down. The same happens when the server is whitelisted; It'll appear with the whitelist message, or the ban message instead of saying it on the loading screen. This will be so much better, and less buggy when attempting to join a specific server. ;D
-- Fixed proxy not working as expected.
-- Fixed proxy authentication problem not verifying you within the join event.
-- The proxy we use, is basically like Bungeecord. So in other words - Bungeecord in MCPE. The same messages, the same ol system, ported to bedrock edition. Now, we can be a proper network. ;D
 - Added offline support finally for /alias!
 - Alias recode 3.0.0 includes more fixes, optimization, a MySQLDatabase implementation for /alias, and so much more.
 - Added new chat formatted text for /alias.
