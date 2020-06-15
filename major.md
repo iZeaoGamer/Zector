@@ -205,3 +205,32 @@ OfflineTIme basically detects how long the player's been offline for, and when t
 - Reformatted Staffchat.
 - Added a way so only staff ranks can see and talk in staffchat.
 - Added Server: section to #last-seen chat.
+- StaffChat command no longer requires permissions. It now depends on what rank you are. Example: If you're Trial, then you'll automatically be able to use /sc without requiring permissions to do so. In a sense, it is still requiring permissions, but not rank permissions, but merely depending on what rank you are. We plan to implement this for all of our moderation commands soon.
+- Added a BRAND new OP Factions core to the server!
+- Added all of our custom plugins, combined into a core!
+- Completely recoded Custom Enchants, and how they work!
+- Removed a lot of useless enchants, and sticked with OP Factions Ce's. You can find what each of the CE's do, by typing /ceinfo.
+- Fixed crash upon join.
+- Fixed crash upon leave.
+Disable core plugin if there's an error when enabling the plugin. This is introduced to prevent bugs, and server crashes.
+- Added Enchant remover - More will be explained later on.
+- Added Enchantment shop to /shop.
+- Fixed crash upon interaction.
+- Fixed crash upon break.
+- Fixed crash upon AutoSell.
+- Fixed crash upon using /mctop.
+- Fixed crash upon using /mcstats.
+- Fixed crash upon MCMMO Level-up.
+- Added Enchantment books to /shop.
+- Completely recoded and customized to how receiving a enchantment works. Here's how it works:
+* When you use /shop, and select Enchantments, you can select a wide range of rarity types you can use to buy a random enchantment. (It's bought using XP Levels, by the way.) When you buy, you'll get a random enchant book.
+If you don't have any CE's of the sort named say Efficiency, then the enchantment level will be on Level 1. If you receive the same book, you can upgrade it to level 2 by doing the exact steps as stated above.
+- Added custom lores to Enchantment books, showing you certain information on it.
+- Removed /ce, and added a overwritten command for pocketmine's default /enchant command.
+- Added our own custom-made Combat logger plugin (Untested).
+- /envoys has changed colors.
+- A lot of data is now being stored on a MySQL Database.
+- Fixed item not giving you the drops on death.
+- Removed /ceshop, and Piggy Custom enchant plugin.
+- Enchantments shop also includes Vanilla enchants too.
+- Fixed crash upon interacting with chests. (Fixed, but still need to fix more relating to this ;/)
