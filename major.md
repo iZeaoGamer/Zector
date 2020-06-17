@@ -250,3 +250,21 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Removed the "That's not an enchantment book or item" message because of spam reasons.
 - Fixed crash upon identifying success rate chances.
 - Fixed crash upon identifying whether or not you have enchantments on your item before proceeding to removing/keeping the enchantment.
+- Added Essentials to the core.
+- Added /trash
+- Added /fly
+- Added /feed
+- Added /nick
+- Added /rename
+- Added /repair
+- Added /freeze
+- Added /tpa
+- Added /xyz
+- Added /reply - Reply straight back to the person without the need of entering the player's name. This only works with the last player that messaged you.
+- Added a customizable /tell.
+- Added /echest.
+- Fixed crash upon TNT explosions.
+- Fixed being able to set your nickname as BLANK, therefore abusing /nick system.
+- Fixed crash upon using /tpa.
+- Fixed wrong error message for /reply.
+- Show full usage for /nick if no arguments are specified.
