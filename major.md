@@ -294,3 +294,7 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Added a working VPN detection system!
 - You'll no longer be able to use VPN's on the server! (Unless bypasses were involved).
 - Kick the player that is using the VPN proxy, instead of not kicking them.
+- Added /realname command to Core.
+- Added /broadcast command to Core.
+- Added /clearinventory command to Core!
+- Fixed crash upon broadcasting a message to the server.
