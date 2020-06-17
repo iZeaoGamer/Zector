@@ -281,3 +281,6 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Fixed "error Creating form" form popping up whenever you did certain actions.
 - You can no longer interact with the enchantment remover item - Instead, you can use the enchanted item which will open the Enchantment Remover automatically because it recognizes that you have an enchantment remover in your inventory.
 - Disable being able to teleport to wild if you're already pre-teleporting! This is added to prevent bugs and future issues with this.
+- Fixed /alias device not generating appropriate users upon join.
+- Fixed more duplications of the same player name with /alias ip.
+- Added Client ID (CID type) to /alias.
