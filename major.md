@@ -273,3 +273,8 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Fixed crash when using /sell hand
 - Fixed crash when using /sell all
 - Fixed crash when auto selling your items.
+- Fixed not being able to break blocks when you're in the wild world.
+- Added /wild to the core.
+- Fixed crash upon using /wild when in console.
+- Fixed crash upon using /duel
+- Fixed crash upon using /trade
