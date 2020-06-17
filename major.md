@@ -268,3 +268,4 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Fixed crash upon using /tpa.
 - Fixed wrong error message for /reply.
 - Show full usage for /nick if no arguments are specified.
+- You can no longer use /tpa on yourself.
