@@ -222,3 +222,31 @@ If you don't have any CE's of the sort named say Efficiency, then the enchantmen
 - Removed /ceshop, and Piggy Custom enchant plugin.
 - Enchantments shop also includes Vanilla enchants too.
 - Fixed crash upon interacting with chests. (Fixed, but still need to fix more relating to this ;/)
+- Completely recoded Kits system.
+- Added a ton of new kits.
+* Here are the following new kits we've added:
+* King
+* Enchanter
+* Archer
+* Miner
+* God
+* WarLord
+* Lord
+* Once
+
+- Completely revamped donator ranks, and introduced 3 new donator ranks. Here are the following donator ranks available:
+* God
+* WarLord
+* Lord
+
+Those will be the three new ranks you can obtain from the store. This also makes the server Non P2w as well!
+
+- Added the new Kits system to the core!
+- Recoded the chest kit to a chest minecart.
+- More kits = The more items, and the more ways of retrieving them.
+- Fully implemented Enchantment remover. How it works:
+* You can obtain Enchantment remover, either by killing bosses, by obtaining Enchantment books, or by obtaining the kit: Enchanter.
+Firstly, you can use an enchantment book to select if you'd like to obtain a enchantment remover. If you click yes, you'll obtain the enchantment remover. It's like LuckyBlocks, it has a random selection of chances it will be removed, and a chance of it not being removed. The higher the percentage goes, the more likely the enchantment will be removed. This is a great way to identify whether or not you want to keep this enchantment. The odds are all upto you!
+- Removed the "That's not an enchantment book or item" message because of spam reasons.
+- Fixed crash upon identifying success rate chances.
+- Fixed crash upon identifying whether or not you have enchantments on your item before proceeding to removing/keeping the enchantment.
