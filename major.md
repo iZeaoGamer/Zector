@@ -270,3 +270,6 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Show full usage for /nick if no arguments are specified.
 - You can no longer use /tpa on yourself.
 - Fixed crash when vanishing yourself.
+- Fixed crash when using /sell hand
+- Fixed crash when using /sell all
+- Fixed crash when auto selling your items.
