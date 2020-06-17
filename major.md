@@ -186,7 +186,7 @@ It's similar to /rewards, but instead, /inbox only works with Trading. For examp
 - Fixed crash upon join.
 - Added Online timer and Offline timer to #last-seen. How it works:
 OnlineTime basically detects how long they've been playing on the server since they last joined.
-OfflineTIme basically detects how long the player's been offline for, and when they next join, it'll display that. This is great for activity reasons. Thanks to @MST | Bubbly for sharing this idea!
+OfflineTime basically detects how long the player's been offline for, and when they next join, it'll display that. This is great for activity reasons. Thanks to @MST | Bubbly for sharing this idea!
 - Fixed crash onJoin once again.
 - Added a new Staffchat recode 2.0.0.
 - Changed permissions for it. Soon, we may add it so only staff ranks can use the command. If they are opped, and they're guest, then they'll no longer be able to use the command.
