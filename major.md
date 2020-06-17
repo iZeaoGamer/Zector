@@ -278,3 +278,6 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Fixed crash upon using /wild when in console.
 - Fixed crash upon using /duel
 - Fixed crash upon using /trade
+- Fixed "error Creating form" form popping up whenever you did certain actions.
+- You can no longer interact with the enchantment remover item - Instead, you can use the enchanted item which will open the Enchantment Remover automatically because it recognizes that you have an enchantment remover in your inventory.
+- Disable being able to teleport to wild if you're already pre-teleporting! This is added to prevent bugs and future issues with this.
