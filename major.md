@@ -284,3 +284,10 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Fixed /alias device not generating appropriate users upon join.
 - Fixed more duplications of the same player name with /alias ip.
 - Added Client ID (CID type) to /alias.
+- Added Koth to the Core.
+- Generate a new arena data upon first Enable, by defaults.
+- Fixed /koth from not outputting a message. c;
+- Fixed crash upon koth join.
+- Fixed crash upon koth leave.
+- Fixed crash upon koth won message.
+- Generate default configs properly, including arena database.
