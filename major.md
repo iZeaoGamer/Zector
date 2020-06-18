@@ -313,5 +313,5 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Ensure players don't combat log once the server restarts, by allowing the server to automatically put the tagged players, out of combat within the 5 seconds before the server restarts. Yes, this has been tested to work thankfully!
 - Transfer players to the hub once the server restarts.
 - Fixed crash within the 5 seconds before restart.
-- Send a message to tagged players stating why they're out of combat, making them not disconnect due to the server restart, thus making them combat logged.
+- Send a message to tagged players stating why they're out of combat, making them not log out whilst in combat due to the server restart, thus making them combat logged.
 - Send them out of combat before the server restarts - Made it better, and less bypassable. 
