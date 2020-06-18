@@ -324,3 +324,7 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 Why was this occurring?
 This was happening because the data wasn't being saved to a MySQL database, leading to the constant stat resets.
 This should no longer happen to you, so enjoy!
+
+- Fixed crash when using /chatcolor.
+- Added a new permission: "chatcolor.all", which allows you to obtain all the chat colors from /chatcolor. It's just a much more easier way of understanding whether or not they have all the chatcolor permissions.
+- Fixed color wools not displaying if you had the only permission: "chatcolor.all".
