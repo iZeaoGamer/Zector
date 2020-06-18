@@ -298,3 +298,15 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Added /broadcast command to Core.
 - Added /clearinventory command to Core!
 - Fixed crash upon broadcasting a message to the server.
+- Fixed not being able to PvP.
+- Fixed Command blocker internal server erroring you upon executing a banned command.
+- Fixed Command Blocker configurations not generating within the core properly.
+- Fixed crash upon using /iplog.
+- Using a / and nothing else no longer returns as a blocked command. This was simply because the command blocker configurations weren't generated properly.
+- Added back Combat Hud + new font.
+- Fixed crash upon damage.
+- Fixed combat logger timer not counting down.
+- A message will now appear once you're out of combat.
+- When a player logs off whilst in combat, it'll now say the last player that damaged the player, leading to the kill in chat, which will allow them to retrieve the kill.
+- Command blocking system whilst in combat added.
+- Fixed /iplog not working properly.
