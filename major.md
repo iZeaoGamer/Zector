@@ -330,3 +330,4 @@ This should no longer happen to you, so enjoy!
 - Fixed color wools not displaying if you had the only permission: "chatcolor.all".
 - Fixed crash when using /f kick.
 - Fixed crash when using /f leave.
+- Fixed incorrect names within the Boss egg. Now, it states the proper name for the Boss.
