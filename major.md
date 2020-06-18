@@ -315,3 +315,12 @@ Firstly, you can use an enchantment book to select if you'd like to obtain a enc
 - Fixed crash within the 5 seconds before restart.
 - Send a message to tagged players stating why they're out of combat, making them not log out whilst in combat due to the server restart, thus making them combat logged.
 - Send them out of combat before the server restarts - Made it better, and less bypassable. 
+- Fixed kills from resetting upon every server restart.
+- Fixed LuckyBlocks mined from resetting upon every server restart.
+- Fixed User permissions from resetting upon every server restart.
+- Fixed Quest points from resetting upon every server restart.
+- Fixed /chatcolor colors from resetting upon every server restart.
+
+Why was this occurring?
+This was happening because the data wasn't being saved to a MySQL database, leading to the constant stat resets.
+This should no longer happen to you, so enjoy!
