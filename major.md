@@ -328,3 +328,5 @@ This should no longer happen to you, so enjoy!
 - Fixed crash when using /chatcolor.
 - Added a new permission: "chatcolor.all", which allows you to obtain all the chat colors from /chatcolor. It's just a much more easier way of understanding whether or not they have all the chatcolor permissions.
 - Fixed color wools not displaying if you had the only permission: "chatcolor.all".
+- Fixed crash when using /f kick.
+- Fixed crash when using /f leave.
