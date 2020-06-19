@@ -357,3 +357,7 @@ This should no longer happen to you, so enjoy!
 - Fixed crash upon using /givekeys.
 - Kit Notes are now Minecart chests.
 - Added back /sellwand, but the permissions for it are now fixed - Since before, /sellwand could be used by everyone. Now, it's only for operators (/opped players). This was indeed a major bug that had to be fixed in this version.
+- Fixed auto generators not working properly.
+- Once generators are now coal ore generator, instead of emerald ore generator.
+- Once Generator has now received a custom name for the item. This is so people are aware what this item is.
+- Added more fence, lowering to the ground in /pvp boss to prevent bosses escaping the arena.
