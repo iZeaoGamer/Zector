@@ -342,3 +342,17 @@ This should no longer happen to you, so enjoy!
 - Fixed crash upon Envoys enabling.
 - Added MoneyNotes to the core!
 - You can now obtain Money Notes from envoys, and bosses.
+- You can now obtain Money Notes in Koth.
+- Added protection for certain worlds. At the moment, some of the following are now protected:
+* Spawn
+* PvP Arena
+* Koth
+* Some event worlds.
+
+- Added Crates to Spawn!
+- Fixed crash upon opening crates.
+- Fixed crash upon opening crates whilst offline.
+- Fixed crash upon crate finishing after crate opening.
+- Set up koth successfully!
+- Fixed crash upon using /givekeys.
+- Kit Notes are now Minecart chests.
