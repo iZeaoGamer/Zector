@@ -365,3 +365,5 @@ This should no longer happen to you, so enjoy!
 - Fixed incorrect symbols for money. Example: Before, 999k would be 1,000k. Now, it's just 999k.
 The same goes for all the other symbols and money.
 And yes, this fix is only affective on the scoreboard, since that's the only way symbols like that will show up.
+- Fixed crash when using /pvphud
+- Added back cooldowns for Enchanted golden apples, normal golden apples, and Ender pearls.
