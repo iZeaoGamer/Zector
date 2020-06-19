@@ -331,3 +331,14 @@ This should no longer happen to you, so enjoy!
 - Fixed crash when using /f kick.
 - Fixed crash when using /f leave.
 - Fixed incorrect names within the Boss egg. Now, it states the proper name for the Boss.
+- Fixed crash when using /spawn.
+- Fixed crash when teleporting to spawn.
+- Fixed crash when using /spectate.
+- /pvp players is now fixed.
+- Added the core to the OP Factions Server finally!
+- Upgraded Online Time ( #last-seen ) to 2.0.0.
+- Fixed crash upon quit (sometimes). This was due to complications between Online Time, and the server not being able to handle the data. We now use our own version of #last-seen's online time, which is better, and doesn't cause crashes anymore.
+- Fixed some weird issues containing #last-seen's Online Time. Should now fully work.
+- Fixed crash upon Envoys enabling.
+- Added MoneyNotes to the core!
+- You can now obtain Money Notes from envoys, and bosses.
