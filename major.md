@@ -367,3 +367,4 @@ The same goes for all the other symbols and money.
 And yes, this fix is only affective on the scoreboard, since that's the only way symbols like that will show up.
 - Fixed crash when using /pvphud
 - Added back cooldowns for Enchanted golden apples, normal golden apples, and Ender pearls.
+- Fixed Scoreboard sometimes not fully appearing on join until a few seconds later - Sorry Mittins! ;P
