@@ -361,3 +361,7 @@ This should no longer happen to you, so enjoy!
 - Once generators are now coal ore generator, instead of emerald ore generator.
 - Once Generator has now received a custom name for the item. This is so people are aware what this item is.
 - Added more fence, lowering to the ground in /pvp boss to prevent bosses escaping the arena.
+- Fixed incorrect symbols for money. Example: Before, 900k was 0.9M. Now, it's just 900k.
+- Fixed incorrect symbols for money. Example: Before, 999k would be 1,000k. Now, it's just 999k.
+The same goes for all the other symbols and money.
+And yes, this fix is only affective on the scoreboard, since that's the only way symbols like that will show up.
