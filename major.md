@@ -356,3 +356,4 @@ This should no longer happen to you, so enjoy!
 - Set up koth successfully!
 - Fixed crash upon using /givekeys.
 - Kit Notes are now Minecart chests.
+- Added back /sellwand, but the permissions for it are now fixed - Since before, /sellwand could be used by everyone. Now, it's only for operators (/opped players). This was indeed a major bug that had to be fixed in this version.
