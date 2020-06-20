@@ -385,3 +385,6 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Recustomed some messages for /quests to make it look better.
 - Added new alias command for /quests, which is: /quest.
 - Do not include the word “Boss” in the boss egg item lore (Boss type). (Untested)
+- Fixed crash upon selecting Quests shop.
+- Fixed Quests menu not popping up when selecting a category from /quest.
+- Fixed crash when using /bossegg, and the crash would only ocurr if the boss didn’t exist.
