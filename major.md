@@ -377,3 +377,10 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Upgraded [item] chat to 2.0.0
 - The new item chat 2.0.0 update introduces many code fixes, and optimizations.
 - Removed [inventory] - FOR NOW. We may/may not add this back soon. This is all apart of the recode 2.0.0 ;P.
+- Fixed crash upon killing zombie boss.
+- Fixed crash upon killing witch boss.
+- Fixed crash upon quest shop.
+- Added new item to quest shop: Random kit.
+- Updated quest’s API to fit the new enchantment’s API methods
+- Recustomed some messages for /quests to make it look better.
+- Added new alias command for /quests, which is: /quest.
