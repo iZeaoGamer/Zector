@@ -368,3 +368,6 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Fixed crash when using /pvphud
 - Added back cooldowns for Enchanted golden apples, normal golden apples, and Ender pearls.
 - Fixed Scoreboard sometimes not fully appearing on join until a few seconds later - Sorry Mittins! ;P
+- Fixed /ss from not detecting commands properly.
+- Fixed /ss from not detecting faction chat, and ally chat.
+- Fixed /ss from not being disabled properly when you leave. So when you type /ss after you join, it'd say "Disabled socialspy". Now, it'll say "Enabled Social spy".
