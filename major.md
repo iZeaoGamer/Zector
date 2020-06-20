@@ -371,3 +371,4 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Fixed /ss from not detecting commands properly.
 - Fixed /ss from not detecting faction chat, and ally chat.
 - Fixed /ss from not being disabled properly when you leave. So when you type /ss after you join, it'd say "Disabled socialspy". Now, it'll say "Enabled Social spy".
+- Show error message if used the incorrect arguments in /pvp.
