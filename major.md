@@ -374,3 +374,6 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Show error message if used the incorrect arguments in /pvp.
 - No longer require permission to buy other mining generators from /shop.
 - Fixed server start-up issues (sometimes). This was caused due to a lot of plugins being enabled at the same time on the server.
+- Upgraded [item] chat to 2.0.0
+- The new item chat 2.0.0 update introduces many code fixes, and optimizations.
+- Removed [inventory] - FOR NOW. We may/may not add this back soon. This is all apart of the recode 2.0.0 ;P.
