@@ -384,3 +384,4 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Updated quest’s API to fit the new enchantment’s API methods
 - Recustomed some messages for /quests to make it look better.
 - Added new alias command for /quests, which is: /quest.
+- Do not include the word “Boss” in the boss egg item lore (Boss type). (Untested)
