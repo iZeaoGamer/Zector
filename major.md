@@ -388,3 +388,7 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Fixed crash upon selecting Quests shop.
 - Fixed Quests menu not popping up when selecting a category from /quest.
 - Fixed crash when using /bossegg, and the crash would only ocurr if the boss didn’t exist.
+- Added back /thru to the core.
+- Added new aliases: /through, and /phase.
+- Added /gamemode overwritten pocketmine's default gamemode command.
+- Added back aliases for /gamemode: /gmc, /gms, /gma, /gmspc.
