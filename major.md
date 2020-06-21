@@ -397,3 +397,4 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Removed WorldLoader as a plugin core feature, and just implemented it to the Main class its self.
 - Don't start the teleportation process if they're already teleporting.
 - Do not start the teleportation process if you're already pre-teleporting (PT.2: Using /tpa), just to be safe.
+- Added /echest - You're able to access your enderchest with a simple command. And yes, everyone is able to access this command.
