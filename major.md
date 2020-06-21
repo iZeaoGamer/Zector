@@ -396,3 +396,4 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Added function initWorlds(), loading all the worlds we currently use. Will update it over time or whenever a new world is created (for a specific reason). This is to reduce the amount of worlds loaded at the same time that we might not need.
 - Removed WorldLoader as a plugin core feature, and just implemented it to the Main class its self.
 - Don't start the teleportation process if they're already teleporting.
+- Do not start the teleportation process if you're already pre-teleporting (PT.2: Using /tpa), just to be safe.
