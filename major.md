@@ -398,3 +398,7 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Don't start the teleportation process if they're already teleporting.
 - Do not start the teleportation process if you're already pre-teleporting (PT.2: Using /tpa), just to be safe.
 - Added /echest - You're able to access your enderchest with a simple command. And yes, everyone is able to access this command.
+- Fixed boss not spawning automatically if not in the valid chunks.
+- Fixed duplicated Server restart messages.
+- Fixed timer for restarting not counting down, and staying where it is.
+- Fixed crash upon envoy spawning due to some changes with getAnnouncementManager() being in envoys management. Now, it only works directly from the core (Also known as the Main class).
