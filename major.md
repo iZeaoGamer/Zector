@@ -392,3 +392,6 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Added new aliases: /through, and /phase.
 - Added /gamemode overwritten pocketmine's default gamemode command.
 - Added back aliases for /gamemode: /gmc, /gms, /gma, /gmspc.
+- Remove success messages when enabling certain aspects of some features. Only displays if errors are shown within the plugin.
+- Added function initWorlds(), loading all the worlds we currently use. Will update it over time or whenever a new world is created (for a specific reason). This is to reduce the amount of worlds loaded at the same time that we might not need.
+- Removed WorldLoader as a plugin core feature, and just implemented it to the Main class its self.
