@@ -409,3 +409,9 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - The bleed effect now works properly with this new core.
 - Upgraded device alias and its api to 2.0.0, which includes: Many new devices added to the collection, and generally a few optimizations and bug fixes.
 - Changed /alias up a bit so you know which alias is for what when using the command. (Can be provided as proof also).
+- Fixed crash upon MonthlyCrate opening.
+- Made the monthlycrates a bit less OP.
+- You can now obtain randomized kits from MonthlyCrates.
+- You can now obtain randomized crate keys from MonthlyCrates.
+- Changed it so you can obtain money notes from MonthlyCrate instead of instantly receiving money.
+- You can now obtain Crate keys note.
