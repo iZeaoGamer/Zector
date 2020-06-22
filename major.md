@@ -402,3 +402,10 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Fixed duplicated Server restart messages.
 - Fixed timer for restarting not counting down, and staying where it is.
 - Fixed crash upon envoy spawning due to some changes with getAnnouncementManager() being in envoys management. Now, it only works directly from the core (Also known as the Main class).
+- Fixed crash upon setting other player's gamemodes.
+- You can now break tnt in the TNT Spleef event.
+- Added find the button event, big thanks to the build team for this!
+- Fixed crash upon killing mobs (Sometimes).
+- The bleed effect now works properly with this new core.
+- Upgraded device alias and its api to 2.0.0, which includes: Many new devices added to the collection, and generally a few optimizations and bug fixes.
+- Changed /alias up a bit so you know which alias is for what when using the command. (Can be provided as proof also).
