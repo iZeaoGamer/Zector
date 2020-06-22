@@ -415,3 +415,7 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - You can now obtain randomized crate keys from MonthlyCrates.
 - Changed it so you can obtain money notes from MonthlyCrate instead of instantly receiving money.
 - You can now obtain Crate keys note.
+- Added back Core Protect - This can be used to catch hackers, and what not.
+- Added Core Protect permissions for: Junior Moderator, Moderator, Senior Mod, Junior Admin, Admin, and Senior Admin. Junior moderator however, doesn't have the /bcp lookup command.
+- Bosses can no longer be spawned in the Boss spawnpoint. You need to be in the boss arena to spawn them in.
+- Fixed crash upon spawning Witch boss egg.
