@@ -424,7 +424,6 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 And no, mobs don't "Instantly die" if it's in a massive stack, but the count of the stack drops a lot faster than when you kill the mob per kill.
 - Fixed crash upon killing mobs.
 - Drops now multiply per stack. So you get the drops you deserve - Note: The mob will drop the loot, not add it directly to your inventory.
-OP Factions S10 / V13 UPCOMING UPDATE
 - Fixed a bug, where selling all contents would add onto the last sold, and not the total. Thanks to @MDT | Bubbly for reporting this bug!
 - Fixed crash upon TNT lightening.
 - You can now check how much spawners are in a stack, by tapping it with your fist!
