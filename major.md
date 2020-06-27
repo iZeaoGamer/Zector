@@ -419,3 +419,48 @@ And yes, this fix is only affective on the scoreboard, since that's the only way
 - Added Core Protect permissions for: Junior Moderator, Moderator, Senior Mod, Junior Admin, Admin, and Senior Admin. Junior moderator however, doesn't have the /bcp lookup command.
 - Bosses can no longer be spawned in the Boss spawnpoint. You need to be in the boss arena to spawn them in.
 - Fixed crash upon spawning Witch boss egg.
+- Rewrite Mob Spawners code.
+- Mobs can now die faster in lava. (This idea was similarity by @BST|TLS KINGMINO, so thanks for the idea!)
+And no, mobs don't "Instantly die" if it's in a massive stack, but the count of the stack drops a lot faster than when you kill the mob per kill.
+- Fixed crash upon killing mobs.
+- Drops now multiply per stack. So you get the drops you deserve - Note: The mob will drop the loot, not add it directly to your inventory.
+OP Factions S10 / V13 UPCOMING UPDATE
+- Fixed a bug, where selling all contents would add onto the last sold, and not the total. Thanks to @MDT | Bubbly for reporting this bug!
+- Fixed crash upon TNT lightening.
+- You can now check how much spawners are in a stack, by tapping it with your fist!
+- Added Staff Mode to the server (A new moderation system).
+- You can now use the following items in staff mode:
+* Toggle Staff Chat
+* Teleport to random players on the server.
+* Check for other player's inventories, by tapping on the player.
+* Freeze / Unfreeze a player.
+
+- You can no longer bypass mutes.
+- You can no longer place signs when muted.
+- You can no longer type [item] into chat if you're muted. This all is to simply prevent mute evading.
+- Fixed crash when unbanning a player.
+- Fixed crash when unmuting a player.
+- Fixed crash when warning a player.
+- Fixed crash when muting a player.
+- Fixed crash when banning a player.
+- Added better detections for command blocking whilst muted.
+- Fixed Custom enchantments not working properly - Tested to work.
+- Fixed /sell exploit ONCE AGAIN. ;)
+- Fixed crash when using /sell hand.
+- Added floating text leaderboards for TOP 10 MOST KILLS, and TOP 10 LUCKYBLOCKS MINED.
+- Fixed crash upon using Jackpot Enchantment.
+- Renamed title from Top 10 Mined LuckyBlocks to TOP 10 LUCKYBLOCKS MINED - For easier understanding.
+- Fixed permissions.
+- Added compatibility for both v1.14.0, v1.14.60, and the new version: v1.16.0.
+- Added /vote.
+- Added /vote test - For me only.
+- Test votes are no longer saved on restarts.
+- When the votes reach a certain milestone, you'll receive even better rewards. The rewards you can get from achieving the vote goal, is:
+* Witch bosses
+* Spider Bosses
+* LuckyBlocks (100%)
+* Reaper Kit.
+* Sell Wands.
+
+## NOTE
+The more times the goal is achieved, the more rewards will increase.
